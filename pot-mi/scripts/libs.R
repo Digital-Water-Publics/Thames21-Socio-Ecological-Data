@@ -19,11 +19,9 @@ library(stringr)
 tt = read.csv("../../../../Downloads/200921_rivers_list.csv")
 aa = as.data.frame(str_split_fixed(tt$Name.Query., ";", 2)) # split into two columns
 aa$V2 = gsub('.{1}$', '', aa$V2) # remove trailing ';
-aa$V1 = gsub('.{1}$', '', aa$V1) # remove trailing "
 
-aa$v1 <- gsub("^.{0,3}", "", aa$V1)
+aa$V1 = gsub('[[:digit:]]+', '', aa$V1) # remove digits
+aa$V1 = aa$V1 %>%str_remove_all("[[:punct:]]") %>% str_trim("both") # remove punct and trim
 
-sub("\\S+\\s+", "", aa$usertweet)
-aa$v1 <-substr(aa$v1,1,nchar(aa$V1)-5)
 
-aa %>% str
+
