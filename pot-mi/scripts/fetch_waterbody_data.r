@@ -2,9 +2,18 @@
 
 
 #OPTIONS
-geo = read_sf("../../../../Downloads/WaterBody-6919a77b8ec34ffbce830e99ff5d0003 (1).geojson")
-geo = geo %>% select(label,notation)
+geo = read_sf("../../../../Downloads/reasons_for_not_achieving_good/reasons_for_not_achieving_good_RBD_6.csv")
+geo = geo %>% filter(geo$`Classification Year` == 2016)
+
+geo = geo %>% mutate(label = geo$`water body`) %>% mutate(wbid = waterbodies$`Water body id`) %>% select(wbid,label) %>% select(wbid,label)
+
+
+waterbodies = merge(geo,aa)
+
+select(label,wbid,mine_query)
+
 #get thames river catchment data
+
 thames = search_names(string="Thames", column="RBD") %>% rename(label = name)
 waterbodies= waterbodies %>% rename(label = name)
 
