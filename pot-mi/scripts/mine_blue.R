@@ -8,7 +8,7 @@ mine_blue_mentions = function(river_query,wbid) {
     query = river_query,
     is_retweet = FALSE,
     lang = "en",
-    start_tweets = "2016-09-01T00:00:00Z", #TODO discuss with Helge - should this go back to 2016?
+    start_tweets = "2006-04-01T00:00:00Z", #TODO discuss with Helge - should this go back to 2016?
     end_tweets = "2021-09-01T00:00:00Z",
     bearer_token = get_bearer(),
     data_path = "data/mined_tweets",
@@ -31,22 +31,14 @@ mine_blue_mentions = function(river_query,wbid) {
   #save river file
   saveRDS(river_tweets, file_path)
 }
-# TODO
-# add queries with wbid
-# check with helge that wbid match up ok
-# run script
-# create seperate df containing
-water_bodies = as.data.frame(c("mardyke",
-                               "southall sewer OR runningwater brook",
-                               "rom OR bourne brook",
-                               "ingrebourne",
-                               "gores brook",
-                               "seven kings water",
-                               "mayes brook",
-                               "roding",
-                               "pymmes brook OR salmon brook OR  Deephams STW OR tottenham locks"
-                               ))
-colnames(water_bodies) = "query"
+
+waterbodies = read.csv("data/waterbodies.csv")
+
+for(i in 1:nrow(waterbodies)){
+  mine_blue_mentions(river_query = waterbodies$mine_query[i],wbid = waterbodies$WBID[i])
+}
+
+
 
 
 
