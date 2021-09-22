@@ -54,25 +54,5 @@ log_calculator = function(river_query,wbid){
 }
 
 
-library(dplyr)
-library(tidyr)
-library(stringr)
 
 
-aa = read.csv("../../../../Downloads/200921_rivers_list.csv")
-aa = as.data.frame(str_split_fixed(aa$Name.Query., ";", 2)) # split into two columns
-aa$V1 = gsub('[[:digit:]]+', '', aa$V1) # remove digits
-aa$V1 = aa$V1 %>% str_remove_all("[[:punct:]]") %>% str_trim("both") # remove punct and trim
-
-aa$V2 = sub(";x","",aa$V2)
-aa$V2 = aa$V2 %>% str_remove_all("[[:punct:]]") %>% str_trim("both")
-
-aa = aa %>%
-  rename(label = V1) %>%
-  rename(mine_query = V2)
-
-al = right_join(thames,aa)
-
-tt = as.data.frame(unique(subset(aa$mine_query, str_count(aa$mine_query,"\\S+") == 1)))
-
-az = aa %>%
