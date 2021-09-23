@@ -25,10 +25,12 @@ colnames(geo)[which(names(geo) == "Water body id")] = "wbid"
 geo = geo %>% select(wbid,label)
 geo = unique(geo)
 
+# join waterbodies and geo
 waterbodies = right_join(geo,aa)
 
+# count unique one word queries
 tt = as.data.frame(unique(subset(waterbodies$mine_query, str_count(waterbodies$mine_query,"\\S+") == 1)))
 colnames(tt) = "mine_query"
 
-
+# anti join one word queries with waterbody list
 water_bodies = anti_join(waterbodies,tt)

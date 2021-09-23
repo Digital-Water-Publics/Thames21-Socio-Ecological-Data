@@ -33,8 +33,6 @@ mine_blue_mentions = function(river_query,wbid) {
   saveRDS(river_tweets, file_path)
 }
 
-waterbodies = read.csv("data/waterbodies.csv")
-
 for(i in 1:nrow(waterbodies)){
   log_calculator(river_query = waterbodies$mine_query[i],wbid = waterbodies$WBID[i])
 }
