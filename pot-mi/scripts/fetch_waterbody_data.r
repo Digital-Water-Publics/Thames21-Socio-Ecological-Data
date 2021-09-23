@@ -17,42 +17,18 @@ aa = aa %>%
   rename(label = V1) %>%
   rename(mine_query = V2)
 
-al = left_join(thames,aa)
 
-tt = as.data.frame(unique(subset(aa$mine_query, str_count(aa$mine_query,"\\S+") == 1)))
-
-
-#OPTIONS
+#read data from catchment explorer
 geo = read_sf("../../../../Downloads/reasons_for_not_achieving_good/reasons_for_not_achieving_good_RBD_6.csv")
 colnames(geo)[which(names(geo) == "water body")] = "label"
 colnames(geo)[which(names(geo) == "Water body id")] = "wbid"
 geo = geo %>% select(wbid,label)
 geo = unique(geo)
 
-waterbodies = merge(geo,aa)
+waterbodies = right_join(geo,aa)
 
-select(label,wbid,mine_query)
-
-
-
+tt = as.data.frame(unique(subset(waterbodies$mine_query, str_count(waterbodies$mine_query,"\\S+") == 1)))
+colnames(tt) = "mine_query"
 
 
-#get thames river catchment data
-
-thames = search_names(string="Thames", column="RBD") %>% rename(label = name)
-waterbodies= waterbodies %>% rename(label = name)
-
-thames_spatial = left_join(waterbodies,geo) %>% st_as_sf()
-
-options(al=1)
-plot(al)
-
-tmap_mode("view")
-tm_shape(al) + tm_fill("MC", style = "cat") + tmap_options(check.and.fix = TRUE)
-
-# use old sf file
-mapbox = read_sf("mapbox/mapbox_primary.shp")
-
-mapbox_min = mapbox %>% distinct(watrbdy,WtrbdID)
-
-unique(sf::st_geometry_type(thames_spatial))
+water_bodies = anti_join(waterbodies,tt)

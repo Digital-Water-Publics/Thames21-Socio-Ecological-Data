@@ -4,7 +4,6 @@
 mine_blue_mentions = function(river_query,wbid) {
   river_query = as.character(river_query)
 
-  try(
     tweets = get_all_tweets(
       query = river_query,
       is_retweet = FALSE,
@@ -18,8 +17,6 @@ mine_blue_mentions = function(river_query,wbid) {
       page_n = 500,
       n = Inf
     )
-
-  )
 
 
   # Clean and write csv --------------------------------------------------------------
