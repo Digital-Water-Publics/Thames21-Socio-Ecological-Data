@@ -52,3 +52,8 @@ for (i in 1:nrow(water_bodies)) {
   mine_blue_mentions(river_query = water_bodies$mine_query[i], wbid = water_bodies$WBID[i])
 }
 
+url = "https://environment.data.gov.uk/DefraDataDownload/?mapService=EA/WFDSurfaceWaterOperationalCatchmentsCycle2&Mode=spatial"
+download.file(url, destfile = "data/catchment_data/spatialdata.zip")
+unzip("data/catchment_data/spatialdata.zip")
+
+unzip("data/catchment_data/spatialdata.zip",exdir="data/catchment_data/spatialdata")  # unzip your file
