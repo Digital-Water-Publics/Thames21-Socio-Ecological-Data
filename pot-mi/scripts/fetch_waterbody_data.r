@@ -34,3 +34,4 @@ colnames(tt) = "mine_query"
 
 # anti join one word queries with waterbody list
 water_bodies = anti_join(waterbodies,tt)
+
