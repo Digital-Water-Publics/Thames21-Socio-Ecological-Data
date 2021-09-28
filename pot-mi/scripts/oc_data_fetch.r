@@ -147,3 +147,7 @@ thames_oc_sf = rbind(
   White_Drain_and_Lakes,
   Windrush
 )
+
+for(i in 1:nrow(thames_oc_sf)){
+  thames_oc_sf$val[i] = runif(1)
+}
