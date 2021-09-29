@@ -29,37 +29,40 @@ get_wb_sf = function(string, #### STRING = NAME OF CLASSFICATION AREA
   wb_sf$id = as.character(wb_sf$id)
   wb_sf = wb_sf %>% filter(name == "nun")
 
-
   #### LOOP THROUGH GEOJSON DOWNLOAD
-  for (i in 1:nrow(wb)) {
-    ##### EA CATCHMNET API CALL
-    url = "https://environment.data.gov.uk/catchment-planning/WaterBody/"
-    notation = wb$WBID[i]
-    download_url = paste0(url, notation, ".geojson")
+  suppressWarnings(
+    for (i in 1:nrow(wb)) {
+      ##### EA CATCHMNET API CALL
+      url = "https://environment.data.gov.uk/catchment-planning/WaterBody/"
+      notation = wb$WBID[i]
+      download_url = paste0(url, notation, ".geojson")
 
-    #### SET OUTPUT PATH
-    river_wbid = wb$WBID[i]
-    path = "data/river_sf/"
-    river_output = paste0(path, river_wbid, ".geojson")
+      #### SET OUTPUT PATH
+      river_wbid = wb$WBID[i]
+      path = "data/river_sf/"
+      river_output = paste0(path, river_wbid, ".geojson")
 
-    #### DOWNLOOAD FILE, AT LEAST TRY TO
-    tryCatch(
-      expr = {
-        download.file(download_url, river_output)
-      },
-      error = function(e) {
-        message("Unable to download River Please check column and string are correct")
-      }
-    )
+      #### DOWNLOOAD FILE, AT LEAST TRY TO
+      tryCatch(
+        expr = {
+          download.file(download_url, river_output)
+        },
+        error = function(e) {
+          message("Unable to download River Please check column and string are correct")
+        }
+      )
 
-    river_sf = read_sf(river_output) %>% select(id, name)
+      river_sf = read_sf(river_output) %>% select(id, name)
 
-    wb$geometry[i] = river_sf$geometry[1]
+      wb$geometry[i] = river_sf$geometry[1]
 
-    #### REMOPVE DOWNLOADED FILE
-    file.remove(river_output)
-  }
+      #### REMOPVE DOWNLOADED FILE
+      file.remove(river_output)
+    }
+  )
   return(wb)
 }
 
+#### testing 12
 thames_sf = get_wb_sf(string = "Thames", column = "RBD")
+write_sf(thames_sf, "data/thames_river.geojson")

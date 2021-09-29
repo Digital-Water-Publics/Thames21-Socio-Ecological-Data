@@ -11,6 +11,3 @@ if (any(installed_packages == FALSE)) {
 
 # Load pkgs
 invisible(lapply(pkgs, library, character.only = TRUE))
-
-
-

@@ -35,3 +35,18 @@ colnames(tt) = "mine_query"
 # anti join one word queries with waterbody list
 water_bodies = anti_join(waterbodies,tt)
 
+#### list of data that is not risky
+min_risk = subset(thames_wb, str_count(thames_wb$name, "\\S+") > 2) %>%
+  select(name,WBID) %>%
+  st_drop_geometry() %>%
+  mutate(risk = "minimal")
+
+max_risk = subset(thames_wb, str_count(thames_wb$name, "\\S+") <= 2) %>%
+  select(name,WBID) %>%
+  st_drop_geometry() %>%
+  mutate(risk = "precarious")
+
+## write csvs
+write.csv(min_risk,"min_risk_mine.csv")
+write.csv(max_risk, "max_risk_mine.csv")
+
