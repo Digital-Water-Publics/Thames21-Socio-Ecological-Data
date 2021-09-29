@@ -13,7 +13,7 @@ wbids = read.csv("data/ea_wbids.csv")
 
 #### FUNCTION TO GET SF FEATURES OF WATERBODY
 get_wb_sf = function(string, #### STRING = NAME OF CLASSFICATION AREA
-                     column) #### COLUMN  = CLASSIFICATION TYPE
+                     column) #### COLUMN  = CLASSIFICATION TYPE E.G. OC | MC | RBD
   {
   #### LOGICAL OPERATOR FOR RIVER MINE
   if (column == "OC") {wb = wbids %>% filter(OC == string)} # OPERATIONAL CATCHMENT
@@ -54,7 +54,7 @@ get_wb_sf = function(string, #### STRING = NAME OF CLASSFICATION AREA
 
     river_sf = read_sf(river_output) %>% select(id, name)
 
-    wb$geometry[1] = river_sf$geometry
+    wb$geometry[i] = river_sf$geometry[1]
 
     #### REMOPVE DOWNLOADED FILE
     file.remove(river_output)
@@ -62,4 +62,4 @@ get_wb_sf = function(string, #### STRING = NAME OF CLASSFICATION AREA
   return(wb)
 }
 
-pet_sf = get_wb_sf(string = "Waver-Wampool", column = "OC")
+thames_sf = get_wb_sf(string = "Thames", column = "RBD")
