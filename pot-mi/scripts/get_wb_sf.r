@@ -66,3 +66,5 @@ get_wb_sf = function(string, #### STRING = NAME OF CLASSFICATION AREA
 #### testing 12
 thames_sf = get_wb_sf(string = "Thames", column = "RBD")
 write_sf(thames_sf, "data/thames_river.geojson")
+
+thames_wb = read_sf("data/thames_river.geojson")
