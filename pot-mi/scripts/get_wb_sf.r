@@ -3,7 +3,8 @@
 #### AIM: fetch waterbody geojson for different waterbody classication groups and transform them into sf objects
 ####
 ####
-
+library(sf)
+library(dplyr)
 #### GET WBID DATA FROM CDE PACKAGE
 url = "https://raw.githubusercontent.com/ropensci/cde/master/data-raw/ea_wbids.csv"
 download.file(url, "data/ea_wbids.csv")
