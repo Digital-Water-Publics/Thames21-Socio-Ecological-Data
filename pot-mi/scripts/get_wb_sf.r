@@ -25,10 +25,10 @@ get_wb_sf = function(string, #### STRING = NAME OF CLASSFICATION AREA
   nrows = 1
   wb_sf = st_sf(id = 1:nrows, geometry = st_sfc(lapply(1:nrows, function(x)
     st_geometrycollection())))
-  st_crs(wb_sf) = 4326
+  st_crs(wb_sf) = 4326 #### SET CRS TO MATCH THAT OF THE EA
   wb_sf$name = ""
   wb_sf$id = as.character(wb_sf$id)
-  wb_sf = wb_sf %>% filter(name == "nun")
+  wb_sf = wb_sf %>% filter(name == "nun") #### CLEAR ANY VALUES IN DF
 
   #### LOOP THROUGH GEOJSON DOWNLOAD
   suppressWarnings(
