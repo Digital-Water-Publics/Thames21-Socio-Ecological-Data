@@ -49,3 +49,12 @@ max_risk = subset(thames_wb, str_count(thames_wb$name, "\\S+") <= 2) %>%
 write.csv(min_risk,"min_risk_mine.csv")
 write.csv(max_risk, "max_risk_mine.csv")
 
+
+for(i in 1:nrow(test)){
+  if(str_count(test$name[i],"\\S+") <= 2){
+    test$mine_noise_risk[i] = "high"
+  } else {
+    test$mine_noise_risk[i] = "medium/low"
+  }
+}
+
