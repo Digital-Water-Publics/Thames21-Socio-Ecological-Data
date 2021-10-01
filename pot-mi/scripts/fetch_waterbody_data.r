@@ -4,7 +4,6 @@ library(dplyr)
 library(tidyr)
 library(stringr)
 
-
 aa = read.csv("../../../../Downloads/200921_rivers_list.csv")
 aa = as.data.frame(str_split_fixed(aa$Name.Query., ";", 2)) # split into two columns
 aa$V1 = gsub('[[:digit:]]+', '', aa$V1) # remove digits
