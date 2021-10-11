@@ -37,23 +37,21 @@ mine_blue_mentions = function(river_query, wbid) {
     },
     error = function(e) {
       message(
-        'An error has occured. The machine will delete all mined tweets for river query and rerun the river query'
+        'An error has occured. The machine will delete all mined tweets for the current river query and rerun the next query'
       )
       do.call(file.remove, list(list.files("data/mined_tweets", full.names = TRUE)))
     },
     finally = {
-      message('All done, quitting.')
+      message('Mine complete')
     }
   )
 }
+# read csv of mine sheet
+waterbodies = read.csv("data/111021_mine_query_sheet_hp.csv")
 
 # run mine
 for (i in 1:nrow(water_bodies)) {
   mine_blue_mentions(river_query = water_bodies$mine_query[i], wbid = water_bodies$WBID[i])
 }
 
-url = "https://environment.data.gov.uk/DefraDataDownload/?mapService=EA/WFDSurfaceWaterOperationalCatchmentsCycle2&Mode=spatial"
-download.file(url, destfile = "data/catchment_data/spatialdata.zip")
-unzip("data/catchment_data/spatialdata.zip")
 
-unzip("data/catchment_data/spatialdata.zip",exdir="data/catchment_data/spatialdata")  # unzip your file
