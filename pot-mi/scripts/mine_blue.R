@@ -29,10 +29,10 @@ mine_blue_mentions = function(river_query, wbid) {
       #delete files
       do.call(file.remove, list(list.files("data/mined_tweets", full.names = TRUE)))
 
-      file_path = paste0("data/river_queries/", river_query, ".rds")
+      file_path = paste0("data/river_queries/", river_query, ".csv")
 
       #save river file
-      saveRDS(river_tweets, file_path)
+      write.csv(river_tweets, file_path)
       message(paste("Successfully mined mentions of ", river_query, sep = ""))
     },
     error = function(e) {
@@ -50,8 +50,8 @@ mine_blue_mentions = function(river_query, wbid) {
 waterbodies = read.csv("data/111021_mine_query_sheet_hp.csv")
 
 # run mine
-for (i in 1:nrow(water_bodies)) {
-  mine_blue_mentions(river_query = water_bodies$mine_query[i], wbid = water_bodies$WBID[i])
+for (i in 1:nrow(waterbodies)) {
+  mine_blue_mentions(river_query = waterbodies$mine_query[i], wbid = waterbodies$WBID[i])
 }
 
 
