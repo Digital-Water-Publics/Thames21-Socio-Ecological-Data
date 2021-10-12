@@ -21,3 +21,7 @@ clean_tweets_sentiment = function(x) {
   )
 }
 clean_data = clean_tweets_sentiment(raw_data_unique)
+
+clean_data %>%
+  dplyr::mutate(dialogue_split = get_sentences(clean_tweet)) %>%
+  sentiment_by(dialogue_split, list(person, time))

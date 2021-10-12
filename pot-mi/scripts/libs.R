@@ -1,7 +1,10 @@
 pkgs = c("academictwitteR",
          "dplyr",
          "sf",
-         "cde")
+         "cde",
+         "stringr",
+         "sentimentr",
+         "tidytext")
 
 # Install pkgs not yet installed
 installed_packages = pkgs %in% rownames(installed.packages())
