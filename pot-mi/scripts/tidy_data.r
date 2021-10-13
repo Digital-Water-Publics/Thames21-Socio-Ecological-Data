@@ -20,4 +20,12 @@ clean_tweets_sentiment = function(x) {
       str_trim("both")
   )
 }
-clean_data = clean_tweets_sentiment(raw_data)
+
+if(file.exists("data/river_queries/clean_data.rds")){
+  clean_data = clean_tweets_sentiment(raw_data)
+
+  saveRDS(clean_data,"data/river_queries/clean_data.rds")
+
+} else {
+  clean_data = readRDS("data/river_queries/clean_data.rds")
+}
