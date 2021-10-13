@@ -74,13 +74,6 @@ if(file.exists("data/mc_sf/thames_mc.geojson")){
   )
 }
 
-for(i in 1:nrow(thames_mc_sf)){
-  thames_mc_sf$val[i] = runif(1)
-}
-
-
-write_sf(thames_mc_sf,"data/mc_test.geojson")
-write_sf(thames_oc_sf,"data/oc_test.geojson")
 
 
 
