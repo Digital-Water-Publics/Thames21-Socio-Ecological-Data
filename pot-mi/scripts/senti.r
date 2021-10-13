@@ -69,3 +69,5 @@ clean_senti_polarity = rbind(clean_senti_1,clean_senti_2,
 
 saveRDS(clean_senti_polarity,"data/river_queries/clean_senti_polatiry.rds")
 
+data_main = readRDS("data/river_queries/clean_senti_polatiry.rds")
+
