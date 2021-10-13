@@ -54,17 +54,6 @@ waterbodies = read.csv("data/111021_mine_query_sheet_hp.csv")
 #   mine_blue_mentions(river_query = waterbodies$mine_query[i], wbid = waterbodies$WBID[i])
 # }
 #
-# # read and clean data
-setwd("data/river_queries/")
-filenames = list.files(full.names = TRUE)
-
-
-# Read raw data -----------------------------------------------------------
-# All = lapply(filenames, function(i) {
-#   read.csv(i)
-# })
-# set wd()
-
 
 # Read min data -----------------------------------------------------------
 # create df of raw csvs
@@ -90,12 +79,3 @@ if(nrow(loop_csv) == 0){
     message("congrats, 1 more csv is cleaned.")
   }
 }
-
-min_files = list.files(pattern = "*GB")
-raw_min_data = lapply(min_files, function(i) {
-  read.csv(i)
-})
-
-# bind data
-raw_data = do.call(rbind.data.frame, raw_min_data) %>%
-  distinct(tweet_id, .keep_all = TRUE)

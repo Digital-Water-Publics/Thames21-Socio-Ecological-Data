@@ -1,3 +1,24 @@
+# # read and clean data
+setwd("data/river_queries/")
+filenames = list.files(full.names = TRUE)
+
+
+# Read raw data -----------------------------------------------------------
+# All = lapply(filenames, function(i) {
+#   read.csv(i)
+# })
+# set wd()
+
+
+min_files = list.files(pattern = "*GB")
+raw_min_data = lapply(min_files, function(i) {
+  read.csv(i)
+})
+
+# bind data
+raw_data = do.call(rbind.data.frame, raw_min_data) %>%
+  distinct(tweet_id, .keep_all = TRUE)
+
 clean_tweets_sentiment = function(x) {
   x %>% mutate(
     clean_tweet = text %>%
@@ -21,11 +42,7 @@ clean_tweets_sentiment = function(x) {
   )
 }
 
-if(file.exists("data/river_queries/clean_data.rds")){
-  clean_data = clean_tweets_sentiment(raw_data)
+setwd("~/pot-mi/pot-mi")
+#clean_data = clean_tweets_sentiment(raw_data)
+clean_data = readRDS("data/river_queries/clean_data.rds")
 
-  saveRDS(clean_data,"data/river_queries/clean_data.rds")
-
-} else {
-  clean_data = readRDS("data/river_queries/clean_data.rds")
-}
