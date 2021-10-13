@@ -67,14 +67,3 @@ get_wb_sf = function(string, #### STRING = NAME OF CLASSFICATION AREA
 #### testing 12
 # thames_sf = get_wb_sf(string = "Thames", column = "RBD")
 # write_sf(thames_sf, "data/thames_river.geojson")
-
-thames_wb = read_sf("data/thames_river.geojson") %>%
-  st_drop_geometry() %>%
-  select(WBID, name, OC, OC_num, MC, MC_num, RBD, RBD_num)
-
-map_data = inner_join(data_main,thames_wb)
-
-MC = as.data.frame(aggregate(senticent_polarity  ~ MC, map_data, mean))
-OC = as.data.frame(aggregate(senticent_polarity  ~ OC, map_data, mean))
-RBD = as.data.frame(aggregate(senticent_polarity  ~ RBD, map_data, mean))
-WB = as.data.frame(aggregate(senticent_polarity  ~ WBID, map_data, mean))
