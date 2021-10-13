@@ -50,22 +50,26 @@ mine_blue_mentions = function(river_query, wbid) {
 waterbodies = read.csv("data/111021_mine_query_sheet_hp.csv")
 
 # run mine
-for (i in 1:nrow(waterbodies)) {
-  mine_blue_mentions(river_query = waterbodies$mine_query[i], wbid = waterbodies$WBID[i])
-}
-
-# read and clean data
+# for (i in 1:nrow(waterbodies)) {
+#   mine_blue_mentions(river_query = waterbodies$mine_query[i], wbid = waterbodies$WBID[i])
+# }
+#
+# # read and clean data
 setwd("data/river_queries/")
 filenames = list.files(full.names = TRUE)
-All = lapply(filenames, function(i) {
-  read.csv(i)
-})
-# set wd()
-setwd("data/river_queries/")
 
+
+# Read raw data -----------------------------------------------------------
+# All = lapply(filenames, function(i) {
+#   read.csv(i)
+# })
+# set wd()
+
+
+# Read min data -----------------------------------------------------------
 # create df of raw csvs
 loop_csv = as.data.frame(filenames)
-if(nrow(loop_csv) > 0){
+if(nrow(loop_csv) == 0){
   for (i in 1:nrow(loop_csv)) {
     path = loop_csv$filenames[i]
     csv = read.csv(path)
@@ -92,6 +96,6 @@ raw_min_data = lapply(min_files, function(i) {
   read.csv(i)
 })
 
-raw_data = do.call(rbind.data.frame, raw_min_data)
-
-raw_data_unique = raw_data %>% distinct(tweet_id, .keep_all = TRUE)
+# bind data
+raw_data = do.call(rbind.data.frame, raw_min_data) %>%
+  distinct(tweet_id, .keep_all = TRUE)
