@@ -4,6 +4,7 @@ pkgs = c("academictwitteR",
          "cde",
          "stringr",
          "sentimentr",
+         "spacyr",
          "tidytext")
 
 # Install pkgs not yet installed

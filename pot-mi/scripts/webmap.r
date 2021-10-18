@@ -36,3 +36,9 @@ oc_sf = read_sf("data.oc_test.geojson") %>%
   select(OC,OC_num,senticent_polarity,geometry)
 
 write_sf(oc_sf,"data/web/oc.geojson")
+
+# generate wbid geojson
+wb_sf = read_sf("data/thames_river.geojson") %>% right_join(WB)
+
+write_sf(wb_sf,"data/web/wb.geojson")
+
