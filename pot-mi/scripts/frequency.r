@@ -134,4 +134,18 @@ if(file.exists("data/parsed/raw_parsed_text.csv")){
 
 }
 
+parsed_sub = pp %>%
+  filter(pos == "NOUN") %>%
+  select(lemma) %>%
+  mutate(lemma = str_remove_all(lemma, regex(" ?(f&ht)(tp)(s?)(://)(.*)[.&/](.*)"))) %>%
+  mutate(lemma = str_remove_all(lemma, regex("@[[:alnum:]_]{4,}"))) %>%
+  mutate(lemma = str_remove_all(lemma, regex("#[[:alnum:]_]+"))) %>%
+  mutate(lemma = str_remove_all(lemma, regex("[[:punct:]]"))) %>%
+  mutate(lemma = str_remove_all(lemma, regex("^RT:? "))) %>%
+  mutate(lemma = str_replace(lemma, "amp", "and")) %>%
+  anti_join(stop_words, by = c("lemma" = "word")) %>%
+  mutate(lemma = str_to_lower(lemma)) %>%
+  count(lemma) %>%
+  arrange(desc(n))
+head(parsed_sub,20)
 
