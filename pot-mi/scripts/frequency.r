@@ -166,6 +166,5 @@ if(file.exists("data/parsed/raw_parsed_text.csv")){
 
   write.csv(parsed_adj,"data/parsed/parsed_adj_freq.csv")
 
-
 }
 
