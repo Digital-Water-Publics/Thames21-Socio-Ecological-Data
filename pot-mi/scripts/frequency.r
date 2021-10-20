@@ -134,7 +134,7 @@ if(file.exists("data/parsed/raw_parsed_text.csv")){
 
 }
 
-parsed_sub = pp %>%
+parsed_noun = pp %>%
   filter(pos == "NOUN") %>%
   select(lemma) %>%
   mutate(lemma = str_remove_all(lemma, regex(" ?(f&ht)(tp)(s?)(://)(.*)[.&/](.*)"))) %>%
@@ -149,3 +149,21 @@ parsed_sub = pp %>%
   arrange(desc(n))
 head(parsed_sub,20)
 
+write.csv(parsed_noun,"data/parsed/parsed_noun_freq.csv")
+
+parsed_adj = pp %>%
+  filter(pos == "ADJ") %>%
+  select(lemma) %>%
+  mutate(lemma = str_remove_all(lemma, regex(" ?(f&ht)(tp)(s?)(://)(.*)[.&/](.*)"))) %>%
+  mutate(lemma = str_remove_all(lemma, regex("@[[:alnum:]_]{4,}"))) %>%
+  mutate(lemma = str_remove_all(lemma, regex("#[[:alnum:]_]+"))) %>%
+  mutate(lemma = str_remove_all(lemma, regex("[[:punct:]]"))) %>%
+  mutate(lemma = str_remove_all(lemma, regex("^RT:? "))) %>%
+  mutate(lemma = str_replace(lemma, "amp", "and")) %>%
+  anti_join(stop_words, by = c("lemma" = "word")) %>%
+  mutate(lemma = str_to_lower(lemma)) %>%
+  count(lemma) %>%
+  arrange(desc(n))
+head(parsed_adj,50)
+
+write.csv(parsed_adj,"data/parsed/parsed_adj_freq.csv")
