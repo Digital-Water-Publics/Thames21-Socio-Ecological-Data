@@ -39,3 +39,4 @@ vignettes/*.pdf
 .Renviron
 
 /pot-mi/data/river_queries/
+/pot-mi/data/parsed/
