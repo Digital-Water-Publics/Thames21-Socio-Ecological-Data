@@ -64,23 +64,6 @@ get_wb_sf = function(string, #### STRING = NAME OF CLASSFICATION AREA
   return(wb)
 }
 
-
-url = "https://environment.data.gov.uk/catchment-planning/WaterBody/GB40602G600200/shapefile.zip"
-path = "data/wb.zip"
-
-download.file(url,path)
-unzip(path, exdir = "data/wb_download")
-
-shp = read_sf("data/wb_download/WFD_Groundwater_Bodies_Cycle_2.shp")
-
-
-temp <- tempfile()
-download.file("https://environment.data.gov.uk/catchment-planning/WaterBody/GB580705140000/shapefile.zip",temp)
-unz(temp)
-
-data <- read_sf(unz(temp, "WFD_Transitional_Water_Bodies_Cycle_2.shp"))
-unlink(temp)
-
 #### testing 12
 thames_sf = get_wb_sf(string = "Banbury Jurassic", column = "OC")
 # write_sf(thames_sf, "data/thames_river.geojson")
