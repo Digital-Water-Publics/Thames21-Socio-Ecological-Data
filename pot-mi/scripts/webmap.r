@@ -55,6 +55,9 @@ if(file.edit("data/web/oc.geojson")){
   wb_sf = read_sf("data/web/wb.geojson")
   wb_cent = st_centroid(wb_sf)%>% select(name,geometry)
 
+  wb_sf_class = inner_join(wb_sf,wb_class)
+  write_sf(wb_sf_class, "data/web/wb_class.geojson")
+
   all_cent = rbind(wb_cent,oc_cent,mc_cent)
   write_sf(all_cent,"data/web/search_centroids.geojson")
 

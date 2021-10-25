@@ -58,3 +58,4 @@ get_wb_classification = function(string, #### STRING = NAME OF CLASSFICATION ARE
 
 # test function
 wb_class = get_wb_classification(string = "Thames",column = "RBD")
+
