@@ -168,3 +168,9 @@ if(file.exists("data/parsed/raw_parsed_text.csv")){
 
 }
 
+adj_ferq = read.csv("data/parsed/parsed_adj_freq.csv") %>% select(-c(X))
+noun_freq = read.csv("data/parsed/parsed_noun_freq.csv") %>% select(-c(X))
+noun_freq = noun_freq[-1,]
+library(wordcloud2)
+wordcloud2(adj_ferq)
+wordcloud2(noun_freq)
