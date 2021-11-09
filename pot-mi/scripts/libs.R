@@ -1,3 +1,4 @@
+# AIM: Install and load libs for project
 pkgs = c("academictwitteR",
          "dplyr",
          "sf",
