@@ -74,7 +74,7 @@ clean_tweets_sentiment = function(x) {
 
 clean_tweet = clean_tweets_sentiment(raw_data)
 
-write_rds(raw_data,"raw_data.RDS")
+write_rds(clean_tweet,"raw_data.RDS")
 
 setwd("~/pot-mi/pot-mi")
 #clean_data = clean_tweets_sentiment(raw_data)
