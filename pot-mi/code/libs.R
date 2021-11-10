@@ -1,4 +1,9 @@
-# AIM: Install and load libs for project
+####
+####
+#### AIM: install and load librarys
+####
+####
+
 pkgs = c("academictwitteR",
          "dplyr",
          "sf",

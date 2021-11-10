@@ -54,28 +54,3 @@ waterbodies = read.csv("data/111021_mine_query_sheet_hp.csv")
 #   mine_blue_mentions(river_query = waterbodies$mine_query[i], wbid = waterbodies$WBID[i])
 # }
 #
-
-# Read min data -----------------------------------------------------------
-# create df of raw csvs
-loop_csv = as.data.frame(filenames)
-if(nrow(loop_csv) == 0){
-  for (i in 1:nrow(loop_csv)) {
-    path = loop_csv$filenames[i]
-    csv = read.csv(path)
-    csv = csv %>%
-      select(c(
-        "tweet_id",
-        "user_username",
-        "text",
-        "possibly_sensitive",
-        "author_id",
-        "WBID"
-      ))
-
-    wbid = csv$WBID[1]
-
-    write.csv(csv, paste0(wbid,".csv"))
-
-    message("congrats, 1 more csv is cleaned.")
-  }
-}
