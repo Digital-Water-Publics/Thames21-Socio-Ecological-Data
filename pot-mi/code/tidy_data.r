@@ -72,11 +72,10 @@ clean_tweets_sentiment = function(x) {
   )
 }
 
-clean_tweet = clean_tweets_sentiment(raw_data)
-
-write_rds(clean_tweet,"raw_data.RDS")
-
 setwd("~/pot-mi/pot-mi")
+clean_tweet = readRDS("data/river_queries/raw_data.RDS") %>% clean_tweets_sentiment()
+saveRDS(clean_tweet, "data/river_queries/raw_data.RDS")
+
 #clean_data = clean_tweets_sentiment(raw_data)
 clean_data = readRDS("data/river_queries/clean_data.rds")
 
