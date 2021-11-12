@@ -1,54 +1,3 @@
-# # read and clean data
-setwd("data/river_queries/")
-
-# Read min data -----------------------------------------------------------
-# create df of raw csvs
-loop_csv = as.data.frame(grep(
-  list.files(full.names = TRUE),
-  pattern = '*GB',
-  invert = TRUE,
-  value = TRUE
-))
-colnames(loop_csv) = "filename"
-loop_csv = subset(loop_csv, !grepl("rds",filename))
-
-# Loop and clean data -----------------------------------------------------
-n = 1
-for (i in 1:nrow(loop_csv)) {
-  files = nrow(loop_csv)
-
-  path = loop_csv$filename[i]
-  csv = read.csv(path)
-  csv = csv %>%
-    select(
-      c(
-        "tweet_id",
-        "created_at",
-        "lang",
-        "like_count",
-        "retweet_count",
-        "user_username",
-        "text",
-        "possibly_sensitive",
-        "author_id",
-        "WBID"
-      )
-    )
-
-  wbid = csv$WBID[1]
-  write.csv(csv, paste0(wbid, ".csv"))
-  message(paste0(n, "/", files, " files cleaned. Cleaning the next file"))
-  n = n + 1
-}
-
-# bind data
-min_files = list.files(pattern = "*GB")
-raw_min_data = lapply(min_files, function(i) {
-  read.csv(i)
-})
-raw_data = do.call(rbind.data.frame, raw_min_data) %>%
-  distinct(tweet_id, .keep_all = TRUE)
-
 clean_tweets_sentiment = function(x) {
   x %>% mutate(
     clean_tweet = text %>%
@@ -73,11 +22,63 @@ clean_tweets_sentiment = function(x) {
 }
 
 setwd("~/pot-mi/pot-mi")
-clean_tweet = readRDS("data/river_queries/raw_data.RDS") %>% clean_tweets_sentiment()
-saveRDS(clean_tweet, "data/river_queries/raw_data.RDS")
+if(file.exists("data/river_queries/clean_data.rds")){
+  raw_data =readRDS("data/river_queries/clean_data.rds")
+} else {
+  # # read and clean data
+  setwd("data/river_queries/")
 
-#clean_data = clean_tweets_sentiment(raw_data)
-clean_data = readRDS("data/river_queries/clean_data.rds")
+  # Read min data -----------------------------------------------------------
+  # create df of raw csvs
+  loop_csv = as.data.frame(grep(
+    list.files(full.names = TRUE),
+    pattern = '*GB',
+    invert = TRUE,
+    value = TRUE
+  ))
+  colnames(loop_csv) = "filename"
+  loop_csv = subset(loop_csv, !grepl("rds",filename))
+
+  # Loop and clean data -----------------------------------------------------
+  n = 1
+  for (i in 1:nrow(loop_csv)) {
+    files = nrow(loop_csv)
+
+    path = loop_csv$filename[i]
+    csv = read.csv(path)
+    csv = csv %>%
+      select(
+        c(
+          "tweet_id",
+          "created_at",
+          "lang",
+          "like_count",
+          "retweet_count",
+          "user_username",
+          "text",
+          "possibly_sensitive",
+          "author_id",
+          "WBID"
+        )
+      )
+
+    wbid = csv$WBID[1]
+    write.csv(csv, paste0(wbid, ".csv"))
+    message(paste0(n, "/", files, " files cleaned. Cleaning the next file"))
+    n = n + 1
+  }
+
+  # bind data
+  min_files = list.files(pattern = "*GB")
+  raw_min_data = lapply(min_files, function(i) {
+    read.csv(i)
+  })
+  raw_data = do.call(rbind.data.frame, raw_min_data) %>%
+    distinct(tweet_id, .keep_all = TRUE)
+
+  clean_tweet = raw_data %>% clean_tweets_sentiment()
+  saveRDS(clean_tweet, "data/river_queries/raw_data.RDS")
+}
 
 # smaple = sample_n(clean_data, 1)
 #
