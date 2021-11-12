@@ -80,6 +80,21 @@ if(file.exists("data/river_queries/clean_data.rds")){
   saveRDS(clean_tweet, "data/river_queries/raw_data.RDS")
 }
 
+
+reduce_noise = function(x){
+  print(table(x$lang))
+  clean_tweets = x %>% filter(lang == "en") %>%
+    distinct(tweet_id, .keep_all = TRUE)
+  return(clean_tweets)
+}
+en_tweets = reduce_noise(clean_tweet)
+
+
+wbid_tally = clean_tweet %>%
+  group_by(WBID) %>%
+  count(WBID) %>%
+  right_join(filter(ea_wbids, RBD == "Thames"))
+
 # smaple = sample_n(clean_data, 1)
 #
 # senti = sentiment(
