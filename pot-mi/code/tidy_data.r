@@ -86,17 +86,18 @@ reduce_noise = function(x){
 }
 en_tweets = reduce_noise(raw_data)
 
-X111021_mine_query_sheet_hp = read.csv("data/111021_mine_query_sheet_hp.csv")
-en_tweets %>%
-  group_by(WBID) %>%
-  count(WBID) %>%
-  right_join(filter(ea_wbids, RBD == "Thames")) %>%
-  arrange(desc(n)) %>%
-  right_join(X111021_mine_query_sheet_hp) %>%
-  select(WBID,name,n,mine_query) %>%
-  kableExtra::kable() %>%
-  kableExtra::kable_material_dark()
-
+report = function(x){
+  X111021_mine_query_sheet_hp = read.csv("data/111021_mine_query_sheet_hp.csv")
+  en_tweets %>%
+    group_by(WBID) %>%
+    count(WBID) %>%
+    right_join(filter(ea_wbids, RBD == "Thames")) %>%
+    arrange(desc(n)) %>%
+    right_join(X111021_mine_query_sheet_hp) %>%
+    select(WBID,name,n,mine_query) %>%
+    kableExtra::kable() %>%
+    kableExtra::kable_material_dark()
+}
 # smaple = sample_n(clean_data, 1)
 #
 # senti = sentiment(
