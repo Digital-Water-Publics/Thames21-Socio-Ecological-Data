@@ -78,7 +78,6 @@ if(file.exists("data/river_queries/raw_data.RDS")){
   saveRDS(clean_tweet, "data/river_queries/raw_data.RDS")
 }
 
-
 reduce_noise = function(x){
   print(table(x$lang))
   clean_tweets = x %>% filter(lang == "en") %>%
@@ -88,14 +87,15 @@ reduce_noise = function(x){
 en_tweets = reduce_noise(raw_data)
 
 X111021_mine_query_sheet_hp = read.csv("data/111021_mine_query_sheet_hp.csv")
-wbid_tally = en_tweets %>%
+en_tweets %>%
   group_by(WBID) %>%
   count(WBID) %>%
   right_join(filter(ea_wbids, RBD == "Thames")) %>%
   arrange(desc(n)) %>%
   right_join(X111021_mine_query_sheet_hp) %>%
   select(WBID,name,n,mine_query) %>%
-  print()
+  kableExtra::kable() %>%
+  kableExtra::kable_material_dark()
 
 # smaple = sample_n(clean_data, 1)
 #
