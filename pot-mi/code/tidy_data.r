@@ -20,14 +20,12 @@ clean_tweets_sentiment = function(x) {
       str_trim("both")
   )
 }
-
 setwd("~/pot-mi/pot-mi")
-if(file.exists("data/river_queries/clean_data.rds")){
-  raw_data =readRDS("data/river_queries/clean_data.rds")
+if(file.exists("data/river_queries/raw_data.RDS")){
+  raw_data =readRDS("data/river_queries/raw_data.RDS")
 } else {
   # # read and clean data
   setwd("data/river_queries/")
-
   # Read min data -----------------------------------------------------------
   # create df of raw csvs
   loop_csv = as.data.frame(grep(
@@ -87,13 +85,17 @@ reduce_noise = function(x){
     distinct(tweet_id, .keep_all = TRUE)
   return(clean_tweets)
 }
-en_tweets = reduce_noise(clean_tweet)
+en_tweets = reduce_noise(raw_data)
 
-
-wbid_tally = clean_tweet %>%
+X111021_mine_query_sheet_hp = read.csv("data/111021_mine_query_sheet_hp.csv")
+wbid_tally = en_tweets %>%
   group_by(WBID) %>%
   count(WBID) %>%
-  right_join(filter(ea_wbids, RBD == "Thames"))
+  right_join(filter(ea_wbids, RBD == "Thames")) %>%
+  arrange(desc(n)) %>%
+  right_join(X111021_mine_query_sheet_hp) %>%
+  select(WBID,name,n,mine_query) %>%
+  print()
 
 # smaple = sample_n(clean_data, 1)
 #
