@@ -21,6 +21,16 @@ clean_tweets_sentiment = function(x) {
   )
 }
 setwd("~/pot-mi/pot-mi")
+
+##################################################################
+##                             TODO                             ##
+
+#1 Rerun clean script and include user_location --------------------------- sf package, geocode location and keep NA
+#2 nounphrase topic modelling ----------------------------------------------
+#3 Sentiment Function and Comparison ---------------------------------------
+#4 Find other river lines ------------------------------------------------
+##################################################################
+
 if(file.exists("data/river_queries/raw_data.RDS")){
   raw_data =readRDS("data/river_queries/raw_data.RDS")
 } else {
@@ -81,7 +91,8 @@ if(file.exists("data/river_queries/raw_data.RDS")){
 reduce_noise = function(x){
   print(table(x$lang))
   clean_tweets = x %>% filter(lang == "en") %>%
-    distinct(tweet_id, .keep_all = TRUE)
+    distinct(tweet_id, .keep_all = TRUE) %>%
+    filter(str_detect(text,"^RT:? ") == FALSE)
   return(clean_tweets)
 }
 en_tweets = reduce_noise(raw_data)

@@ -1,4 +1,4 @@
-sample = sample_n(raw_data, 10)
+sample = sample_n(raw_data, 100)
 
 sample = sample %>%
   mutate(
