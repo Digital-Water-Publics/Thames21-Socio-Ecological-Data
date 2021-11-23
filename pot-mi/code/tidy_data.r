@@ -51,7 +51,6 @@ if(file.exists("data/river_queries/raw_data.RDS")){
   n = 1
   for (i in 1:nrow(loop_csv)) {
     files = nrow(loop_csv)
-
     path = loop_csv$filename[i]
     csv = read.csv(path)
     csv = csv %>%
@@ -66,11 +65,32 @@ if(file.exists("data/river_queries/raw_data.RDS")){
           "text",
           "possibly_sensitive",
           "author_id",
+          "user_location",
           "WBID"
         )
       )
 
     wbid = csv$WBID[1]
+
+    clean_user_location = function(data){
+      data %>% mutate(
+        clean_location = user_location %>%
+          str_remove_all(" ?(f|ht)(tp)(s?)(://)(.*)[.|/](.*)") %>% #remove links
+          str_remove_all("#[[:alnum:]_]+") %>% # Remove hashtags
+          str_remove_all("^\\s*<U\\+\\w+>\\s*") %>%
+          str_replace_na("") %>% # convert NAs
+          str_replace_all("^$","") # convert empty characters
+      )
+    }
+
+
+    wbid = clean_user_location(wbid) %>%
+      geocode(clean_location) %>%
+      select(tweet_id,clean_location,text,lat,long) %>%
+      na.omit(lat) %>%
+      st_as_sf(coords=c("lat","long"), crs = 4326)
+
+
     write.csv(csv, paste0(wbid, ".csv"))
     message(paste0(n, "/", files, " files cleaned. Cleaning the next file"))
     n = n + 1

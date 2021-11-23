@@ -72,7 +72,7 @@ entity_sentiment_string <- function(data) {
     return(NA)
   },
   warning = function(cond) {
-    message("Here's the original warning message:")
+    message("Warning message:")
     message(cond)
     # Choose a return value in case of warning
     return(NULL)
