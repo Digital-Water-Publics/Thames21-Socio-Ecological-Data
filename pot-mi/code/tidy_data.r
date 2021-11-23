@@ -108,6 +108,12 @@ if(file.exists("data/river_queries/raw_data.RDS")){
   saveRDS(clean_tweet, "data/river_queries/raw_data.RDS")
 }
 
+
+
+##################################################################
+##                          Other Functions                   ##
+
+
 reduce_noise = function(x){
   print(table(x$lang))
   clean_tweets = x %>% filter(lang == "en") %>%
@@ -129,63 +135,7 @@ report = function(x){
     kableExtra::kable() %>%
     kableExtra::kable_material_dark()
 }
-# smaple = sample_n(clean_data, 1)
-#
-# senti = sentiment(
-#   smaple$clean_tweet,
-#   polarity_dt = lexicon::hash_sentiment_jockers_rinker,
-#   hyphen = " ",
-#   amplifier.weight = 0.8,
-#   n.before = 5,
-#   n.after = 2,
-#   question.weight = 1,
-#   adversative.weight = 0.25,
-#   neutral.nonverb.like = TRUE,
-#   missing_value = 0
-# )
-#
-# sample_2 = sample_n(clean_data, 1)
-# senti_2 = sentiment(
-#   sample_2$clean_tweet,
-#   polarity_dt = lexicon::hash_sentiment_jockers_rinker,
-#   hyphen = " ",
-#   amplifier.weight = 0.8,
-#   n.before = 5,
-#   n.after = 2,
-#   question.weight = 1,
-#   adversative.weight = 0.25,
-#   neutral.nonverb.like = TRUE,
-#   missing_value = 0
-# )
-#
-# sample_3 = sample_n(clean_data, 1)
-# senti_3 = sentiment(
-#   sample_3$clean_tweet,
-#   polarity_dt = lexicon::hash_sentiment_jockers_rinker,
-#   hyphen = " ",
-#   amplifier.weight = 0.8,
-#   n.before = 5,
-#   n.after = 2,
-#   question.weight = 1,
-#   adversative.weight = 0.25,
-#   neutral.nonverb.like = TRUE,
-#   missing_value = 0
-# )
-#
-# sample_4 = sample_n(clean_data, 1)
-# senti_4 = sentiment(
-#   sample_3$clean_tweet,
-#   polarity_dt = lexicon::hash_sentiment_jockers_rinker,
-#   hyphen = " ",
-#   amplifier.weight = 0.8,
-#   n.before = 5,
-#   n.after = 2,
-#   question.weight = 1,
-#   adversative.weight = 0.25,
-#   neutral.nonverb.like = TRUE,
-#   missing_value = 0
-# )
-#
+
 # parsedtxt = spacy_parse(
 #   "Sewage fungus coating the bed of the River Windrush. And the @EnvAgency does what exactly?",
 #   pos = TRUE,
