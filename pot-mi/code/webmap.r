@@ -55,24 +55,26 @@ if (file.edit("data/web/oc.geojson")) {
     select(-c(val)) %>%
     rename(MC_num = notation) %>%
     right_join(MC) %>%
+    mutate(group = as.numeric(group)) %>%
     rename(MC = label) %>%
     select(MC, MC_num, senticent_polarity, group, geometry)
   mc_sf$MC = gsub("_", " ", mc_sf$MC)
-  write_sf(mc_sf, "data/web/mc.geojson")
+  write_sf(mc_sf, "data/web/mc_cat.geojson")
 
   # generate oc geojson
   oc_sf = read_sf("data.oc_test.geojson") %>%
     select(-c(val)) %>%
     rename(OC_num = notation) %>%
     right_join(OC) %>%
+    mutate(group = as.numeric(group)) %>%
     rename(OC = label) %>%
-    select(OC, OC_num, senticent_polarity, geometry)
+    select(OC, OC_num, senticent_polarity, group,geometry)
 
-  write_sf(oc_sf, "data/web/oc.geojson")
+  write_sf(oc_sf, "data/web/oc_cat.geojson")
 
   # generate wbid geojson
-  wb_sf = read_sf("data/thames_river.geojson") %>% right_join(WB)
-  write_sf(wb_sf, "data/web/wb.geojson")
+  wb_sf = read_sf("data/web/wb_class.geojson") %>% select(-senticent_polarity) %>% right_join(WB)
+  write_sf(wb_sf, "data/web/wb_cat_class.geojson")
 
 
 
