@@ -11,9 +11,13 @@ lakes = read_sf("../../../../Downloads/EA_WFDLakeWaterBodiesCycle1_SHP_Full/data
 canals = read_sf("../../../../Downloads/EA_WFDArtificialWaterBodiesCanalsCycle1_SHP_Full/data/WFD_Artificial_Water_Bodies_Canals_Cycle_1.shp") %>%
   rename(WBID = ea_wb_id) %>%
   select(WBID,name,geometry)
+# read surfaace water bodis
+surface = read_sf("../../../../Downloads/EA_WFDArtificialWaterBodiesSurfaceWaterTransfersCycle1_SHP_Full/data/WFD_Artificial_Water_Bodies_Surface_Water_Transfers_Cycle_1.shp") %>%
+  rename(WBID = ea_wb_id) %>%
+  select(WBID,name,geometry)
 
-wb_all = rbind(wb,lakes,canals)
+wb_all = rbind(wb,lakes,canals,surface)
 
 wb_thames = read_sf("data/web/wb.geojson") %>% st_drop_geometry()
-
-wb_test = inner_join(wb_all,wb_thames, by = "WBID")
+wb_test = anti_join(wb_thames,wb_all, by = "WBID")
+plot(wb_test$geometry)
