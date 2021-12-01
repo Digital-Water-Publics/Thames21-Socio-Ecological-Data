@@ -1,3 +1,4 @@
+# Add comparison of sentiment polarity ------------------------------------
 sample = sample_n(raw_data, 100)
 
 sample = sample %>%
