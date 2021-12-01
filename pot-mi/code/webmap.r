@@ -94,5 +94,4 @@ if (file.edit("data/web/oc.geojson")) {
   all_cent = rbind(wb_cent, oc_cent, mc_cent)
   write_sf(all_cent, "data/web/search_centroids.geojson")
 
-
 }
