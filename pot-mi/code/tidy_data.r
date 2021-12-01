@@ -111,7 +111,6 @@ if (file.exists("data/river_queries/raw_data_clean.RDS")) {
   }
 
   # Bind data ---------------------------------------------------------------
-
   setwd("~/pot-mi/pot-mi") # set wd
   min_files = list.files(pattern = "*GB")
   raw_min_data = lapply(min_files, function(i) {
