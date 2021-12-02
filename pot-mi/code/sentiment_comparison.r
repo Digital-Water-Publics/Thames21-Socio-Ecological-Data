@@ -1,5 +1,5 @@
 # Add comparison of sentiment polarity ------------------------------------
-sample = sample_n(raw_data, 100)
+sample = sample_n(raw_data, 20)
 
 sample = sample %>%
   mutate(
@@ -57,4 +57,4 @@ sample = sample %>%
     senti_google = senti_google$sentiment
   )
 
-sample = as.data.frame(unlist(sample))
+lapply(sample[13:18], FUN=hist)
