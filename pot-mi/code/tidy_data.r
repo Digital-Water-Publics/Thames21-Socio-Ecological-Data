@@ -123,8 +123,6 @@ if (file.exists("data/river_queries/raw_data_clean.RDS")) {
   saveRDS(clean_tweet, "data/river_queries/raw_data_clean.RDS")
 }
 
-
-
 ##################################################################
 ##                          Report Functions                   ##
 report = function(x) {
