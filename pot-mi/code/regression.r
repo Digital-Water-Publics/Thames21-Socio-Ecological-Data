@@ -80,4 +80,4 @@ ggplot2::ggplot(reg_test, aes(x = status, y = scale_senti, group = status)) +
   ggplot2::geom_boxplot(aes(fill = status)) +
   theme_tinyhand()
 
-summary(lm(senticent_polarity ~ status, data = waterbody))
+summary(lm(scale_senti ~ status, data = reg_test))
