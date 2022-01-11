@@ -33,7 +33,7 @@ regression_data = regression_data %>%
       polarity_dt = lexicon::hash_sentiment_jockers_rinker,
       hyphen = " "
     ),
-    senti_jockers_rinkers = senti_jockers_rinkers$sentiment
+    senti_jockers_rinkers = senti_jockers_rinkers$sentiment===
   ) %>%
   mutate(
     senti_cnet = sentiment(
