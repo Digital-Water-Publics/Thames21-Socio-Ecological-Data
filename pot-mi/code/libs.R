@@ -8,6 +8,7 @@ pkgs = c("academictwitteR",
          "dplyr",
          "sf",
          "cde",
+         "tm"
          "stringr",
          "sentimentr",
          "spacyr",
