@@ -45,11 +45,14 @@ clean_user_location = function(data) {
 ##################################################################
 ##                      read and tidy data                      ##
 ##################################################################
-if (file.exists("data/river_queries/raw_data_clean.RDS")) {
+
+`%ni%` = function (x, table) is.na(match(x, table, nomatch=NA_integer_))
+
+if (file.exists("data/river_queries/raw_data_clean132.RDS")) {
   raw_data = readRDS("data/river_queries/raw_data.RDS")
 } else {
   # # read and clean data
-  setwd("data/river_queries/")
+  setwd("~/pot-mi/pot-mi/data/river_queries/")
   # Read min data -----------------------------------------------------------
   # create df of raw csvs
   loop_csv = as.data.frame(grep(
@@ -60,6 +63,7 @@ if (file.exists("data/river_queries/raw_data_clean.RDS")) {
   ))
   colnames(loop_csv) = "filename"
   loop_csv = subset(loop_csv,!grepl("rds", filename))
+  loop_csv = subset(loop_csv,!grepl("RDS", filename))
 
   # Loop and clean data -----------------------------------------------------
   n = 1
@@ -67,6 +71,9 @@ if (file.exists("data/river_queries/raw_data_clean.RDS")) {
     files = nrow(loop_csv)
     path = loop_csv$filename[i]
     csv = read.csv(path)
+    if("user_location" %ni% colnames(csv)){csv$user_location = ""}
+    if("tweet_id" %ni% colnames(csv)){csv$tweet_id = "none"}
+    if("source" %ni% colnames(csv)){csv$source = "none"}
     csv = csv %>%
       select(
         c(
@@ -94,31 +101,15 @@ if (file.exists("data/river_queries/raw_data_clean.RDS")) {
 
     wbid = csv$WBID[1] # set wbid
 
-    # Clean user location and subset locations outside of the UK --------------
-    csv_locations = clean_user_location(csv) %>%
-      geocode(clean_location) %>%
-      na.omit(lat) %>%
-      st_as_sf(coords = c("long", "lat"), crs = 4326) %>%
-      mutate(outside_uk = sapply(st_intersects(csv_locations, uk), function(x) {
-        length(x) == 0
-      })) %>% filter(outside_uk == TRUE)
-
-    test = anti_join(csv, csv_locations)
-
     write.csv(csv, paste0(wbid, ".csv"))
     message(paste0(n, "/", files, " files cleaned. Cleaning the next file"))
     n = n + 1
   }
 
   # Bind data ---------------------------------------------------------------
-  setwd("~/pot-mi/pot-mi") # set wd
   min_files = list.files(pattern = "*GB")
-  raw_min_data = lapply(min_files, function(i) {
-    read.csv(i)
-  })
-  raw_data = do.call(rbind.data.frame, raw_min_data) %>%
-    distinct(tweet_id, .keep_all = TRUE)
-
+  raw_min_data = lapply(min_files, function(i) {read.csv(i)})
+  raw_data = do.call(rbind.data.frame, raw_min_data)
   clean_tweet = raw_data %>% clean_tweets_sentiment()
   saveRDS(clean_tweet, "data/river_queries/raw_data_clean.RDS")
 }
@@ -137,3 +128,4 @@ report = function(x) {
     kableExtra::kable() %>%
     kableExtra::kable_material_dark()
 }
+
