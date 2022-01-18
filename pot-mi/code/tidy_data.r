@@ -46,7 +46,8 @@ clean_user_location = function(data) {
 ##                      read and tidy data                      ##
 ##################################################################
 
-`%ni%` = function (x, table) is.na(match(x, table, nomatch=NA_integer_))
+`%ni%` = function (x, table)
+  is.na(match(x, table, nomatch = NA_integer_))
 
 if (file.exists("data/river_queries/raw_data_clean132.RDS")) {
   raw_data = readRDS("data/river_queries/raw_data.RDS")
@@ -62,8 +63,8 @@ if (file.exists("data/river_queries/raw_data_clean132.RDS")) {
     value = TRUE
   ))
   colnames(loop_csv) = "filename"
-  loop_csv = subset(loop_csv,!grepl("rds", filename))
-  loop_csv = subset(loop_csv,!grepl("RDS", filename))
+  loop_csv = subset(loop_csv, !grepl("rds", filename))
+  loop_csv = subset(loop_csv, !grepl("RDS", filename))
 
   # Loop and clean data -----------------------------------------------------
   n = 1
@@ -71,9 +72,15 @@ if (file.exists("data/river_queries/raw_data_clean132.RDS")) {
     files = nrow(loop_csv)
     path = loop_csv$filename[i]
     csv = read.csv(path)
-    if("user_location" %ni% colnames(csv)){csv$user_location = ""}
-    if("tweet_id" %ni% colnames(csv)){csv$tweet_id = "none"}
-    if("source" %ni% colnames(csv)){csv$source = "none"}
+    if ("user_location" %ni% colnames(csv)) {
+      csv$user_location = ""
+    }
+    if ("tweet_id" %ni% colnames(csv)) {
+      csv$tweet_id = "none"
+    }
+    if ("source" %ni% colnames(csv)) {
+      csv$source = "none"
+    }
     csv = csv %>%
       select(
         c(
@@ -108,10 +115,12 @@ if (file.exists("data/river_queries/raw_data_clean132.RDS")) {
 
   # Bind data ---------------------------------------------------------------
   min_files = list.files(pattern = "*GB")
-  raw_min_data = lapply(min_files, function(i) {read.csv(i)})
+  raw_min_data = lapply(min_files, function(i) {
+    read.csv(i)
+  })
   raw_data = do.call(rbind.data.frame, raw_min_data)
   clean_tweet = raw_data %>% clean_tweets_sentiment()
-  saveRDS(clean_tweet, "data/river_queries/raw_data_clean.RDS")
+  saveRDS(clean_tweet, "raw_data_new.RDS")
 }
 
 ##################################################################
@@ -128,4 +137,3 @@ report = function(x) {
     kableExtra::kable() %>%
     kableExtra::kable_material_dark()
 }
-
