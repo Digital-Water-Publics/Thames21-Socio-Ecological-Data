@@ -5,11 +5,14 @@
 ####
 
 pkgs = c("academictwitteR",
-         "dplyr",
+         "tidyverse",
+         "lubridate",
          "sf",
          "cde",
-         "tm"
+         "tm",
+         "tidyr",
          "stringr",
+         "qunateda",
          "sentimentr",
          "spacyr",
          "tidytext",

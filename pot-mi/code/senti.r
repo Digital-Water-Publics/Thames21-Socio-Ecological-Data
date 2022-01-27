@@ -15,7 +15,7 @@ if(file.exists("data/river_queries/clean_senti.RDS")){
   clean_senti = readRDS("data/river_queries/clean_senti.RDS")
 } else {
   # calculate words that match the NRC emo lex, group by tweet_id and pivot into wide format
-  emotions = clean_data %>%
+  emotions = data %>%
     unnest_tokens(word, clean_tweet) %>%
     anti_join(stop_words, by = "word") %>%
     filter(!grepl('[0-9]', word)) %>%
@@ -30,43 +30,14 @@ if(file.exists("data/river_queries/clean_senti.RDS")){
                 )
 
   # merge data
-  clean_senti = left_join(clean_data, emotions)
-
+  clean_senti = left_join(data, emotions)
+  clean_senti[is.na(clean_senti)] = 0
   # save rds
   saveRDS(clean_senti, "data/river_queries/clean_senti.RDS")
 }
 
-clean_senti_1 = clean_senti[1:488728,]
-clean_senti_2 = clean_senti[488729:977457,]
-clean_senti_3 = clean_senti[977458:1466186,]
-clean_senti_4 = clean_senti[1466187:1954915,]
-clean_senti_5 = clean_senti[1954916:2443644,]
-clean_senti_6 = clean_senti[2443645:2932373,]
-clean_senti_7 = clean_senti[2932374:3421102,]
-clean_senti_8 = clean_senti[3421103:3909824,]
+clean_senti = readRDS("data/river_queries/clean_senti.RDS")
+clean_senti$senti_score = get_sentiment(clean_senti$clean_tweet, method = "syuzhet")
 
-
-# calculate polarity score
-clean_senti_8$senti_nrc = sentiment(
-  clean_senti_8$clean_tweet,
-  polarity_dt = lexicon::hash_sentiment_senticnet,
-  hyphen = " ",
-  amplifier.weight = 0.8,
-  n.before = Inf,
-  n.after = Inf,
-  question.weight = 1,
-  adversative.weight = 0.5,
-  neutral.nonverb.like = TRUE,
-  missing_value = 0
-)
-
-clean_senti_8 = clean_senti_8 %>% select(-c(senti_nrc))
-
-clean_senti_polarity = rbind(clean_senti_1,clean_senti_2,
-                             clean_senti_3,clean_senti_4,
-                             clean_senti_5,clean_senti_6,
-                             clean_senti_7,clean_senti_8)
-
-saveRDS(clean_senti_polarity,"data/river_queries/clean_senti_polatiry.rds")
 
 
