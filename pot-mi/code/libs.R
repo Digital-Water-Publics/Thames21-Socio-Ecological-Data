@@ -15,6 +15,7 @@ pkgs = c("academictwitteR",
          "quanteda",
          "sentimentr",
          "spacyr",
+         "ggpubr",
          "tidytext",
          "tidygeocoder")
 

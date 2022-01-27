@@ -138,7 +138,7 @@ for (i in 1:nrow(wbids)) {
     xlab("Date") +
     ggtitle(paste0(river$name, "\nOperational catchment: ", river$OC)) +
     geom_smooth() +
-    theme_ft_rc()
+dark_theme()
 
   corpus = corpus(river$clean_tweet)
   token_word = data.frame(text = corpus, stringsAsFactors = FALSE) %>% unnest_tokens(word, text)
@@ -151,7 +151,7 @@ for (i in 1:nrow(wbids)) {
     geom_bar(stat="identity", show.legend = FALSE) +
     coord_flip() +
     labs(title = "Common Emotions", x = "Emotion", y = "Percent") +
-theme_ft_rc() +
+dark_theme() +
     geom_label(aes(fill = sentiment),colour = "white", fontface = "bold", show.legend = FALSE) + scale_fill_manual(values = wes_palette("GrandBudapest2", 10, type = "continuous"))
 
 
@@ -182,14 +182,8 @@ theme_ft_rc() +
     geom_bar(stat="identity", show.legend = FALSE) +
     coord_flip() +
     labs(title = "Common topics", x = "Phrase", y = "Count") +
-   theme_ft_rc() + geom_label(aes(fill = text),colour = "white", fontface = "bold", show.legend = FALSE) +
+   dark_theme() + geom_label(aes(fill = text),colour = "white", fontface = "bold", show.legend = FALSE) +
    scale_fill_manual(values = wes_palette("Darjeeling2", 10, type = "continuous"))
-
- b = ggplot(senti_word, aes(area = n, fill = percent, label = sentiment)) +
-   geom_treemap() +
-   geom_treemap_text(fontface = "italic", colour = "white", place = "centre",
-                     grow = FALSE)  +
-   theme_ft_rc() + theme(legend.position= "none")
 
  ggarrange(p,                                                 # First row with scatter plot
            ggarrange(b, y, ncol = 2, labels = c("B", "C")), # Second row with box and dot plots
