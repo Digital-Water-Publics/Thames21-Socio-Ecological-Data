@@ -130,7 +130,8 @@ for (i in 1:nrow(wbids)) {
 
   p=river %>% mutate(created_at = ymd_hms(created_at)) %>%
     group_by(created_at) %>%
-    summarise(mean_senti = mean(senti_score),) %>%
+    summarise(mean_senti = mean(senti_score),)
+
     ggplot( aes(x=created_at, y=mean_senti)) +
     geom_area(fill="#69b3a2", alpha=0.5) +
     geom_line(color="#69b3a2") +
@@ -186,7 +187,7 @@ dark_theme() +
    scale_fill_manual(values = wes_palette("Darjeeling2", 10, type = "continuous"))
 
  ggarrange(p,                                                 # First row with scatter plot
-           ggarrange(b, y, ncol = 2, labels = c("B", "C")), # Second row with box and dot plots
+           ggarrange(t, y, ncol = 2, labels = c("B", "C")), # Second row with box and dot plots
            nrow = 2,
            labels = "A"                                        # Labels of the scatter plot
  )
