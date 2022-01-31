@@ -21,19 +21,23 @@ get_wb_classification = function(string, #### STRING = NAME OF CLASSFICATION ARE
   } # MANAGMENT CATCHMENT
   if (column == "RBD") {
     wb = wbids %>% subset(RBD == string)
-  } # RIVER BASIN DISTRICT
-  if (column != "OC" & column != "MC" & column != "RBD") {
+  }
+  if (column == "WB") {
+    wb = wbids %>% subset(WBID == string)
+  }# RIVER BASIN DISTRICT
+  if (column != "OC" &
+      column != "MC" & column != "RBD" & column != "WB") {
     message("Woops, looks like you declared an invalid column type. Please try E.G. OC | MC | RBD")
   } else{
     #### LOOP THROUGH GEOJSON DOWNLOAD
     suppressWarnings(for (i in 1:nrow(wb)) {
       ##### EA CATCHMNET API CALL
       url = "https://environment.data.gov.uk/catchment-planning/WaterBody/"
-      notation = wb$WBID[1]
+      notation = wb$WBID[i]
       download_url = paste0(url, notation, "/classifications.csv")
 
       #### SET OUTPUT PATH
-      river_wbid = wb$WBID[1]
+      river_wbid = wb$WBID[i]
       path = "data/river_sf/"
       river_output = paste0(path, river_wbid, ".csv")
 
@@ -60,4 +64,4 @@ get_wb_classification = function(string, #### STRING = NAME OF CLASSFICATION ARE
 }
 
 # test function
-wb_class = get_wb_classification(string = "Thames", column = "RBD")
+wb_class = get_wb_classification(string = "GB106039017030", column = "WB")
