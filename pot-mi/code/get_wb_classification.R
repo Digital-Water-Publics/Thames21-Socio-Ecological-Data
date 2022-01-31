@@ -65,3 +65,4 @@ get_wb_classification = function(string, #### STRING = NAME OF CLASSFICATION ARE
 
 # test function
 wb_class = get_wb_classification(string = "GB106039017030", column = "WB")
+#https://environment.data.gov.uk/catchment-planning/WaterBody/GB106039017030/rnags.csv
