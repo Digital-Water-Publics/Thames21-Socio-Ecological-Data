@@ -2,7 +2,7 @@
 ####
 #### AIM: Prepare twitter data for web map
 ####
-
+####
 if (file.edit("data/web/oc.geojson")) {
 
 } else {
@@ -10,15 +10,6 @@ if (file.edit("data/web/oc.geojson")) {
 
   clean_senti = readRDS("data/river_queries/clean_senti_polatiry.rds")
   summary(clean_senti$senti_score)
-
-  #Min.  1st Qu.   Median     Mean  3rd Qu.     Max.
-  #-3.33573 -0.05964  0.06171  0.11009  0.30321  7.85655
-
-  Percentile_00 = min(clean_senti$senti_score)
-  Percentile_33 = quantile(clean_senti$senti_score, 0.333333)
-  Percentile_67 = quantile(clean_senti$senti_score, 0.666667)
-  Percentile_100 = max(clean_senti$senti_score)
-  RB = rbind(Percentile_00, Percentile_33, Percentile_67, Percentile_100)
 
   # read water bodies
   thames_wb = read_sf("data/thames_river.geojson") %>%
@@ -97,73 +88,44 @@ if (file.edit("data/web/oc.geojson")) {
 
 }
 
-sentiment_key_word_subsets = function(df) {
-  corpus = corpus(df$clean_tweet)
-  token_word = data.frame(text = corpus, stringsAsFactors = FALSE) %>% unnest_tokens(word, text)
-  senti_word = inner_join(token_word, get_sentiments("nrc")) %>%
-    count(sentiment)
-  senti_word$percent = (senti_word$n / sum(senti_word$n)) * 100
-  ggplot(senti_word, aes(sentiment, percent)) +
-    geom_bar(aes(fill = sentiment), position = 'stack', stat = 'identity') +
-    coord_flip() +
-    theme(
-      plot.background = element_rect(fill = "black", colour = NA),
-      panel.background = element_rect(fill = "black", colour = NA),
-      legend.position = "none",
-      axis.text = element_text(color = "white"),
-      text = element_text(
-        size = 16,
-        family = "times",
-        colour = "white"
-      ),
-    )
-}
 
-sentiment_key_word_subsets(df = river)
 
 wbids = as.data.frame(unique(clean_senti$WBID))
 colnames(wbids) = "WBID"
 
 for (i in 1:nrow(wbids)) {
-
-  river = clean_senti %>% filter(WBID == wbids$WBID[44])
-
-  p=river %>% mutate(created_at = ymd_hms(created_at)) %>%
+  ####
+  ####
+  #### STEP 1: Filter sentiment data for waterbody & set up file path
+  ####
+  ####
+  river = clean_senti %>% filter(WBID == wbids$WBID[i])
+  path = paste0("open-data/",river$RBD[1],"/",river$WBID[1])
+  ####
+  ####
+  #### STEP 2: Generate sentiment and textual datasets for the waterbody
+  ####
+  ####
+  # 2.1 Sentiment Polarity score
+  river_mean_senti = river %>% mutate(created_at = ymd_hms(created_at)) %>%
     group_by(created_at) %>%
     summarise(mean_senti = mean(senti_score),)
-
-    ggplot( aes(x=created_at, y=mean_senti)) +
-    geom_area(fill="#69b3a2", alpha=0.5) +
-    geom_line(color="#69b3a2") +
-    ylab("Sentiment score") +
-    xlab("Date") +
-    ggtitle(paste0(river$name, "\nOperational catchment: ", river$OC)) +
-    geom_smooth() +
-dark_theme()
-
+  write.csv(river_mean_senti,paste0(path,"-polarity-score.csv"))
+  # 2.2 Emotional frequency in tweets
   corpus = corpus(river$clean_tweet)
-  token_word = data.frame(text = corpus, stringsAsFactors = FALSE) %>% unnest_tokens(word, text)
-  senti_word = inner_join(token_word, get_sentiments("nrc")) %>%
-    count(sentiment)
-  senti_word$percent = (senti_word$n / sum(senti_word$n)) * 100
-  senti_word$percent = round(senti_word$percent,2)
-
-  t = ggplot(senti_word, aes(x = reorder(sentiment,percent), y = percent, fill = sentiment, label = percent)) +
-    geom_bar(stat="identity", show.legend = FALSE) +
-    coord_flip() +
-    labs(title = "Common Emotions", x = "Emotion", y = "Percent") +
-dark_theme() +
-    geom_label(aes(fill = sentiment),colour = "white", fontface = "bold", show.legend = FALSE) + scale_fill_manual(values = wes_palette("GrandBudapest2", 10, type = "continuous"))
-
-
-
+  emo_freq = data.frame(text = corpus, stringsAsFactors = FALSE) %>% unnest_tokens(word, text) %>%
+    inner_join(get_sentiments("nrc") %>%
+    filter(sentiment %ni% c("positive", "negative"))) %>%
+    count(sentiment) %>%
+    mutate(percent = (senti_word$n / sum(senti_word$n)) * 100) %>%
+    mutate(percent = round(percent, 2))
+  write.csv(emo_freq,paste0(path,"-emolex-frequency.csv"))
+  #2.3 Common nounphrases
   parsed = spacy_extract_nounphrases(
     river$clean_tweet,
     output = c("data.frame"),
     multithread = TRUE
-  )
-
-  parsed =  parsed %>%
+  ) %>%
     filter(length > 2) %>%
     select(text) %>%
     mutate(text = str_remove_all(text, regex(" ?(f&ht)(tp)(s?)(://)(.*)[.&/](.*)"))) %>%
@@ -178,53 +140,23 @@ dark_theme() +
     mutate(text = str_trim(text, "both")) %>%
     count(text) %>%
     arrange(desc(n))
+  write.csv(parsed,paste0(path,"-common-nounphrase.csv"))
+  ####
+  ####
+  #### STEP 3: Fetch ecological data from the EA for each waterbody
+  ####
+  ####
+  #3.1 Get Ecological Classification
+  wb_class = get_wb_classification(string = river$WBID[1], column = "WB") %>%
+    filter(Classification.Item == "Ecological") %>%
+    filter(Status != "Does not require assessment") %>%
+  filter(Cycle == 2)
 
- y = ggplot(head(parsed,10), aes(x = reorder(text, n), y = n, fill = text, label = n)) +
-    geom_bar(stat="identity", show.legend = FALSE) +
-    coord_flip() +
-    labs(title = "Common topics", x = "Phrase", y = "Count") +
-   dark_theme() + geom_label(aes(fill = text),colour = "white", fontface = "bold", show.legend = FALSE) +
-   scale_fill_manual(values = wes_palette("Darjeeling2", 10, type = "continuous"))
-
- ggarrange(p,                                                 # First row with scatter plot
-           ggarrange(t, y, ncol = 2, labels = c("B", "C")), # Second row with box and dot plots
-           nrow = 2,
-           labels = "A"                                        # Labels of the scatter plot
- )
-
-  ggplotly(z)
-
-  head(river)
+  #3.2 Get Reasons for not achieving good
+  wb_rnag = get_wb_rnag(string = river$WBID[1], column = "WB")
+  #3.3 Get Reasons for not achieving good
+  wb_sf = get_wb_sf(string = river$WBID[1], column = "WB")
 
 }
 
-library(ggplot2)
-library(dplyr)
-library(plotly)
-library(hrbrthemes)
 
-# Load dataset from github
-data <- read.table("https://raw.githubusercontent.com/holtzy/data_to_viz/master/Example_dataset/3_TwoNumOrdered.csv", header=T)
-data$date <- as.Date(data$date)
-
-
-
-p_grid = seq(from=0,to=1,len=1000)
-prob_p = rep(1,1000)
-prop_data = dbinom(6,9, prob=p_grid)
-posterior = prop_data * prob_p
-posterior = posterior / sum(posterior)
-plot(posterior)
-
-p_grid = seq(from=0,to=1,len=1000)
-prob_p = dbeta(p_grid, 3,1)
-prop_data = dbinom(6,9, prob=p_grid)
-posterior = prop_data * prob_p
-posterior = posterior / sum(posterior)
-plot(posterior)
-
-
-samples = sample(p_grid, prob = posterior, size = 1e4,replace = TRUE)
-plot(samples , type = "l")
-w = rbinom(1e4,size=9,prob=samples)
-plot(w)

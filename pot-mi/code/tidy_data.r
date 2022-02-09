@@ -1,11 +1,3 @@
-##################################################################
-##                            Set up                            ##
-##################################################################
-setwd("~/pot-mi/pot-mi") # set wd
-uk = read_sf("Data/Countries_(December_2020)_UK_BGC.geojson") %>%
-  st_as_sf(crs = 4326) # read uk countries shapefile
-
-
 #################################################################
 ##                      primary functions                      ##
 #################################################################
@@ -42,15 +34,28 @@ clean_user_location = function(data) {
       str_replace_all("^$", "") # convert empty characters
   )
 }
-##################################################################
-##                      read and tidy data                      ##
-##################################################################
 
 `%ni%` = function (x, table)
   is.na(match(x, table, nomatch = NA_integer_))
 
-if (file.exists("data/river_queries/raw_data_clean132.RDS")) {
-  raw_data = readRDS("data/river_queries/raw_data.RDS")
+report = function(x) {
+  X111021_mine_query_sheet_hp = read.csv("data/111021_mine_query_sheet_hp.csv")
+  en_tweets %>%
+    group_by(WBID) %>%
+    count(WBID) %>%
+    right_join(filter(ea_wbids, RBD == "Thames")) %>%
+    arrange(desc(n)) %>%
+    right_join(X111021_mine_query_sheet_hp) %>%
+    select(WBID, name, n, mine_query) %>%
+    kableExtra::kable() %>%
+    kableExtra::kable_material_dark()
+}
+##################################################################
+##                      read and tidy data                      ##
+##################################################################
+
+if (file.exists("data/river_queries/raw_data_new.RDS")) {
+  raw_data = readRDS("data/river_queries/raw_data_new.RDS")
 } else {
   # # read and clean data
   setwd("~/pot-mi/pot-mi/data/river_queries/")
@@ -123,17 +128,5 @@ if (file.exists("data/river_queries/raw_data_clean132.RDS")) {
   saveRDS(clean_tweet, "raw_data_new.RDS")
 }
 
-##################################################################
-##                          Report Functions                   ##
-report = function(x) {
-  X111021_mine_query_sheet_hp = read.csv("data/111021_mine_query_sheet_hp.csv")
-  en_tweets %>%
-    group_by(WBID) %>%
-    count(WBID) %>%
-    right_join(filter(ea_wbids, RBD == "Thames")) %>%
-    arrange(desc(n)) %>%
-    right_join(X111021_mine_query_sheet_hp) %>%
-    select(WBID, name, n, mine_query) %>%
-    kableExtra::kable() %>%
-    kableExtra::kable_material_dark()
-}
+
+
