@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "wb_line",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:EPSG::27700" } },
+"features": [
+{ "type": "Feature", "properties": { "WBID": "GB30647024", "name": "Marden Meadow Ponds" }, "geometry": { "type": "MultiPolygon", "coordinates": [ [ [ [ 576143.400000000372529, 144612.796000000089407 ], [ 576196.611999999731779, 144610.530999999493361 ], [ 576180.762000000104308, 144552.790999999269843 ], [ 576134.343000000342727, 144581.095000000670552 ], [ 576143.400000000372529, 144612.796000000089407 ] ] ] ] } }
+]
+}
