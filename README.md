@@ -1,6 +1,6 @@
 # Thames21 Socio-Ecological Data 
 ## Purpose
-Working with the London rivers trust Thames21, this projects demonstrates a low-cost and open toolkit for assesing the impact of local rver quality on community wellbeing. Using
+Working with the London rivers trust Thames21, this projects demonstrates a low-cost and open toolkit for assesing the impact of local river quality on community wellbeing. Using
 computational social science methods for emotion recognition in natural language, the project pilots the integration of emotional AI with social media and open government data for a participatory approach to environmental intelligence.
 ### Partners
 Oxford Geography            |  Thames21
