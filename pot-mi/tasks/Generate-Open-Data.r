@@ -1,3 +1,59 @@
+#################################################################
+##                      primary functions                      ##
+#################################################################
+clean_tweets_sentiment = function(x) {
+  x %>% mutate(
+    clean_tweet = text %>%
+      str_remove_all(" ?(f|ht)(tp)(s?)(://)(.*)[.|/](.*)") %>%
+      # Remove mentions e.g. "@my_account"
+      str_remove_all("@[[:alnum:]_]{4,}") %>%
+      # Remove hashtags
+      str_remove_all("#[[:alnum:]_]+") %>%
+      # Replace "&" character reference with "and"
+      str_replace_all("&amp;", "and") %>%
+      # Remove puntucation, using a standard character class
+      str_remove_all("[[:punct:]]") %>%
+      # Remove "RT: " from beginning of retweets
+      str_remove_all("^RT:? ") %>%
+      # Replace any newline characters with a =space
+      str_replace_all("\\\n", " ") %>%
+      # Make everything lowercase
+      str_to_lower() %>%
+      # Remove any trailing whitespace around the text
+      str_trim("both")
+  )
+}
+
+clean_user_location = function(data) {
+  data %>% mutate(
+    clean_location = user_location %>%
+      str_remove_all(" ?(f|ht)(tp)(s?)(://)(.*)[.|/](.*)") %>% #remove links
+      str_remove_all("#[[:alnum:]_]+") %>% # Remove hashtags
+      str_remove_all("^\\s*<U\\+\\w+>\\s*") %>%
+      str_replace_na("") %>% # convert NAs
+      str_replace_all("^$", "") # convert empty characters
+  )
+}
+
+`%ni%` = function (x, table)
+  is.na(match(x, table, nomatch = NA_integer_))
+
+report = function(x) {
+  X111021_mine_query_sheet_hp = read.csv("data/111021_mine_query_sheet_hp.csv")
+  en_tweets %>%
+    group_by(WBID) %>%
+    count(WBID) %>%
+    right_join(filter(ea_wbids, RBD == "Thames")) %>%
+    arrange(desc(n)) %>%
+    right_join(X111021_mine_query_sheet_hp) %>%
+    select(WBID, name, n, mine_query) %>%
+    kableExtra::kable() %>%
+    kableExtra::kable_material_dark()
+}
+
+#################################################################
+##                      Read Data                             ##
+#################################################################
 clean_senti = readRDS("data/river_queries/clean_senti.RDS")
 wbids = as.data.frame(unique(clean_senti$WBID))
 colnames(wbids) = "WBID"
@@ -23,6 +79,9 @@ wb_all = rbind(wb,lakes,canals,surface)
 #clean environment
 rm(wb,lakes,canals,surface)
 
+#################################################################
+##                      loop through wbid                      ##
+#################################################################
 for (i in 1:nrow(wbids)) {
   ####
   ####
