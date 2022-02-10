@@ -17,9 +17,10 @@ surface = read_sf("../../../../Downloads/EA_WFDArtificialWaterBodiesSurfaceWater
   select(WBID,name,geometry)
 
 wb_all = rbind(wb,lakes,canals,surface)
-
+rm(wb,lakes,canals,surface)
 wb_thames = read_sf("data/web/wb_cat_class.geojson") %>% st_drop_geometry()
 wb_test = inner_join(wb_thames,wb_all, by = "WBID") %>%select(-c("name.y")) %>% st_as_sf() %>%  st_transform(crs = 4326)
 plot(wb_test$geometry)
 
 write_sf(wb_test, "data/web/lines.geojson")
+wb = read_sf("data/web/lines.geojson")

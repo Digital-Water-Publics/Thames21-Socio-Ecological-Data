@@ -22,8 +22,9 @@ get_wb_sf = function(string, #### STRING = NAME OF CLASSFICATION AREA E.G. RIVER
   if (column == "OC") {wb = wbids %>% subset(OC == string)} # OPERATIONAL CATCHMENT
   if (column == "MC") {wb = wbids %>% subset(MC == string)} # MANAGMENT CATCHMENT
   if (column == "RBD") {wb = wbids %>% subset(RBD == string)} # RIVER BASIN DISTRICT
-  if(column != "OC" & column != "MC" & column != "RBD"){
-    message("Woops, looks like you declared an invalid column type. Please try E.G. OC | MC | RBD")
+  if (column == "WB") {wb = wbids %>% subset(WBID == string)}
+  if (column != "OC" & column != "MC" & column != "RBD" & column != "WB") {
+    message("Woops, looks like you declared an invalid column type. Please try E.G. WB | OC | MC | RBD")
   } else{
     message("Running function:")
     #### SET EMPTY DF TO MERGE INTO
