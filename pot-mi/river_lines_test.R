@@ -24,3 +24,9 @@ plot(wb_test$geometry)
 
 write_sf(wb_test, "data/web/lines.geojson")
 wb = read_sf("data/web/lines.geojson")
+
+centroid_data = wb %>% select(1:2) %>%
+  rename(Name = name.x) %>%
+  st_drop_geometry() %>%
+  mutate(geometry = st_centroid(wb$geometry))
+write_sf(centroid_data, "data/web/cents_wb.geojson")

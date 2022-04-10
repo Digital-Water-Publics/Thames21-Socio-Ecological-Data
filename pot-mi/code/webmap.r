@@ -3,7 +3,7 @@
 #### AIM: Prepare twitter data for web map
 ####
 ####
-if (file.edit("data/web/oc.geojson")) {
+if (file.exists("data/web/oc.geojson")) {
 
 } else {
   # From continous to categorical -------------------------------------------
