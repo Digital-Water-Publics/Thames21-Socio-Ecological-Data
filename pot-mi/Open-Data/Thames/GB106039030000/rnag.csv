@@ -1,6 +1,4 @@
-"","WBID","Category","Category Certainty","Business Sector","Activity","Activity Certainty"
-"1","GB106039030000","Agriculture and rural land management","Probable","Agriculture - Livestock","Riparian/in-river activities (inc bankside erosion)","Probable"
-"2","GB106039030000","Agriculture and rural land management","Probable","Agriculture - Arable","Poor soil management","Probable"
-"3","GB106039030000","Agriculture and rural land management","Probable","Agriculture - Arable","Poor soil management","Probable"
-"4","GB106039030000","Agriculture and rural land management","Probable","Agriculture - Livestock","Poor Livestock Management","Probable"
-"5","GB106039030000","Agriculture and rural land management","Probable","Agriculture - Arable","Poor soil management","Probable"
+"source","target","value"
+"Agriculture and rural land management","Poor Livestock Management",1
+"Agriculture and rural land management","Poor soil management",3
+"Agriculture and rural land management","Riparian/in-river activities (inc bankside erosion)",1

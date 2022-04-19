@@ -1,8 +1,10 @@
-"","WBID","Category","Category Certainty","Business Sector","Activity","Activity Certainty"
-"1","GB106039023231","Agriculture and rural land management","Suspected","Agriculture - Arable","Poor nutrient management","Suspected"
-"2","GB106039023231","Local and Central Government","Confirmed","Not applicable","Other (not in list, must add details in comments)","Confirmed"
-"3","GB106039023231","Water Industry","Confirmed","Not applicable","Other (not in list, must add details in comments)","Confirmed"
-"4","GB106039023231","Navigation","Confirmed","Inland Waterways","Other (not in list, must add details in comments)","Confirmed"
-"5","GB106039023231","Urban and transport","Suspected","Roads","Transport Drainage","Suspected"
-"6","GB106039023231","Water Industry","Suspected","Not applicable","Sewage discharge (continuous)","Suspected"
-"7","GB106039023231","Water Industry","Confirmed","Not applicable","Surface water abstraction","Confirmed"
+"source","target","value"
+"Agriculture and rural land management","Poor nutrient management",1
+"Local and Central Government","Other (not in list, must add details in comments)",1
+"Navigation","Other (not in list, must add details in comments)",1
+"Sector under investigation","Unknown (pending investigation)",1
+"Urban and transport","Transport Drainage",1
+"Water Industry","Other (not in list, must add details in comments)",1
+"Water Industry","Sewage discharge (continuous)",1
+"Water Industry","Sewage discharge (intermittent)",1
+"Water Industry","Surface water abstraction",1

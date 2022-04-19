@@ -1,23 +1,10 @@
-"","WBID","Category","Category Certainty","Business Sector","Activity","Activity Certainty"
-"1","GB106038027960","Urban and transport","Probable","Urban","Urbanisation - urban development","Probable"
-"2","GB106038027960","Domestic General Public","Confirmed","Not applicable","Misconnections","Confirmed"
-"3","GB106038027960","Urban and transport","Suspected","Urban","Urbanisation - urban development","Suspected"
-"4","GB106038027960","Domestic General Public","Confirmed","Not applicable","Misconnections","Confirmed"
-"5","GB106038027960","Industry","Suspected","Other industry, manufacturing and Business","Trade/Industry discharge","Suspected"
-"6","GB106038027960","Urban and transport","Suspected","Other (not in list)","Flood protection - structures","Suspected"
-"7","GB106038027960","Domestic General Public","Confirmed","Not applicable","Misconnections","Confirmed"
-"8","GB106038027960","Urban and transport","Probable","Roads","Transport Drainage","Probable"
-"9","GB106038027960","Urban and transport","Suspected","Urban","Urbanisation - urban development","Suspected"
-"10","GB106038027960","Industry","Suspected","Other industry, manufacturing and Business","Trade/Industry discharge","Suspected"
-"11","GB106038027960","Domestic General Public","Confirmed","Not applicable","Misconnections","Confirmed"
-"12","GB106038027960","Urban and transport","Probable","Roads","Transport Drainage","Probable"
-"13","GB106038027960","Industry","Suspected","Other industry, manufacturing and Business","Trade/Industry discharge","Suspected"
-"14","GB106038027960","Domestic General Public","Suspected","Not applicable","Misconnections","Suspected"
-"15","GB106038027960","Domestic General Public","Confirmed","Not applicable","Misconnections","Confirmed"
-"16","GB106038027960","Local and Central Government","Confirmed","Not applicable","Other (not in list, must add details in comments)","Confirmed"
-"17","GB106038027960","Urban and transport","Confirmed","Not applicable","Other (not in list, must add details in comments)","Confirmed"
-"18","GB106038027960","Agriculture and rural land management","Suspected","Agriculture - Livestock","Poor Livestock Management","Suspected"
-"19","GB106038027960","Agriculture and rural land management","Probable","Agriculture - Arable","Poor soil management","Probable"
-"20","GB106038027960","Agriculture and rural land management","Suspected","Agriculture - Arable","Poor soil management","Suspected"
-"21","GB106038027960","Urban and transport","Confirmed","Not applicable","Flood protection - structures","Confirmed"
-"22","GB106038027960","Urban and transport","Confirmed","Not applicable","Urbanisation - urban development","Confirmed"
+"source","target","value"
+"Agriculture and rural land management","Poor Livestock Management",1
+"Agriculture and rural land management","Poor soil management",2
+"Domestic General Public","Misconnections",6
+"Industry","Trade/Industry discharge",3
+"Local and Central Government","Other (not in list, must add details in comments)",1
+"Urban and transport","Flood protection - structures",2
+"Urban and transport","Other (not in list, must add details in comments)",1
+"Urban and transport","Transport Drainage",2
+"Urban and transport","Urbanisation - urban development",4

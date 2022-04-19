@@ -1,8 +1,6 @@
-"","WBID","Category","Category Certainty","Business Sector","Activity","Activity Certainty"
-"1","GB106040023990","Urban and transport","Confirmed","Urban","Urbanisation - urban development","Confirmed"
-"2","GB106040023990","Water Industry","Confirmed","Water supply","Groundwater abstraction","Confirmed"
-"3","GB106040023990","Water Industry","Confirmed","Water supply","Groundwater abstraction","Confirmed"
-"4","GB106040023990","Urban and transport","Probable","Roads","Transport Drainage","Probable"
-"5","GB106040023990","Local and Central Government","Confirmed","Not applicable","Other (not in list, must add details in comments)","Confirmed"
-"6","GB106040023990","Sector under investigation","Not applicable","Not applicable","Unknown (pending investigation)","Not applicable"
-"7","GB106040023990","No sector responsible","Not applicable","Not applicable","Not applicable","Not applicable"
+"source","target","value"
+"Local and Central Government","Other (not in list, must add details in comments)",1
+"Sector under investigation","Unknown (pending investigation)",2
+"Urban and transport","Transport Drainage",1
+"Urban and transport","Urbanisation - urban development",1
+"Water Industry","Groundwater abstraction",2

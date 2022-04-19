@@ -1,27 +1,11 @@
-"","WBID","Category","Category Certainty","Business Sector","Activity","Activity Certainty"
-"1","GB106038027910","Industry","Suspected","Other industry, manufacturing and Business","Trade/Industry discharge","Suspected"
-"2","GB106038027910","Water Industry","Confirmed","Not applicable","Sewage discharge (continuous)","Confirmed"
-"3","GB106038027910","Urban and transport","Suspected","Urban","Urbanisation - urban development","Suspected"
-"4","GB106038027910","Domestic General Public","Confirmed","Not applicable","Misconnections","Confirmed"
-"5","GB106038027910","Water Industry","Probable","Waste water treatment","Sewage discharge (intermittent)","Probable"
-"6","GB106038027910","Industry","Probable","Other industry, manufacturing and Business","Trade/Industry discharge","Probable"
-"7","GB106038027910","Water Industry","Confirmed","Waste water treatment","Sewage discharge (continuous)","Confirmed"
-"8","GB106038027910","Urban and transport","Suspected","Urban","Urbanisation - urban development","Suspected"
-"9","GB106038027910","Water Industry","Probable","Waste water treatment","Sewage discharge (intermittent)","Probable"
-"10","GB106038027910","Domestic General Public","Confirmed","Not applicable","Misconnections","Confirmed"
-"11","GB106038027910","Water Industry","Confirmed","Not applicable","Sewage discharge (continuous)","Confirmed"
-"12","GB106038027910","Urban and transport","Probable","Roads","Transport Drainage","Probable"
-"13","GB106038027910","Urban and transport","Suspected","Urban","Urbanisation - urban development","Suspected"
-"14","GB106038027910","Water Industry","Probable","Waste water treatment","Sewage discharge (intermittent)","Probable"
-"15","GB106038027910","Water Industry","Confirmed","Not applicable","Sewage discharge (continuous)","Confirmed"
-"16","GB106038027910","Urban and transport","Suspected","Urban","Urbanisation - urban development","Suspected"
-"17","GB106038027910","Urban and transport","Probable","Roads","Transport Drainage","Probable"
-"18","GB106038027910","Domestic General Public","Confirmed","Not applicable","Misconnections","Confirmed"
-"19","GB106038027910","Urban and transport","Suspected","Urban","Urbanisation - urban development","Suspected"
-"20","GB106038027910","Water Industry","Probable","Waste water treatment","Sewage discharge (intermittent)","Probable"
-"21","GB106038027910","Domestic General Public","Confirmed","Not applicable","Misconnections","Confirmed"
-"22","GB106038027910","Local and Central Government","Confirmed","Not applicable","Other (not in list, must add details in comments)","Confirmed"
-"23","GB106038027910","Urban and transport","Confirmed","Not applicable","Other (not in list, must add details in comments)","Confirmed"
-"24","GB106038027910","Urban and transport","Suspected","Roads","Urbanisation - transport","Suspected"
-"25","GB106038027910","Urban and transport","Confirmed","Not applicable","Flood protection - structures","Confirmed"
-"26","GB106038027910","Urban and transport","Confirmed","Not applicable","Urbanisation - urban development","Confirmed"
+"source","target","value"
+"Domestic General Public","Misconnections",4
+"Industry","Trade/Industry discharge",2
+"Local and Central Government","Other (not in list, must add details in comments)",1
+"Urban and transport","Flood protection - structures",1
+"Urban and transport","Other (not in list, must add details in comments)",1
+"Urban and transport","Transport Drainage",2
+"Urban and transport","Urbanisation - transport",1
+"Urban and transport","Urbanisation - urban development",6
+"Water Industry","Sewage discharge (continuous)",4
+"Water Industry","Sewage discharge (intermittent)",4

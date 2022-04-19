@@ -1,2 +1,3 @@
-"","WBID","Category","Category Certainty","Business Sector","Activity","Activity Certainty"
-"1","GB70610542","No sector responsible","Not applicable",NA,"Other (not in list, must add details in comments)","Suspected"
+"source","target","value"
+"No sector responsible","Other (not in list, must add details in comments)",1
+"Sector under investigation","Unknown (pending investigation)",1

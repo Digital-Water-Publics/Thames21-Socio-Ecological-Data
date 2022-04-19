@@ -1,5 +1,4 @@
-"","WBID","Category","Category Certainty","Business Sector","Activity","Activity Certainty"
-"1","GB106039023660","Water Industry","Probable","Waste water treatment","Sewage discharge (continuous)","Probable"
-"2","GB106039023660","Water Industry","Probable","Waste water treatment","Sewage discharge (continuous)","Probable"
-"3","GB106039023660","No sector responsible","Not applicable","","Other (not in list, must add details in comments)","Suspected"
-"4","GB106039023660","Water Industry","Probable","Waste water treatment","Sewage discharge (continuous)","Probable"
+"source","target","value"
+"No sector responsible","Other (not in list, must add details in comments)",1
+"Sector under investigation","Unknown (pending investigation)",1
+"Water Industry","Sewage discharge (continuous)",3

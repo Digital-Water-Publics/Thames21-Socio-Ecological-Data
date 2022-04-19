@@ -1,18 +1,9 @@
-"","WBID","Category","Category Certainty","Business Sector","Activity","Activity Certainty"
-"1","GB106039023620","Agriculture and rural land management","Suspected","Agriculture - Livestock","Poor Livestock Management","Suspected"
-"2","GB106039023620","Agriculture and rural land management","Probable","Agriculture - Livestock","Poor Livestock Management","Probable"
-"3","GB106039023620","Agriculture and rural land management","Probable","Not applicable","Other (not in list, must add details in comments)","Probable"
-"4","GB106039023620","Agriculture and rural land management","Probable","Not applicable","Other (not in list, must add details in comments)","Probable"
-"5","GB106039023620","Agriculture and rural land management","Probable","Not applicable","Land drainage - operational management","Probable"
-"6","GB106039023620","Domestic General Public","Suspected","Domestic/General public","Septic Tanks","Suspected"
-"7","GB106039023620","Agriculture and rural land management","Suspected","Agriculture - Arable","Poor pesticide management","Suspected"
-"8","GB106039023620","Agriculture and rural land management","Suspected","Agriculture - Livestock","Poor Livestock Management","Suspected"
-"9","GB106039023620","Agriculture and rural land management","Suspected","Agriculture - Arable","Poor nutrient management","Suspected"
-"10","GB106039023620","No sector responsible","Not applicable","Not applicable","Drought","Suspected"
-"11","GB106039023620","Agriculture and rural land management","Suspected","Agriculture - Arable","Poor nutrient management","Suspected"
-"12","GB106039023620","Domestic General Public","Suspected","Domestic/General public","Septic Tanks","Suspected"
-"13","GB106039023620","Agriculture and rural land management","Suspected","Agriculture - Arable","Poor nutrient management","Suspected"
-"14","GB106039023620","Agriculture and rural land management","Suspected","Agriculture - Arable","Poor nutrient management","Suspected"
-"15","GB106039023620","Agriculture and rural land management","Suspected","Agriculture - Arable","Poor pesticide management","Suspected"
-"16","GB106039023620","Domestic General Public","Suspected","Domestic/General public","Septic Tanks","Suspected"
-"17","GB106039023620","No sector responsible","Not applicable","Not applicable","Natural conditions - other","Suspected"
+"source","target","value"
+"Agriculture and rural land management","Land use - arable",1
+"Agriculture and rural land management","Other (not in list, must add details in comments)",2
+"Agriculture and rural land management","Poor Livestock Management",3
+"Agriculture and rural land management","Poor nutrient management",4
+"Agriculture and rural land management","Poor pesticide management",2
+"Domestic General Public","Septic Tanks",3
+"No sector responsible","Drought",1
+"No sector responsible","Natural conditions - other",1

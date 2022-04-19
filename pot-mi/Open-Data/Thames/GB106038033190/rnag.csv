@@ -1,20 +1,11 @@
-"","WBID","Category","Category Certainty","Business Sector","Activity","Activity Certainty"
-"1","GB106038033190","Agriculture and rural land management","Probable","Agriculture - Livestock","Poor Livestock Management","Probable"
-"2","GB106038033190","Urban and transport","Probable","Urban","Urbanisation - urban development","Probable"
-"3","GB106038033190","Agriculture and rural land management","Probable","Agriculture - Arable","Poor nutrient management","Probable"
-"4","GB106038033190","Urban and transport","Probable","Urban","Private Sewage Treatment","Probable"
-"5","GB106038033190","Agriculture and rural land management","Probable","Agriculture - Arable","Poor soil management","Probable"
-"6","GB106038033190","Agriculture and rural land management","Probable","Agriculture - Arable","Poor nutrient management","Probable"
-"7","GB106038033190","Urban and transport","Probable","Roads","Transport Drainage","Probable"
-"8","GB106038033190","Domestic General Public","Suspected","Not applicable","Misconnections","Suspected"
-"9","GB106038033190","Domestic General Public","Suspected","Not applicable","Misconnections","Suspected"
-"10","GB106038033190","Other","Suspected","Not applicable","Private Sewage Treatment","Suspected"
-"11","GB106038033190","Other","Suspected","Not applicable","Private Sewage Treatment","Suspected"
-"12","GB106038033190","Local and Central Government","Confirmed","Environment, Farming, Rural","Flood protection - structures","Confirmed"
-"13","GB106038033190","Urban and transport","Confirmed","Not applicable","Urbanisation - urban development","Confirmed"
-"14","GB106038033190","No sector responsible","Not applicable","Not applicable","Drought","Suspected"
-"15","GB106038033190","Urban and transport","Probable","Urban","Private Sewage Treatment","Probable"
-"16","GB106038033190","Agriculture and rural land management","Probable","Agriculture - Arable","Poor nutrient management","Probable"
-"17","GB106038033190","Urban and transport","Probable","Roads","Transport Drainage","Probable"
-"18","GB106038033190","Urban and transport","Probable","Urban","Urbanisation - urban development","Probable"
-"19","GB106038033190","Agriculture and rural land management","Probable","Agriculture - Livestock","Poor Livestock Management","Probable"
+"source","target","value"
+"Agriculture and rural land management","Poor Livestock Management",2
+"Agriculture and rural land management","Poor nutrient management",3
+"Agriculture and rural land management","Poor soil management",1
+"Domestic General Public","Misconnections",2
+"Local and Central Government","Flood protection - structures",1
+"No sector responsible","Drought",1
+"Other","Private Sewage Treatment",2
+"Urban and transport","Private Sewage Treatment",2
+"Urban and transport","Transport Drainage",2
+"Urban and transport","Urbanisation - urban development",3

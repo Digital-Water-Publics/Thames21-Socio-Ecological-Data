@@ -1,4 +1,4 @@
-"","WBID","Category","Category Certainty","Business Sector","Activity","Activity Certainty"
-"1","GB106039030400","Agriculture and rural land management","Probable","","Land drainage - operational management","Probable"
-"2","GB106039030400","Water Industry","Probable","Other (not in list)","Sewage discharge (continuous)","Probable"
-"3","GB106039030400","Water Industry","Confirmed","Not applicable","Sewage discharge (continuous)","Confirmed"
+"source","target","value"
+"Agriculture and rural land management","Land use - arable",1
+"Sector under investigation","Unknown (pending investigation)",2
+"Water Industry","Sewage discharge (continuous)",2

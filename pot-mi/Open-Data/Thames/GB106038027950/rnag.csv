@@ -1,22 +1,13 @@
-"","WBID","Category","Category Certainty","Business Sector","Activity","Activity Certainty"
-"1","GB106038027950","Domestic General Public","Probable","Not applicable","Misconnections","Probable"
-"2","GB106038027950","Water Industry","Confirmed","Waste water treatment","Sewage discharge (continuous)","Confirmed"
-"3","GB106038027950","Urban and transport","Probable","Urban","Urbanisation - urban development","Probable"
-"4","GB106038027950","Water Industry","Probable","Waste water treatment","Sewage discharge (intermittent)","Probable"
-"5","GB106038027950","Water Industry","Confirmed","Water supply","Surface water abstraction","Confirmed"
-"6","GB106038027950","Local and Central Government","Confirmed","Not applicable","Other (not in list, must add details in comments)","Confirmed"
-"7","GB106038027950","Urban and transport","Confirmed","Not applicable","Other (not in list, must add details in comments)","Confirmed"
-"8","GB106038027950","Recreation","Confirmed","Recreation","Other (not in list, must add details in comments)","Confirmed"
-"9","GB106038027950","Water Industry","Confirmed","Waste water treatment","Sewage discharge (continuous)","Confirmed"
-"10","GB106038027950","Navigation","Probable","Inland Waterways","Inland boating and structures","Probable"
-"11","GB106038027950","Domestic General Public","Probable","Not applicable","Misconnections","Probable"
-"12","GB106038027950","Water Industry","Probable","Waste water treatment","Sewage discharge (intermittent)","Probable"
-"13","GB106038027950","No sector responsible","Not applicable","Not applicable","Floating pennywort","Confirmed"
-"14","GB106038027950","Urban and transport","Probable","Urban","Urbanisation - urban development","Probable"
-"15","GB106038027950","Urban and transport","Probable","Roads","Transport Drainage","Probable"
-"16","GB106038027950","Urban and transport","Confirmed","Not applicable","Urbanisation - urban development","Confirmed"
-"17","GB106038027950","Urban and transport","Confirmed","Not applicable","Urbanisation - urban development","Confirmed"
-"18","GB106038027950","Urban and transport","Confirmed","Not applicable","Flood protection - structures","Confirmed"
-"19","GB106038027950","Navigation","Confirmed","Inland Waterways","Inland boating and structures","Confirmed"
-"20","GB106038027950","Navigation","Confirmed","Inland Waterways","Inland boating and structures","Confirmed"
-"21","GB106038027950","Urban and transport","Confirmed","Not applicable","Flood protection - structures","Confirmed"
+"source","target","value"
+"Domestic General Public","Misconnections",2
+"Local and Central Government","Other (not in list, must add details in comments)",1
+"Navigation","Inland boating and structures",3
+"No sector responsible","Floating pennywort",1
+"Recreation","Other (not in list, must add details in comments)",1
+"Urban and transport","Flood protection - structures",2
+"Urban and transport","Other (not in list, must add details in comments)",1
+"Urban and transport","Transport Drainage",1
+"Urban and transport","Urbanisation - urban development",4
+"Water Industry","Sewage discharge (continuous)",2
+"Water Industry","Sewage discharge (intermittent)",2
+"Water Industry","Surface water abstraction",1

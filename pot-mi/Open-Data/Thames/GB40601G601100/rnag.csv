@@ -1,5 +1,4 @@
-"","WBID","Category","Category Certainty","Business Sector","Activity","Activity Certainty"
-"1","GB40601G601100","Water Industry","Probable","Other (not in list)","Groundwater abstraction","Probable"
-"2","GB40601G601100","Water Industry","Probable","Other (not in list)","Groundwater abstraction","Probable"
-"3","GB40601G601100","No sector responsible","Not applicable","Not applicable","Drought","Probable"
-"4","GB40601G601100","Agriculture and rural land management","Suspected","Agriculture - Arable","Land drainage","Suspected"
+"source","target","value"
+"Agriculture and rural land management","Land drainage",1
+"No sector responsible","Drought",1
+"Water Industry","Groundwater abstraction",2

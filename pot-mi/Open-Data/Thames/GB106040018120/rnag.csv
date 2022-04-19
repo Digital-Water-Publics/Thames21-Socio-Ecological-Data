@@ -1,14 +1,9 @@
-"","WBID","Category","Category Certainty","Business Sector","Activity","Activity Certainty"
-"1","GB106040018120","Agriculture and rural land management","Suspected","","Surface water abstraction","Suspected"
-"2","GB106040018120","Water Industry","Probable","Waste water treatment","Sewage discharge (continuous)","Probable"
-"3","GB106040018120","Recreation","Probable","Recreation","Surface water abstraction","Probable"
-"4","GB106040018120","Agriculture and rural land management","Suspected","Agriculture - Arable","Poor pesticide management","Suspected"
-"5","GB106040018120","Agriculture and rural land management","Probable","Agriculture - Arable","Poor soil management","Probable"
-"6","GB106040018120","Agriculture and rural land management","Probable","Agriculture - Arable","Poor nutrient management","Probable"
-"7","GB106040018120","Agriculture and rural land management","Probable","Agriculture - Arable","Poor soil management","Probable"
-"8","GB106040018120","Agriculture and rural land management","Probable","Agriculture - Arable","Poor nutrient management","Probable"
-"9","GB106040018120","Water Industry","Confirmed","Waste water treatment","Sewage discharge (continuous)","Confirmed"
-"10","GB106040018120","Water Industry","Confirmed","Waste water treatment","Sewage discharge (continuous)","Confirmed"
-"11","GB106040018120","Domestic General Public","Probable","Domestic/General public","Private Sewage Treatment","Probable"
-"12","GB106040018120","Domestic General Public","Probable","Domestic/General public","Private Sewage Treatment","Probable"
-"13","GB106040018120","Agriculture and rural land management","Probable","Agriculture - Arable","Poor soil management","Probable"
+"source","target","value"
+"Agriculture and rural land management","Poor nutrient management",2
+"Agriculture and rural land management","Poor pesticide management",1
+"Agriculture and rural land management","Poor soil management",3
+"Agriculture and rural land management","Surface water abstraction",1
+"Domestic General Public","Private Sewage Treatment",2
+"Recreation","Surface water abstraction",1
+"Sector under investigation","Unknown (pending investigation)",1
+"Water Industry","Sewage discharge (continuous)",3

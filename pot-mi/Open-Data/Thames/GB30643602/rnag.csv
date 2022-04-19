@@ -1,11 +1,6 @@
-"","WBID","Category","Category Certainty","Business Sector","Activity","Activity Certainty"
-"1","GB30643602","Agriculture and rural land management","Probable","Agriculture - Livestock","Poor Livestock Management","Probable"
-"2","GB30643602","Water Industry","Confirmed","Waste water treatment","Sewage discharge (continuous)","Confirmed"
-"3","GB30643602","Water Industry","Confirmed","Waste water treatment","Sewage discharge (continuous)","Confirmed"
-"4","GB30643602","Water Industry","Probable","Waste water treatment","Sewage discharge (continuous)","Probable"
-"5","GB30643602","Agriculture and rural land management","Probable","Agriculture - Arable","Poor soil management","Probable"
-"6","GB30643602","Agriculture and rural land management","Probable","Agriculture - Arable","Poor nutrient management","Probable"
-"7","GB30643602","Agriculture and rural land management","Probable","Agriculture - Livestock","Poor Livestock Management","Probable"
-"8","GB30643602","Sector under investigation","Not applicable","Not applicable","Unknown (pending investigation)","Not applicable"
-"9","GB30643602","Agriculture and rural land management","Probable","Agriculture - Arable","Poor nutrient management","Probable"
-"10","GB30643602","Agriculture and rural land management","Probable","Agriculture - Arable","Poor soil management","Probable"
+"source","target","value"
+"Agriculture and rural land management","Poor Livestock Management",2
+"Agriculture and rural land management","Poor nutrient management",2
+"Agriculture and rural land management","Poor soil management",2
+"Sector under investigation","Unknown (pending investigation)",2
+"Water Industry","Sewage discharge (continuous)",3

@@ -1,14 +1,8 @@
-"","WBID","Category","Category Certainty","Business Sector","Activity","Activity Certainty"
-"1","GB106039017170","Water Industry","Probable","Waste water treatment","Sewage discharge (continuous)","Probable"
-"2","GB106039017170","Water Industry","Probable","Other (not in list)","Sewage discharge (continuous)","Probable"
-"3","GB106039017170","Water Industry","Probable","Other (not in list)","Sewage discharge (continuous)","Probable"
-"4","GB106039017170","Other","Probable","Not applicable","Barriers - ecological discontinuity","Probable"
-"5","GB106039017170","Water Industry","Confirmed","Waste water treatment","Sewage discharge (continuous)","Confirmed"
-"6","GB106039017170","Agriculture and rural land management","Probable","Not applicable","Land drainage - operational management","Probable"
-"7","GB106039017170","Urban and transport","Suspected","Roads","Transport Drainage","Suspected"
-"8","GB106039017170","Urban and transport","Suspected","Urban","Urbanisation - urban development","Suspected"
-"9","GB106039017170","Water Industry","Suspected","Waste water treatment","Incidents","Suspected"
-"10","GB106039017170","Water Industry","Probable","Waste water treatment","Sewage discharge (continuous)","Probable"
-"11","GB106039017170","Water Industry","Probable","Waste water treatment","Incidents","Probable"
-"12","GB106039017170","Water Industry","Probable","Waste water treatment","Sewage discharge (continuous)","Probable"
-"13","GB106039017170","Water Industry","Probable","Waste water treatment","Incidents","Probable"
+"source","target","value"
+"Agriculture and rural land management","Land use - arable",1
+"Other","Barriers - ecological discontinuity",1
+"Sector under investigation","Unknown (pending investigation)",1
+"Urban and transport","Transport Drainage",1
+"Urban and transport","Urbanisation - urban development",1
+"Water Industry","Incidents",3
+"Water Industry","Sewage discharge (continuous)",6

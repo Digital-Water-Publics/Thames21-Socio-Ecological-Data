@@ -1,12 +1,12 @@
-"","WBID","Category","Category Certainty","Business Sector","Activity","Activity Certainty"
-"1","GB106040018450","Local and Central Government","Confirmed","Not applicable","Other (not in list, must add details in comments)","Confirmed"
-"2","GB106040018450","Urban and transport","Confirmed","Not applicable","Other (not in list, must add details in comments)","Confirmed"
-"3","GB106040018450","Industry","Confirmed","Paper and textiles","Barriers - ecological discontinuity","Confirmed"
-"4","GB106040018450","No sector responsible","Not applicable","Not applicable","Low Flow (not drought)","Probable"
-"5","GB106040018450","Water Industry","Probable","Water supply","Groundwater abstraction","Probable"
-"6","GB106040018450","Mining and quarrying","Probable","Quarrying","Quarry","Probable"
-"7","GB106040018450","Recreation","Probable","Recreation","Barriers - ecological discontinuity","Probable"
-"8","GB106040018450","Urban and transport","Probable","Not applicable","Barriers - ecological discontinuity","Probable"
-"9","GB106040018450","Mining and quarrying","Confirmed","Non coal mining","Active mine","Confirmed"
-"10","GB106040018450","No sector responsible","Not applicable","Not applicable","Natural conditions - other","Confirmed"
-"11","GB106040018450","No sector responsible","Not applicable","Not applicable","Natural conditions - other","Confirmed"
+"source","target","value"
+"Industry","Barriers - ecological discontinuity",1
+"Local and Central Government","Other (not in list, must add details in comments)",1
+"Mining and quarrying","Active mine",1
+"Mining and quarrying","Quarry",1
+"No sector responsible","Low Flow (not drought)",1
+"No sector responsible","Natural conditions - other",2
+"Recreation","Barriers - ecological discontinuity",1
+"Sector under investigation","Unknown (pending investigation)",1
+"Urban and transport","Barriers - ecological discontinuity",1
+"Urban and transport","Other (not in list, must add details in comments)",1
+"Water Industry","Groundwater abstraction",1

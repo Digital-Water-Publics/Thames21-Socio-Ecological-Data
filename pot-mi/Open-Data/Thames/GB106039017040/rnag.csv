@@ -1,12 +1,8 @@
-"","WBID","Category","Category Certainty","Business Sector","Activity","Activity Certainty"
-"1","GB106039017040","No sector responsible","Not applicable","Not applicable","Natural conditions - other","Probable"
-"2","GB106039017040","No sector responsible","Not applicable","Not applicable","Drought","Probable"
-"3","GB106039017040","No sector responsible","Not applicable","Not applicable","Natural mineralisation","Probable"
-"4","GB106039017040","Agriculture and rural land management","Probable","","Land drainage - operational management","Probable"
-"5","GB106039017040","Recreation","Probable","Recreation","Impoundment - u/s elevated water level","Probable"
-"6","GB106039017040","Urban and transport","Suspected","Not applicable","Barriers - ecological discontinuity","Suspected"
-"7","GB106039017040","Urban and transport","Suspected","Not applicable","Urbanisation - urban development","Suspected"
-"8","GB106039017040","No sector responsible","Not applicable","Not applicable","Drought","Probable"
-"9","GB106039017040","Urban and transport","Probable","Not applicable","Barriers - ecological discontinuity","Probable"
-"10","GB106039017040","No sector responsible","Not applicable","Not applicable","Natural mineralisation","Probable"
-"11","GB106039017040","Urban and transport","Probable","Urban","Urbanisation - urban development","Probable"
+"source","target","value"
+"Agriculture and rural land management","Land use - arable",1
+"No sector responsible","Drought",2
+"No sector responsible","Natural conditions - other",1
+"No sector responsible","Natural mineralisation",2
+"Recreation","Impoundment - u/s elevated water level",1
+"Urban and transport","Barriers - ecological discontinuity",2
+"Urban and transport","Urbanisation - urban development",2

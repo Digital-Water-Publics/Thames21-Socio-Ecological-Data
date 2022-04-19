@@ -1,3 +1,4 @@
-"","WBID","Category","Category Certainty","Business Sector","Activity","Activity Certainty"
-"1","GB106039029770","Agriculture and rural land management","Suspected","","Land drainage - operational management","Suspected"
-"2","GB106039029770","No sector responsible","Not applicable","Not applicable","Drought","Suspected"
+"source","target","value"
+"Agriculture and rural land management","Land use - arable",1
+"No sector responsible","Drought",1
+"Sector under investigation","Unknown (pending investigation)",1

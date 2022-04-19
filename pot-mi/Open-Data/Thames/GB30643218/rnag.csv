@@ -1,5 +1,4 @@
-"","WBID","Category","Category Certainty","Business Sector","Activity","Activity Certainty"
-"1","GB30643218","Other","Suspected","Not applicable","Fish stocking","Suspected"
-"2","GB30643218","Domestic General Public","Suspected","Domestic/General public","Septic Tanks","Suspected"
-"3","GB30643218","Domestic General Public","Suspected","Domestic/General public","Septic Tanks","Suspected"
-"4","GB30643218","Other","Suspected","Not applicable","Fish stocking","Suspected"
+"source","target","value"
+"Domestic General Public","Septic Tanks",2
+"Other","Fish stocking",2
+"Sector under investigation","Unknown (pending investigation)",1

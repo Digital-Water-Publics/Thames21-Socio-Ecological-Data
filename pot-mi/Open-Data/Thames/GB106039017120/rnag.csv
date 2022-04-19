@@ -1,16 +1,10 @@
-"","WBID","Category","Category Certainty","Business Sector","Activity","Activity Certainty"
-"1","GB106039017120","Agriculture and rural land management","Probable","Agriculture - Arable","Land drainage","Probable"
-"2","GB106039017120","Water Industry","Probable","Waste water treatment","Sewage discharge (continuous)","Probable"
-"3","GB106039017120","Urban and transport","Suspected","Urban","Transport Drainage","Suspected"
-"4","GB106039017120","Water Industry","Confirmed","Waste water treatment","Sewage discharge (continuous)","Confirmed"
-"5","GB106039017120","Water Industry","Suspected","Not applicable","Sewage discharge (continuous)","Suspected"
-"6","GB106039017120","Urban and transport","Suspected","Not applicable","Transport Drainage","Suspected"
-"7","GB106039017120","Urban and transport","Probable","Roads","Transport Drainage","Probable"
-"8","GB106039017120","Urban and transport","Probable","Urban","Transport Drainage","Probable"
-"9","GB106039017120","Water Industry","Suspected","Other (not in list)","Sewage discharge (intermittent)","Suspected"
-"10","GB106039017120","Water Industry","Suspected","Other (not in list)","Sewage discharge (continuous)","Suspected"
-"11","GB106039017120","Agriculture and rural land management","Suspected","Agriculture - Arable","Poor nutrient management","Suspected"
-"12","GB106039017120","Other","Probable","Not applicable","Impoundment - u/s elevated water level","Probable"
-"13","GB106039017120","Mining and quarrying","Suspected","Non coal mining","Landfill leaching","Suspected"
-"14","GB106039017120","Domestic General Public","Suspected","Not applicable","Incidents","Suspected"
-"15","GB106039017120","Other","Probable","Not applicable","Barriers - ecological discontinuity","Probable"
+"source","target","value"
+"Agriculture and rural land management","Land drainage",1
+"Agriculture and rural land management","Poor nutrient management",1
+"Domestic General Public","Incidents",1
+"Mining and quarrying","Landfill leaching",1
+"Other","Barriers - ecological discontinuity",1
+"Other","Impoundment - u/s elevated water level",1
+"Urban and transport","Transport Drainage",4
+"Water Industry","Sewage discharge (continuous)",4
+"Water Industry","Sewage discharge (intermittent)",1

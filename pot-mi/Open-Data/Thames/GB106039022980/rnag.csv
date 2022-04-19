@@ -1,14 +1,9 @@
-"","WBID","Category","Category Certainty","Business Sector","Activity","Activity Certainty"
-"1","GB106039022980","Local and Central Government","Confirmed","Not applicable","Other (not in list, must add details in comments)","Confirmed"
-"2","GB106039022980","Urban and transport","Confirmed","Not applicable","Other (not in list, must add details in comments)","Confirmed"
-"3","GB106039022980","Urban and transport","Suspected","Urban","Urbanisation - urban development","Suspected"
-"4","GB106039022980","Other","Suspected","Not applicable","Incidents","Suspected"
-"5","GB106039022980","Water Industry","Confirmed","Not applicable","Sewage discharge (intermittent)","Confirmed"
-"6","GB106039022980","Urban and transport","Probable","Urban","Urbanisation - urban development","Probable"
-"7","GB106039022980","Water Industry","Probable","Not applicable","Sewage discharge (intermittent)","Probable"
-"8","GB106039022980","Domestic General Public","Confirmed","Not applicable","Misconnections","Confirmed"
-"9","GB106039022980","Urban and transport","Suspected","Urban","Urbanisation - urban development","Suspected"
-"10","GB106039022980","Water Industry","Confirmed","Waste water treatment","Sewage discharge (intermittent)","Confirmed"
-"11","GB106039022980","Domestic General Public","Probable","Not applicable","Misconnections","Probable"
-"12","GB106039022980","Urban and transport","Confirmed","Not applicable","Flood protection - structures","Confirmed"
-"13","GB106039022980","Urban and transport","Confirmed","Urban","Urbanisation - urban development","Confirmed"
+"source","target","value"
+"Domestic General Public","Misconnections",2
+"Local and Central Government","Other (not in list, must add details in comments)",1
+"Other","Incidents",1
+"Sector under investigation","Unknown (pending investigation)",1
+"Urban and transport","Flood protection - structures",1
+"Urban and transport","Other (not in list, must add details in comments)",1
+"Urban and transport","Urbanisation - urban development",4
+"Water Industry","Sewage discharge (intermittent)",3

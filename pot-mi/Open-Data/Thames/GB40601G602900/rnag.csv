@@ -1,17 +1,9 @@
-"","WBID","Category","Category Certainty","Business Sector","Activity","Activity Certainty"
-"1","GB40601G602900","Agriculture and rural land management","Confirmed","Agriculture - Arable","Poor nutrient management","Confirmed"
-"2","GB40601G602900","Urban and transport","Probable","Urban","Contaminated land","Probable"
-"3","GB40601G602900","Agriculture and rural land management","Confirmed","Agriculture - Livestock","Poor nutrient management","Confirmed"
-"4","GB40601G602900","Urban and transport","Probable","Urban","Private Sewage Treatment","Probable"
-"5","GB40601G602900","Urban and transport","Probable","Urban","Private Sewage Treatment","Probable"
-"6","GB40601G602900","Water Industry","Probable","Waste water treatment","Sewage discharge (continuous)","Probable"
-"7","GB40601G602900","Industry","Confirmed","Other industry, manufacturing and Business","Incidents","Confirmed"
-"8","GB40601G602900","Agriculture and rural land management","Confirmed","Agriculture - Arable","Poor nutrient management","Confirmed"
-"9","GB40601G602900","Urban and transport","Confirmed","Urban","Contaminated land","Confirmed"
-"10","GB40601G602900","Agriculture and rural land management","Confirmed","Agriculture - Livestock","Poor nutrient management","Confirmed"
-"11","GB40601G602900","Industry","Confirmed","Other industry, manufacturing and Business","Contaminated land","Confirmed"
-"12","GB40601G602900","Urban and transport","Confirmed","Urban","Incidents","Confirmed"
-"13","GB40601G602900","Water Industry","Probable","Waste water treatment","Sewage discharge (continuous)","Probable"
-"14","GB40601G602900","Agriculture and rural land management","Confirmed","Agriculture - Arable","Poor nutrient management","Confirmed"
-"15","GB40601G602900","Water Industry","Confirmed","Water supply","Groundwater abstraction","Confirmed"
-"16","GB40601G602900","Water Industry","Confirmed","Water supply","Groundwater abstraction","Confirmed"
+"source","target","value"
+"Agriculture and rural land management","Poor nutrient management",5
+"Industry","Contaminated land",1
+"Industry","Incidents",1
+"Urban and transport","Contaminated land",2
+"Urban and transport","Incidents",1
+"Urban and transport","Private Sewage Treatment",2
+"Water Industry","Groundwater abstraction",2
+"Water Industry","Sewage discharge (continuous)",2

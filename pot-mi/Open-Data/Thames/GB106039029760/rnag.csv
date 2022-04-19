@@ -1,4 +1,4 @@
-"","WBID","Category","Category Certainty","Business Sector","Activity","Activity Certainty"
-"1","GB106039029760","Water Industry","Suspected","Not applicable","Groundwater abstraction","Suspected"
-"2","GB106039029760","Mining and quarrying","Probable","Quarrying","Quarry","Probable"
-"3","GB106039029760","Other","Suspected","Not applicable","Reservoir / Impoundment - non flow related","Suspected"
+"source","target","value"
+"Mining and quarrying","Quarry",1
+"Other","Reservoir / Impoundment - non flow related",1
+"Water Industry","Groundwater abstraction",1

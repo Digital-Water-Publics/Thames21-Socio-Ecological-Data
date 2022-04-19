@@ -1,8 +1,8 @@
-"","WBID","Category","Category Certainty","Business Sector","Activity","Activity Certainty"
-"1","GB106039037380","Water Industry","Suspected","Waste water treatment","Sewage discharge (continuous)","Suspected"
-"2","GB106039037380","Other","Probable","Not applicable","Barriers - ecological discontinuity","Confirmed"
-"3","GB106039037380","Urban and transport","Probable","Not applicable","Land drainage - operational management","Probable"
-"4","GB106039037380","Other","Suspected","Not applicable","Barriers - ecological discontinuity","Probable"
-"5","GB106039037380","Agriculture and rural land management","Suspected","Not applicable","Land drainage - operational management","Suspected"
-"6","GB106039037380","Water Industry","Suspected","Not applicable","Sewage discharge (continuous)","Suspected"
-"7","GB106039037380","No sector responsible","Not applicable","Not applicable","North american signal crayfish","Suspected"
+"source","target","value"
+"No sector responsible","North american signal crayfish",1
+"Other","Barriers - ecological discontinuity",2
+"Sector under investigation","Unknown (pending investigation)",1
+"Urban and transport","Urbanisation - transport",1
+"Urban and transport","Urbanisation - urban development",1
+"Water Industry","Sewage discharge (continuous)",2
+"Water Industry","Sewage discharge (intermittent)",1

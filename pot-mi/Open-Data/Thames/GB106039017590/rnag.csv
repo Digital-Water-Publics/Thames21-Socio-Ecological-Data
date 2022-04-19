@@ -1,14 +1,11 @@
-"","WBID","Category","Category Certainty","Business Sector","Activity","Activity Certainty"
-"1","GB106039017590","No sector responsible","Not applicable","Not applicable","Drought","Probable"
-"2","GB106039017590","Water Industry","Confirmed","Waste water treatment","Sewage discharge (continuous)","Confirmed"
-"3","GB106039017590","No sector responsible","Not applicable","Not applicable","North american signal crayfish","Confirmed"
-"4","GB106039017590","Domestic General Public","Probable","Domestic/General public","Private Sewage Treatment","Probable"
-"5","GB106039017590","No sector responsible","Not applicable","Not applicable","Drought","Probable"
-"6","GB106039017590","Water Industry","Confirmed","Waste water treatment","Sewage discharge (continuous)","Confirmed"
-"7","GB106039017590","Local and Central Government","Confirmed","Not applicable","Other (not in list, must add details in comments)","Confirmed"
-"8","GB106039017590","Urban and transport","Confirmed","Not applicable","Other (not in list, must add details in comments)","Confirmed"
-"9","GB106039017590","Water Industry","Confirmed","Waste water treatment","Sewage discharge (continuous)","Confirmed"
-"10","GB106039017590","Sector under investigation","Not applicable","Not applicable","Unknown (pending investigation)","Not applicable"
-"11","GB106039017590","Urban and transport","Probable","Urban","Urbanisation - transport","Probable"
-"12","GB106039017590","Urban and transport","Confirmed","Not applicable","Barriers - ecological discontinuity","Confirmed"
-"13","GB106039017590","Water Industry","Probable","Water supply","Groundwater abstraction","Probable"
+"source","target","value"
+"Domestic General Public","Private Sewage Treatment",1
+"Local and Central Government","Other (not in list, must add details in comments)",1
+"No sector responsible","Drought",2
+"No sector responsible","North american signal crayfish",1
+"Sector under investigation","Unknown (pending investigation)",1
+"Urban and transport","Barriers - ecological discontinuity",1
+"Urban and transport","Other (not in list, must add details in comments)",1
+"Urban and transport","Urbanisation - transport",1
+"Water Industry","Groundwater abstraction",1
+"Water Industry","Sewage discharge (continuous)",3

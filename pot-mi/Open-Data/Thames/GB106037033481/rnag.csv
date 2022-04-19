@@ -1,17 +1,11 @@
-"","WBID","Category","Category Certainty","Business Sector","Activity","Activity Certainty"
-"1","GB106037033481","Agriculture and rural land management","Probable","Agriculture - Arable","Poor nutrient management","Probable"
-"2","GB106037033481","Other","Suspected","Not applicable","Private Sewage Treatment","Suspected"
-"3","GB106037033481","Water Industry","Confirmed","Not applicable","Sewage discharge (continuous)","Confirmed"
-"4","GB106037033481","Agriculture and rural land management","Suspected","Agriculture - Arable","Land use - arable","Suspected"
-"5","GB106037033481","Urban and transport","Probable","Urban","Urbanisation - urban development","Probable"
-"6","GB106037033481","Water Industry","Suspected","Not applicable","Sewage discharge (intermittent)","Suspected"
-"7","GB106037033481","Other","Suspected","Not applicable","Private Sewage Treatment","Suspected"
-"8","GB106037033481","Water Industry","Confirmed","Waste water treatment","Sewage discharge (continuous)","Confirmed"
-"9","GB106037033481","Agriculture and rural land management","Probable","","Riparian/in-river activities (inc bankside erosion)","Probable"
-"10","GB106037033481","Domestic General Public","Suspected","Not applicable","Misconnections","Suspected"
-"11","GB106037033481","Water Industry","Probable","Waste water treatment","Sewage discharge (intermittent)","Probable"
-"12","GB106037033481","Urban and transport","Probable","Roads","Transport Drainage","Probable"
-"13","GB106037033481","Urban and transport","Probable","Roads","Transport Drainage","Probable"
-"14","GB106037033481","Other","Probable","Not applicable","Private Sewage Treatment","Probable"
-"15","GB106037033481","Agriculture and rural land management","Probable","Agriculture - Arable","Poor soil management","Probable"
-"16","GB106037033481","Domestic General Public","Suspected","Not applicable","Misconnections","Suspected"
+"source","target","value"
+"Agriculture and rural land management","Land use - arable",1
+"Agriculture and rural land management","Poor nutrient management",1
+"Agriculture and rural land management","Poor soil management",1
+"Agriculture and rural land management","Riparian/in-river activities (inc bankside erosion)",1
+"Domestic General Public","Misconnections",2
+"Other","Private Sewage Treatment",3
+"Urban and transport","Transport Drainage",2
+"Urban and transport","Urbanisation - urban development",1
+"Water Industry","Sewage discharge (continuous)",2
+"Water Industry","Sewage discharge (intermittent)",2

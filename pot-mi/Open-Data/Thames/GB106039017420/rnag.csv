@@ -1,4 +1,4 @@
-"","WBID","Category","Category Certainty","Business Sector","Activity","Activity Certainty"
-"1","GB106039017420","Agriculture and rural land management","Probable","Agriculture - Arable","Poor nutrient management","Probable"
-"2","GB106039017420","Navigation","Suspected","Inland Waterways","Inland boating and structures","Suspected"
-"3","GB106039017420","No sector responsible","Not applicable","Not applicable","North american signal crayfish","Suspected"
+"source","target","value"
+"Agriculture and rural land management","Poor nutrient management",1
+"Navigation","Inland boating and structures",1
+"No sector responsible","North american signal crayfish",1

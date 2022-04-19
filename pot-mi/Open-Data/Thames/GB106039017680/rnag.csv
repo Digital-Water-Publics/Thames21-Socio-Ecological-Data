@@ -1,7 +1,6 @@
-"","WBID","Category","Category Certainty","Business Sector","Activity","Activity Certainty"
-"1","GB106039017680","Water Industry","Confirmed","Other (not in list)","Sewage discharge (continuous)","Confirmed"
-"2","GB106039017680","Water Industry","Suspected","Other (not in list)","Sewage discharge (intermittent)","Suspected"
-"3","GB106039017680","No sector responsible","Not applicable","Not applicable","Natural conditions - other","Probable"
-"4","GB106039017680","Agriculture and rural land management","Probable","Agriculture - Arable","Land drainage","Probable"
-"5","GB106039017680","Water Industry","Probable","Waste water treatment","Sewage discharge (continuous)","Probable"
-"6","GB106039017680","Water Industry","Probable","Not applicable","Sewage discharge (intermittent)","Probable"
+"source","target","value"
+"Agriculture and rural land management","Land drainage",1
+"No sector responsible","Natural conditions - other",1
+"Sector under investigation","Unknown (pending investigation)",1
+"Water Industry","Sewage discharge (continuous)",2
+"Water Industry","Sewage discharge (intermittent)",2

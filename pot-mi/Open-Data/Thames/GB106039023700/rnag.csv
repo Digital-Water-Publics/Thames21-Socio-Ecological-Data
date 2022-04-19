@@ -1,9 +1,8 @@
-"","WBID","Category","Category Certainty","Business Sector","Activity","Activity Certainty"
-"1","GB106039023700","No sector responsible","Not applicable","Not applicable","Drought","Probable"
-"2","GB106039023700","Other","Probable","Not applicable","Land drainage - operational management","Probable"
-"3","GB106039023700","Water Industry","Suspected","Not applicable","Groundwater abstraction","Suspected"
-"4","GB106039023700","No sector responsible","Not applicable","Not applicable","Natural conditions - other","Probable"
-"5","GB106039023700","Other","Suspected","Not applicable","Groundwater abstraction","Suspected"
-"6","GB106039023700","No sector responsible","Not applicable","Not applicable","Drought","Suspected"
-"7","GB106039023700","Mining and quarrying","Suspected","Quarrying","Quarry","Suspected"
-"8","GB106039023700","No sector responsible","Not applicable","Not applicable","North american signal crayfish","Suspected"
+"source","target","value"
+"Agriculture and rural land management","Land use - arable",1
+"Mining and quarrying","Quarry",1
+"No sector responsible","Drought",2
+"No sector responsible","Natural conditions - other",1
+"No sector responsible","North american signal crayfish",1
+"Other","Groundwater abstraction",1
+"Water Industry","Groundwater abstraction",1

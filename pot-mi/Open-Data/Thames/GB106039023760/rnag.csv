@@ -1,9 +1,10 @@
-"","WBID","Category","Category Certainty","Business Sector","Activity","Activity Certainty"
-"1","GB106039023760","No sector responsible","Not applicable","Not applicable","Drought","Suspected"
-"2","GB106039023760","Agriculture and rural land management","Suspected","Not applicable","Other (not in list, must add details in comments)","Suspected"
-"3","GB106039023760","Agriculture and rural land management","Suspected","Agriculture - Livestock","Poor Livestock Management","Suspected"
-"4","GB106039023760","Mining and quarrying","Suspected","Quarrying","Quarry","Suspected"
-"5","GB106039023760","Water Industry","Suspected","Water supply","Groundwater abstraction","Suspected"
-"6","GB106039023760","Domestic General Public","Suspected","Domestic/General public","Septic Tanks","Suspected"
-"7","GB106039023760","No sector responsible","Not applicable","Not applicable","Natural conditions - other","Probable"
-"8","GB106039023760","No sector responsible","Not applicable","Not applicable","Not applicable","Not applicable"
+"source","target","value"
+"Agriculture and rural land management","Other (not in list, must add details in comments)",1
+"Agriculture and rural land management","Poor Livestock Management",1
+"Domestic General Public","Septic Tanks",1
+"Mining and quarrying","Quarry",1
+"No sector responsible","Drought",1
+"No sector responsible","Low Flow (not drought)",1
+"No sector responsible","Natural conditions - other",1
+"Sector under investigation","Unknown (pending investigation)",1
+"Water Industry","Groundwater abstraction",1

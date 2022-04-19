@@ -1,10 +1,7 @@
-"","WBID","Category","Category Certainty","Business Sector","Activity","Activity Certainty"
-"1","GB30642490","Water Industry","Confirmed","Not applicable","Other (not in list, must add details in comments)","Confirmed"
-"2","GB30642490","Agriculture and rural land management","Probable","Agriculture - Livestock","Poor Livestock Management","Probable"
-"3","GB30642490","Water Industry","Probable","Waste water treatment","Sewage discharge (intermittent)","Probable"
-"4","GB30642490","Urban and transport","Probable","Urban","Urbanisation - urban development","Probable"
-"5","GB30642490","Urban and transport","Probable","Urban","Urbanisation - urban development","Probable"
-"6","GB30642490","Water Industry","Probable","Waste water treatment","Sewage discharge (intermittent)","Probable"
-"7","GB30642490","Agriculture and rural land management","Probable","Agriculture - Livestock","Poor Livestock Management","Probable"
-"8","GB30642490","Water Industry","Confirmed","Not applicable","Sewage discharge (continuous)","Confirmed"
-"9","GB30642490","Water Industry","Confirmed","Waste water treatment","Sewage discharge (continuous)","Confirmed"
+"source","target","value"
+"Agriculture and rural land management","Poor Livestock Management",2
+"Sector under investigation","Unknown (pending investigation)",1
+"Urban and transport","Urbanisation - urban development",2
+"Water Industry","Other (not in list, must add details in comments)",1
+"Water Industry","Sewage discharge (continuous)",2
+"Water Industry","Sewage discharge (intermittent)",2

@@ -1,4 +1,3 @@
-"","WBID","Category","Category Certainty","Business Sector","Activity","Activity Certainty"
-"1","GB106039023141","No sector responsible","Not applicable","Not applicable","Not applicable","Not applicable"
-"2","GB106039023141","Sector under investigation","Not applicable","Not applicable","Unknown (pending investigation)","Not applicable"
-"3","GB106039023141","No sector responsible","Not applicable","Not applicable","Other (not in list, must add details in comments)","Probable"
+"source","target","value"
+"No sector responsible","Other (not in list, must add details in comments)",1
+"Sector under investigation","Unknown (pending investigation)",1

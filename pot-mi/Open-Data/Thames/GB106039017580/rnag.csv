@@ -1,11 +1,8 @@
-"","WBID","Category","Category Certainty","Business Sector","Activity","Activity Certainty"
-"1","GB106039017580","Agriculture and rural land management","Probable","Agriculture - Livestock","Poor Livestock Management","Probable"
-"2","GB106039017580","Urban and transport","Confirmed","Not applicable","Urbanisation - urban development","Confirmed"
-"3","GB106039017580","Domestic General Public","Probable","Not applicable","Misconnections","Probable"
-"4","GB106039017580","Water Industry","Probable","Waste water treatment","Sewage discharge (intermittent)","Probable"
-"5","GB106039017580","Domestic General Public","Probable","Not applicable","Misconnections","Probable"
-"6","GB106039017580","Water Industry","Probable","Waste water treatment","Sewage discharge (intermittent)","Probable"
-"7","GB106039017580","Other","Confirmed","Not applicable","Barriers - ecological discontinuity","Confirmed"
-"8","GB106039017580","Urban and transport","Confirmed","Not applicable","Other (not in list, must add details in comments)","Confirmed"
-"9","GB106039017580","Water Industry","Probable","Waste water treatment","Leaking utility sewers","Probable"
-"10","GB106039017580","Water Industry","Probable","Waste water treatment","Leaking utility sewers","Probable"
+"source","target","value"
+"Agriculture and rural land management","Poor Livestock Management",1
+"Domestic General Public","Misconnections",2
+"Other","Barriers - ecological discontinuity",1
+"Sector under investigation","Unknown (pending investigation)",1
+"Urban and transport","Other (not in list, must add details in comments)",1
+"Urban and transport","Urbanisation - urban development",1
+"Water Industry","Leaking utility sewers",2

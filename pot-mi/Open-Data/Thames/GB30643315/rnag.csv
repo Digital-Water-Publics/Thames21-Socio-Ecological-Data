@@ -1,5 +1,5 @@
-"","WBID","Category","Category Certainty","Business Sector","Activity","Activity Certainty"
-"1","GB30643315","Urban and transport","Suspected","Urban","Transport Drainage","Suspected"
-"2","GB30643315","Water Industry","Suspected","Waste water treatment","Incidents","Suspected"
-"3","GB30643315","Agriculture and rural land management","Suspected","","Land drainage - operational management","Suspected"
-"4","GB30643315","Urban and transport","Suspected","Other (not in list)","Transport Drainage","Suspected"
+"source","target","value"
+"Agriculture and rural land management","Land use - arable",1
+"Sector under investigation","Unknown (pending investigation)",1
+"Urban and transport","Transport Drainage",2
+"Water Industry","Incidents",1

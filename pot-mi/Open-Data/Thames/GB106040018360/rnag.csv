@@ -1,6 +1,6 @@
-"","WBID","Category","Category Certainty","Business Sector","Activity","Activity Certainty"
-"1","GB106040018360","Water Industry","Probable","Not applicable","Sewage discharge (continuous)","Probable"
-"2","GB106040018360","Industry","Probable","Not applicable","Sewage discharge (continuous)","Probable"
-"3","GB106040018360","Industry","Probable","Other industry, manufacturing and Business","Sewage discharge (intermittent)","Probable"
-"4","GB106040018360","No sector responsible","Not applicable","Not applicable","North american signal crayfish","Probable"
-"5","GB106040018360","Sector under investigation","Not applicable","Not applicable","Unknown (pending investigation)","Not applicable"
+"source","target","value"
+"Industry","Sewage discharge (continuous)",1
+"Industry","Sewage discharge (intermittent)",1
+"No sector responsible","North american signal crayfish",1
+"Sector under investigation","Unknown (pending investigation)",2
+"Water Industry","Sewage discharge (continuous)",1

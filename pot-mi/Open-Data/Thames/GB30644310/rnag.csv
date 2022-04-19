@@ -1,17 +1,9 @@
-"","WBID","Category","Category Certainty","Business Sector","Activity","Activity Certainty"
-"1","GB30644310","Agriculture and rural land management","Probable","Agriculture - Arable","Poor nutrient management","Probable"
-"2","GB30644310","Domestic General Public","Probable","Domestic/General public","Private Sewage Treatment","Probable"
-"3","GB30644310","Water Industry","Probable","Waste water treatment","Incidents","Probable"
-"4","GB30644310","Agriculture and rural land management","Probable","Agriculture - Arable","Poor nutrient management","Probable"
-"5","GB30644310","Domestic General Public","Probable","Domestic/General public","Private Sewage Treatment","Probable"
-"6","GB30644310","Water Industry","Confirmed","Waste water treatment","Sewage discharge (continuous)","Confirmed"
-"7","GB30644310","Water Industry","Confirmed","Waste water treatment","Sewage discharge (continuous)","Confirmed"
-"8","GB30644310","Water Industry","Probable","Waste water treatment","Incidents","Probable"
-"9","GB30644310","Water Industry","Confirmed","Not applicable","Other (not in list, must add details in comments)","Confirmed"
-"10","GB30644310","Water Industry","Confirmed","Not applicable","Other (not in list, must add details in comments)","Confirmed"
-"11","GB30644310","Agriculture and rural land management","Probable","Agriculture - Livestock","Poor Livestock Management","Probable"
-"12","GB30644310","Agriculture and rural land management","Probable","Agriculture - Arable","Poor soil management","Probable"
-"13","GB30644310","Agriculture and rural land management","Probable","Agriculture - Livestock","Poor Livestock Management","Probable"
-"14","GB30644310","Agriculture and rural land management","Probable","Agriculture - Arable","Poor soil management","Probable"
-"15","GB30644310","No sector responsible","Not applicable","Not applicable","Not applicable","Not applicable"
-"16","GB30644310","Sector under investigation","Not applicable","Not applicable","Unknown (pending investigation)","Not applicable"
+"source","target","value"
+"Agriculture and rural land management","Poor Livestock Management",2
+"Agriculture and rural land management","Poor nutrient management",2
+"Agriculture and rural land management","Poor soil management",2
+"Domestic General Public","Private Sewage Treatment",2
+"Sector under investigation","Unknown (pending investigation)",3
+"Water Industry","Incidents",2
+"Water Industry","Other (not in list, must add details in comments)",2
+"Water Industry","Sewage discharge (continuous)",2

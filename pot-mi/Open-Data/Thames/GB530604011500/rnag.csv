@@ -1,3 +1,3 @@
-"","WBID","Category","Category Certainty","Business Sector","Activity","Activity Certainty"
-"1","GB530604011500","Local and Central Government","Confirmed","Not applicable","Other (not in list, must add details in comments)","Confirmed"
-"2","GB530604011500","Water Industry","Probable","Water supply","Surface water abstraction","Probable"
+"source","target","value"
+"Local and Central Government","Other (not in list, must add details in comments)",1
+"Water Industry","Surface water abstraction",1

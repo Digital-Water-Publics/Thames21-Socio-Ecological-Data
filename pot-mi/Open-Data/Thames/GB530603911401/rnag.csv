@@ -1,12 +1,10 @@
-"","WBID","Category","Category Certainty","Business Sector","Activity","Activity Certainty"
-"1","GB530603911401","Local and Central Government","Confirmed","Not applicable","Other (not in list, must add details in comments)","Confirmed"
-"2","GB530603911401","Sector under investigation","Not applicable","Not applicable","Unknown (pending investigation)","Not applicable"
-"3","GB530603911401","Navigation","Suspected","Inland Waterways","Use of restricted substance","Suspected"
-"4","GB530603911401","Industry","Suspected","Not applicable","Contaminated land","Suspected"
-"5","GB530603911401","Industry","Suspected","Other industry, manufacturing and Business","Contaminated land","Suspected"
-"6","GB530603911401","Waste treatment and disposal","Suspected","Landfill - Non hazardous landfill","Landfill leaching","Suspected"
-"7","GB530603911401","Water Industry","Probable","Waste water treatment","Sewage discharge (continuous)","Probable"
-"8","GB530603911401","Local and Central Government","Probable","Environment, Farming, Rural","Land drainage - structures","Probable"
-"9","GB530603911401","Urban and transport","Probable","Urban","Urbanisation - urban development","Probable"
-"10","GB530603911401","Urban and transport","Probable","Urban","Contaminated water body bed sediments","Probable"
-"11","GB530603911401","Sector under investigation","Not applicable","Not applicable","Unknown (pending investigation)","Not applicable"
+"source","target","value"
+"Industry","Contaminated land",2
+"Local and Central Government","Land drainage - structures",1
+"Local and Central Government","Other (not in list, must add details in comments)",1
+"Navigation","Use of restricted substance",1
+"Sector under investigation","Unknown (pending investigation)",3
+"Urban and transport","Contaminated water body bed sediments",1
+"Urban and transport","Urbanisation - urban development",1
+"Waste treatment and disposal","Landfill leaching",1
+"Water Industry","Sewage discharge (continuous)",1

@@ -1,4 +1,4 @@
-"","WBID","Category","Category Certainty","Business Sector","Activity","Activity Certainty"
-"1","GB30643126","Water Industry","Confirmed","Not applicable","Other (not in list, must add details in comments)","Confirmed"
-"2","GB30643126","Agriculture and rural land management","Suspected","Forestry","Forestry","Suspected"
-"3","GB30643126","Urban and transport","Suspected","Other (not in list)","Transport Drainage","Suspected"
+"source","target","value"
+"Agriculture and rural land management","Forestry",1
+"Urban and transport","Transport Drainage",1
+"Water Industry","Other (not in list, must add details in comments)",1

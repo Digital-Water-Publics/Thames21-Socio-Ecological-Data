@@ -1,22 +1,12 @@
-"","WBID","Category","Category Certainty","Business Sector","Activity","Activity Certainty"
-"1","GB106037028100","Local and Central Government","Confirmed","Not applicable","Other (not in list, must add details in comments)","Confirmed"
-"2","GB106037028100","Urban and transport","Confirmed","Not applicable","Other (not in list, must add details in comments)","Confirmed"
-"3","GB106037028100","Agriculture and rural land management","Suspected","Agriculture - Arable","Poor nutrient management","Suspected"
-"4","GB106037028100","Domestic General Public","Suspected","Not applicable","Misconnections","Suspected"
-"5","GB106037028100","Urban and transport","Suspected","Roads","Transport Drainage","Suspected"
-"6","GB106037028100","Agriculture and rural land management","Suspected","Agriculture - Arable","Poor nutrient management","Suspected"
-"7","GB106037028100","Urban and transport","Confirmed","Not applicable","Incidents","Confirmed"
-"8","GB106037028100","Urban and transport","Suspected","Unknown (pending investigation)","Landfill leaching","Suspected"
-"9","GB106037028100","Urban and transport","Suspected","Roads","Transport Drainage","Suspected"
-"10","GB106037028100","Urban and transport","Suspected","Urban","Urbanisation - urban development","Suspected"
-"11","GB106037028100","Local and Central Government","Suspected","Local authorities","Reservoir / Impoundment - non flow related","Suspected"
-"12","GB106037028100","Urban and transport","Confirmed","Not applicable","Incidents","Confirmed"
-"13","GB106037028100","Domestic General Public","Confirmed","Not applicable","Misconnections","Confirmed"
-"14","GB106037028100","Urban and transport","Probable","Urban","Urbanisation - urban development","Probable"
-"15","GB106037028100","Domestic General Public","Suspected","Not applicable","Misconnections","Suspected"
-"16","GB106037028100","Urban and transport","Suspected","Urban","Urbanisation - urban development","Suspected"
-"17","GB106037028100","Sector under investigation","Not applicable","Not applicable","Unknown (pending investigation)","Not applicable"
-"18","GB106037028100","Urban and transport","Confirmed","Not applicable","Flood protection - structures","Confirmed"
-"19","GB106037028100","Urban and transport","Confirmed","Not applicable","Urbanisation - urban development","Confirmed"
-"20","GB106037028100","Urban and transport","Confirmed","Not applicable","Urbanisation - urban development","Confirmed"
-"21","GB106037028100","Urban and transport","Confirmed","Not applicable","Flood protection - structures","Confirmed"
+"source","target","value"
+"Agriculture and rural land management","Poor nutrient management",2
+"Domestic General Public","Misconnections",3
+"Local and Central Government","Other (not in list, must add details in comments)",1
+"Local and Central Government","Reservoir / Impoundment - non flow related",1
+"Sector under investigation","Unknown (pending investigation)",2
+"Urban and transport","Flood protection - structures",2
+"Urban and transport","Incidents",2
+"Urban and transport","Landfill leaching",1
+"Urban and transport","Other (not in list, must add details in comments)",1
+"Urban and transport","Transport Drainage",2
+"Urban and transport","Urbanisation - urban development",5

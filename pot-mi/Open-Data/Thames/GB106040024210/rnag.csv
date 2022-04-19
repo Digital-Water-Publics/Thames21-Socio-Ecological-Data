@@ -1,14 +1,10 @@
-"","WBID","Category","Category Certainty","Business Sector","Activity","Activity Certainty"
-"1","GB106040024210","Local and Central Government","Confirmed","Not applicable","Other (not in list, must add details in comments)","Confirmed"
-"2","GB106040024210","Urban and transport","Probable","Urban","Urbanisation - urban development","Probable"
-"3","GB106040024210","Local and Central Government","Probable","Environment, Farming, Rural","Flood protection - structures","Probable"
-"4","GB106040024210","Local and Central Government","Probable","Environment, Farming, Rural","Barriers - ecological discontinuity","Probable"
-"5","GB106040024210","Urban and transport","Probable","Urban","Urbanisation - urban development","Probable"
-"6","GB106040024210","Sector under investigation","Not applicable","Not applicable","Unknown (pending investigation)","Not applicable"
-"7","GB106040024210","Domestic General Public","Probable","Not applicable","Misconnections","Probable"
-"8","GB106040024210","No sector responsible","Not applicable","Not applicable","Natural mineralisation","Probable"
-"9","GB106040024210","Sector under investigation","Not applicable","Not applicable","Unknown (pending investigation)","Not applicable"
-"10","GB106040024210","No sector responsible","Not applicable","","Other (not in list, must add details in comments)","Probable"
-"11","GB106040024210","Domestic General Public","Probable","Not applicable","Misconnections","Probable"
-"12","GB106040024210","Water Industry","Probable","Waste water treatment","Leaking utility sewers","Probable"
-"13","GB106040024210","Urban and transport","Probable","Urban","Urbanisation - urban development","Probable"
+"source","target","value"
+"Domestic General Public","Misconnections",2
+"Local and Central Government","Barriers - ecological discontinuity",1
+"Local and Central Government","Flood protection - structures",1
+"Local and Central Government","Other (not in list, must add details in comments)",1
+"No sector responsible","Natural mineralisation",1
+"No sector responsible","Other (not in list, must add details in comments)",1
+"Sector under investigation","Unknown (pending investigation)",3
+"Urban and transport","Urbanisation - urban development",3
+"Water Industry","Leaking utility sewers",1

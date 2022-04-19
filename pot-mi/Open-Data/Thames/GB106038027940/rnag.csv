@@ -1,19 +1,8 @@
-"","WBID","Category","Category Certainty","Business Sector","Activity","Activity Certainty"
-"1","GB106038027940","Local and Central Government","Confirmed","Not applicable","Other (not in list, must add details in comments)","Confirmed"
-"2","GB106038027940","Urban and transport","Confirmed","Not applicable","Other (not in list, must add details in comments)","Confirmed"
-"3","GB106038027940","Domestic General Public","Confirmed","Not applicable","Misconnections","Confirmed"
-"4","GB106038027940","Urban and transport","Probable","Urban","Urbanisation - urban development","Probable"
-"5","GB106038027940","Water Industry","Confirmed","Waste water treatment","Sewage discharge (intermittent)","Confirmed"
-"6","GB106038027940","Urban and transport","Probable","Roads","Transport Drainage","Probable"
-"7","GB106038027940","Urban and transport","Confirmed","Other (not in list)","Flood protection - structures","Confirmed"
-"8","GB106038027940","Water Industry","Confirmed","Waste water treatment","Sewage discharge (intermittent)","Confirmed"
-"9","GB106038027940","Domestic General Public","Probable","Not applicable","Misconnections","Probable"
-"10","GB106038027940","Domestic General Public","Confirmed","Not applicable","Misconnections","Confirmed"
-"11","GB106038027940","Water Industry","Confirmed","Waste water treatment","Sewage discharge (intermittent)","Confirmed"
-"12","GB106038027940","Water Industry","Confirmed","Waste water treatment","Sewage discharge (intermittent)","Confirmed"
-"13","GB106038027940","Urban and transport","Probable","Roads","Transport Drainage","Probable"
-"14","GB106038027940","Domestic General Public","Confirmed","Not applicable","Misconnections","Confirmed"
-"15","GB106038027940","Domestic General Public","Confirmed","Not applicable","Misconnections","Confirmed"
-"16","GB106038027940","Water Industry","Confirmed","Waste water treatment","Sewage discharge (intermittent)","Confirmed"
-"17","GB106038027940","Urban and transport","Confirmed","Not applicable","Flood protection - structures","Confirmed"
-"18","GB106038027940","Urban and transport","Confirmed","Not applicable","Urbanisation - urban development","Confirmed"
+"source","target","value"
+"Domestic General Public","Misconnections",5
+"Local and Central Government","Other (not in list, must add details in comments)",1
+"Urban and transport","Flood protection - structures",2
+"Urban and transport","Other (not in list, must add details in comments)",1
+"Urban and transport","Transport Drainage",2
+"Urban and transport","Urbanisation - urban development",2
+"Water Industry","Sewage discharge (intermittent)",5

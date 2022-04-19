@@ -1,14 +1,10 @@
-"","WBID","Category","Category Certainty","Business Sector","Activity","Activity Certainty"
-"1","GB106039017440","Local and Central Government","Confirmed","Not applicable","Other (not in list, must add details in comments)","Confirmed"
-"2","GB106039017440","Domestic General Public","Probable","Not applicable","Misconnections","Probable"
-"3","GB106039017440","Water Industry","Probable","Waste water treatment","Sewage discharge (intermittent)","Probable"
-"4","GB106039017440","Water Industry","Probable","Waste water treatment","Sewage discharge (intermittent)","Probable"
-"5","GB106039017440","Water Industry","Confirmed","Waste water treatment","Sewage discharge (continuous)","Confirmed"
-"6","GB106039017440","Sector under investigation","Not applicable","Not applicable","Unknown (pending investigation)","Not applicable"
-"7","GB106039017440","Water Industry","Confirmed","Waste water treatment","Sewage discharge (continuous)","Confirmed"
-"8","GB106039017440","Urban and transport","Confirmed","Urban","Flood protection - structures","Confirmed"
-"9","GB106039017440","Urban and transport","Confirmed","Urban","Urbanisation - urban development","Confirmed"
-"10","GB106039017440","Sector under investigation","Not applicable","Not applicable","Unknown (pending investigation)","Not applicable"
-"11","GB106039017440","Domestic General Public","Confirmed","Not applicable","Misconnections","Confirmed"
-"12","GB106039017440","Water Industry","Probable","Waste water treatment","Leaking utility sewers","Probable"
-"13","GB106039017440","Urban and transport","Probable","Urban","Urbanisation - transport","Probable"
+"source","target","value"
+"Domestic General Public","Misconnections",2
+"Local and Central Government","Other (not in list, must add details in comments)",1
+"Sector under investigation","Unknown (pending investigation)",5
+"Urban and transport","Flood protection - structures",1
+"Urban and transport","Urbanisation - transport",1
+"Urban and transport","Urbanisation - urban development",1
+"Water Industry","Leaking utility sewers",1
+"Water Industry","Sewage discharge (continuous)",2
+"Water Industry","Sewage discharge (intermittent)",2

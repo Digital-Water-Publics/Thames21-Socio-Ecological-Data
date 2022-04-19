@@ -1,2 +1,3 @@
-"","WBID","Category","Category Certainty","Business Sector","Activity","Activity Certainty"
-"1","GB106039023300","Water Industry","Confirmed","Not applicable","Groundwater abstraction","Confirmed"
+"source","target","value"
+"Water Industry","Groundwater abstraction",1
+"Water Industry","Sewage discharge (intermittent)",1

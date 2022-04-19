@@ -1,14 +1,6 @@
-"","WBID","Category","Category Certainty","Business Sector","Activity","Activity Certainty"
-"1","GB106039030120","Water Industry","Probable","Other (not in list)","Sewage discharge (continuous)","Probable"
-"2","GB106039030120","Agriculture and rural land management","Probable","Agriculture - Arable","Poor nutrient management","Probable"
-"3","GB106039030120","Agriculture and rural land management","Suspected","Not applicable","Land drainage - operational management","Probable"
-"4","GB106039030120","Water Industry","Probable","Other (not in list)","Sewage discharge (continuous)","Probable"
-"5","GB106039030120","Agriculture and rural land management","Probable","Agriculture - Arable","Poor nutrient management","Probable"
-"6","GB106039030120","Water Industry","Confirmed","Other (not in list)","Sewage discharge (continuous)","Confirmed"
-"7","GB106039030120","Water Industry","Probable","Other (not in list)","Sewage discharge (continuous)","Probable"
-"8","GB106039030120","Water Industry","Confirmed","Other (not in list)","Sewage discharge (continuous)","Confirmed"
-"9","GB106039030120","Water Industry","Suspected","Not applicable","Sewage discharge (continuous)","Suspected"
-"10","GB106039030120","No sector responsible","Not applicable","Not applicable","Drought","Suspected"
-"11","GB106039030120","No sector responsible","Not applicable","Not applicable","Drought","Probable"
-"12","GB106039030120","Water Industry","Suspected","Not applicable","Sewage discharge (continuous)","Suspected"
-"13","GB106039030120","Water Industry","Suspected","Not applicable","Sewage discharge (continuous)","Suspected"
+"source","target","value"
+"Agriculture and rural land management","Land use - arable",1
+"Agriculture and rural land management","Poor nutrient management",2
+"No sector responsible","Drought",2
+"Water Industry","Sewage discharge (continuous)",8
+"Water Industry","Sewage discharge (intermittent)",3

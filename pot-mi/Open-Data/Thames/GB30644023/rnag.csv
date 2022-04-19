@@ -1,5 +1,3 @@
-"","WBID","Category","Category Certainty","Business Sector","Activity","Activity Certainty"
-"1","GB30644023","Sector under investigation","Not applicable","Not applicable","Unknown (pending investigation)","Not applicable"
-"2","GB30644023","Domestic General Public","Probable","Domestic/General public","Private Sewage Treatment","Probable"
-"3","GB30644023","Domestic General Public","Probable","Domestic/General public","Private Sewage Treatment","Probable"
-"4","GB30644023","Domestic General Public","Probable","Domestic/General public","Private Sewage Treatment","Probable"
+"source","target","value"
+"Domestic General Public","Private Sewage Treatment",3
+"Sector under investigation","Unknown (pending investigation)",3

@@ -1,15 +1,12 @@
-"","WBID","Category","Category Certainty","Business Sector","Activity","Activity Certainty"
-"1","GB106039017500","Local and Central Government","Probable","Local authorities","Flood protection - structures","Probable"
-"2","GB106039017500","Water Industry","Probable","Waste water treatment","Sewage discharge (continuous)","Probable"
-"3","GB106039017500","Water Industry","Suspected","Waste water treatment","Sewage discharge (continuous)","Suspected"
-"4","GB106039017500","Urban and transport","Probable","Urban","Urbanisation - urban development","Probable"
-"5","GB106039017500","Urban and transport","Probable","Roads","Transport Drainage","Probable"
-"6","GB106039017500","Urban and transport","Probable","Roads","Transport Drainage","Probable"
-"7","GB106039017500","Recreation","Confirmed","Recreation","Other (not in list, must add details in comments)","Confirmed"
-"8","GB106039017500","Urban and transport","Confirmed","Not applicable","Other (not in list, must add details in comments)","Confirmed"
-"9","GB106039017500","Local and Central Government","Confirmed","Not applicable","Other (not in list, must add details in comments)","Confirmed"
-"10","GB106039017500","No sector responsible","Not applicable","Not applicable","North american signal crayfish","Probable"
-"11","GB106039017500","Urban and transport","Probable","Not applicable","Barriers - ecological discontinuity","Probable"
-"12","GB106039017500","Urban and transport","Confirmed","Urban","Urbanisation - transport","Confirmed"
-"13","GB106039017500","Urban and transport","Probable","Urban","Urbanisation - transport","Probable"
-"14","GB106039017500","No sector responsible","Not applicable","Not applicable","North american signal crayfish","Suspected"
+"source","target","value"
+"Local and Central Government","Flood protection - structures",1
+"Local and Central Government","Other (not in list, must add details in comments)",1
+"No sector responsible","North american signal crayfish",2
+"Recreation","Other (not in list, must add details in comments)",1
+"Sector under investigation","Unknown (pending investigation)",2
+"Urban and transport","Barriers - ecological discontinuity",1
+"Urban and transport","Other (not in list, must add details in comments)",1
+"Urban and transport","Transport Drainage",2
+"Urban and transport","Urbanisation - transport",2
+"Urban and transport","Urbanisation - urban development",1
+"Water Industry","Sewage discharge (continuous)",2

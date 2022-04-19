@@ -1,7 +1,6 @@
-"","WBID","Category","Category Certainty","Business Sector","Activity","Activity Certainty"
-"1","GB106039029840","Water Industry","Confirmed","Water supply","Groundwater abstraction","Confirmed"
-"2","GB106039029840","Urban and transport","Confirmed","Urban","Urbanisation - urban development","Confirmed"
-"3","GB106039029840","Water Industry","Confirmed","Not applicable","Sewage discharge (continuous)","Confirmed"
-"4","GB106039029840","Water Industry","Confirmed","Water supply","Groundwater abstraction","Confirmed"
-"5","GB106039029840","Agriculture and rural land management","Probable","Agriculture - Livestock","Other (not in list, must add details in comments)","Probable"
-"6","GB106039029840","Water Industry","Confirmed","Waste water treatment","Sewage discharge (continuous)","Confirmed"
+"source","target","value"
+"Agriculture and rural land management","Other (not in list, must add details in comments)",1
+"Sector under investigation","Unknown (pending investigation)",2
+"Urban and transport","Urbanisation - urban development",1
+"Water Industry","Groundwater abstraction",2
+"Water Industry","Sewage discharge (continuous)",2

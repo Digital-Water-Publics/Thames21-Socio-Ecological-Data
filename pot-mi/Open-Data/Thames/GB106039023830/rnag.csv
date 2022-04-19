@@ -1,12 +1,7 @@
-"","WBID","Category","Category Certainty","Business Sector","Activity","Activity Certainty"
-"1","GB106039023830","Agriculture and rural land management","Confirmed","Agriculture - Arable","Poor nutrient management","Confirmed"
-"2","GB106039023830","Water Industry","Probable","Not applicable","Sewage discharge (continuous)","Probable"
-"3","GB106039023830","Water Industry","Probable","Waste water treatment","Sewage discharge (continuous)","Probable"
-"4","GB106039023830","No sector responsible","Not applicable","Not applicable","North american signal crayfish","Suspected"
-"5","GB106039023830","Agriculture and rural land management","Probable","Agriculture - Arable","Poor nutrient management","Probable"
-"6","GB106039023830","Water Industry","Suspected","Other (not in list)","Sewage discharge (continuous)","Suspected"
-"7","GB106039023830","No sector responsible","Not applicable","Not applicable","Drought","Suspected"
-"8","GB106039023830","Agriculture and rural land management","Probable","","Land drainage - operational management","Probable"
-"9","GB106039023830","Agriculture and rural land management","Probable","Not applicable","Land drainage - operational management","Probable"
-"10","GB106039023830","Water Industry","Suspected","Not applicable","Sewage discharge (continuous)","Suspected"
-"11","GB106039023830","Agriculture and rural land management","Suspected","Agriculture - Livestock","Poor Livestock Management","Suspected"
+"source","target","value"
+"Agriculture and rural land management","Land use - arable",2
+"Agriculture and rural land management","Poor Livestock Management",1
+"Agriculture and rural land management","Poor nutrient management",2
+"No sector responsible","Drought",1
+"No sector responsible","North american signal crayfish",1
+"Water Industry","Sewage discharge (continuous)",4

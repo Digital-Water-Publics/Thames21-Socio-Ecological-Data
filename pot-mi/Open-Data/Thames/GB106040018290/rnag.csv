@@ -1,10 +1,10 @@
-"","WBID","Category","Category Certainty","Business Sector","Activity","Activity Certainty"
-"1","GB106040018290","Local and Central Government","Confirmed","Not applicable","Other (not in list, must add details in comments)","Confirmed"
-"2","GB106040018290","Agriculture and rural land management","Confirmed","","Other (not in list, must add details in comments)","Confirmed"
-"3","GB106040018290","Urban and transport","Probable","Urban","Private Sewage Treatment","Probable"
-"4","GB106040018290","Agriculture and rural land management","Probable","Agriculture - Arable","Poor soil management","Probable"
-"5","GB106040018290","Agriculture and rural land management","Probable","Agriculture - Arable","Poor nutrient management","Probable"
-"6","GB106040018290","Water Industry","Confirmed","Waste water treatment","Sewage discharge (continuous)","Confirmed"
-"7","GB106040018290","Water Industry","Confirmed","Waste water treatment","Sewage discharge (continuous)","Confirmed"
-"8","GB106040018290","Domestic General Public","Suspected","Domestic/General public","Private Sewage Treatment","Suspected"
-"9","GB106040018290","Domestic General Public","Suspected","Domestic/General public","Septic Tanks","Suspected"
+"source","target","value"
+"Agriculture and rural land management","Other (not in list, must add details in comments)",1
+"Agriculture and rural land management","Poor nutrient management",1
+"Agriculture and rural land management","Poor soil management",1
+"Domestic General Public","Private Sewage Treatment",1
+"Domestic General Public","Septic Tanks",1
+"Local and Central Government","Other (not in list, must add details in comments)",1
+"Sector under investigation","Unknown (pending investigation)",2
+"Urban and transport","Private Sewage Treatment",1
+"Water Industry","Sewage discharge (continuous)",2

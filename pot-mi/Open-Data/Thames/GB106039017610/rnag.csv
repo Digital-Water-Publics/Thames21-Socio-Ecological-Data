@@ -1,17 +1,12 @@
-"","WBID","Category","Category Certainty","Business Sector","Activity","Activity Certainty"
-"1","GB106039017610","Water Industry","Probable","Waste water treatment","Sewage discharge (continuous)","Probable"
-"2","GB106039017610","Domestic General Public","Probable","Not applicable","Misconnections","Probable"
-"3","GB106039017610","Water Industry","Suspected","Waste water treatment","Sewage discharge (intermittent)","Suspected"
-"4","GB106039017610","Agriculture and rural land management","Probable","Forestry","Land use - forestry","Probable"
-"5","GB106039017610","Agriculture and rural land management","Suspected","Agriculture - Livestock","Poor Livestock Management","Suspected"
-"6","GB106039017610","Water Industry","Probable","Waste water treatment","Sewage discharge (intermittent)","Probable"
-"7","GB106039017610","Water Industry","Probable","Waste water treatment","Sewage discharge (intermittent)","Probable"
-"8","GB106039017610","Agriculture and rural land management","Suspected","Agriculture - Livestock","Poor Livestock Management","Suspected"
-"9","GB106039017610","Urban and transport","Probable","Urban","Sewage discharge (intermittent)","Probable"
-"10","GB106039017610","Water Industry","Probable","Waste water treatment","Sewage discharge (intermittent)","Probable"
-"11","GB106039017610","Water Industry","Confirmed","Waste water treatment","Barriers - ecological discontinuity","Confirmed"
-"12","GB106039017610","Local and Central Government","Confirmed","Environment, Farming, Rural","Barriers - ecological discontinuity","Confirmed"
-"13","GB106039017610","Agriculture and rural land management","Confirmed","Agriculture - Livestock","Barriers - ecological discontinuity","Confirmed"
-"14","GB106039017610","Local and Central Government","Confirmed","Not applicable","Other (not in list, must add details in comments)","Confirmed"
-"15","GB106039017610","Urban and transport","Confirmed","Not applicable","Other (not in list, must add details in comments)","Confirmed"
-"16","GB106039017610","Domestic General Public","Confirmed","Not applicable","Misconnections","Confirmed"
+"source","target","value"
+"Agriculture and rural land management","Barriers - ecological discontinuity",1
+"Agriculture and rural land management","Land use - forestry",1
+"Agriculture and rural land management","Poor Livestock Management",2
+"Domestic General Public","Misconnections",2
+"Local and Central Government","Barriers - ecological discontinuity",1
+"Local and Central Government","Other (not in list, must add details in comments)",1
+"Urban and transport","Other (not in list, must add details in comments)",1
+"Urban and transport","Sewage discharge (intermittent)",1
+"Water Industry","Barriers - ecological discontinuity",1
+"Water Industry","Sewage discharge (continuous)",1
+"Water Industry","Sewage discharge (intermittent)",4

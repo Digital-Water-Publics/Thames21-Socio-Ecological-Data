@@ -1,9 +1,6 @@
-"","WBID","Category","Category Certainty","Business Sector","Activity","Activity Certainty"
-"1","GB106040018210","Water Industry","Confirmed","Waste water treatment","Sewage discharge (continuous)","Confirmed"
-"2","GB106040018210","Water Industry","Probable","Water supply","Groundwater abstraction","Probable"
-"3","GB106040018210","Sector under investigation","Not applicable","Not applicable","Unknown (pending investigation)","Not applicable"
-"4","GB106040018210","Agriculture and rural land management","Probable","Agriculture - Livestock","Farm/site infrastructure","Probable"
-"5","GB106040018210","Agriculture and rural land management","Probable","Horticulture","Poor soil management","Probable"
-"6","GB106040018210","No sector responsible","Not applicable","Not applicable","Not applicable","Not applicable"
-"7","GB106040018210","Water Industry","Probable","Waste water treatment","Sewage discharge (continuous)","Probable"
-"8","GB106040018210","Water Industry","Suspected","Waste water treatment","Sewage discharge (continuous)","Suspected"
+"source","target","value"
+"Agriculture and rural land management","Farm/site infrastructure",1
+"Agriculture and rural land management","Poor soil management",1
+"Sector under investigation","Unknown (pending investigation)",2
+"Water Industry","Groundwater abstraction",1
+"Water Industry","Sewage discharge (continuous)",3

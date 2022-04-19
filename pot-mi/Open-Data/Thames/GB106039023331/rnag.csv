@@ -1,11 +1,9 @@
-"","WBID","Category","Category Certainty","Business Sector","Activity","Activity Certainty"
-"1","GB106039023331","Local and Central Government","Confirmed","Not applicable","Other (not in list, must add details in comments)","Confirmed"
-"2","GB106039023331","Agriculture and rural land management","Confirmed","","Other (not in list, must add details in comments)","Confirmed"
-"3","GB106039023331","Urban and transport","Confirmed","Not applicable","Other (not in list, must add details in comments)","Confirmed"
-"4","GB106039023331","Water Industry","Suspected","Waste water treatment","Sewage discharge (intermittent)","Suspected"
-"5","GB106039023331","Urban and transport","Suspected","Urban","Urbanisation - urban development","Suspected"
-"6","GB106039023331","Urban and transport","Probable","Urban","Urbanisation - urban development","Probable"
-"7","GB106039023331","Urban and transport","Suspected","Urban","Transport Drainage","Suspected"
-"8","GB106039023331","Water Industry","Suspected","Waste water treatment","Sewage discharge (intermittent)","Suspected"
-"9","GB106039023331","Water Industry","Suspected","Waste water treatment","Incidents","Suspected"
-"10","GB106039023331","No sector responsible","Not applicable","Not applicable","Drought","Suspected"
+"source","target","value"
+"Agriculture and rural land management","Other (not in list, must add details in comments)",1
+"Local and Central Government","Other (not in list, must add details in comments)",1
+"No sector responsible","Drought",1
+"Urban and transport","Other (not in list, must add details in comments)",1
+"Urban and transport","Transport Drainage",1
+"Urban and transport","Urbanisation - urban development",2
+"Water Industry","Incidents",1
+"Water Industry","Sewage discharge (intermittent)",2

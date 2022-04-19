@@ -1,18 +1,10 @@
-"","WBID","Category","Category Certainty","Business Sector","Activity","Activity Certainty"
-"1","GB106039029820","Water Industry","Confirmed","Water supply","Groundwater abstraction","Confirmed"
-"2","GB106039029820","Domestic General Public","Probable","Not applicable","Misconnections","Probable"
-"3","GB106039029820","Urban and transport","Suspected","Urban","Urbanisation - urban development","Suspected"
-"4","GB106039029820","Urban and transport","Suspected","Roads","Transport Drainage","Suspected"
-"5","GB106039029820","Water Industry","Confirmed","Water supply","Groundwater abstraction","Confirmed"
-"6","GB106039029820","Urban and transport","Confirmed","Urban","Urbanisation - urban development","Confirmed"
-"7","GB106039029820","Other","Confirmed","Not applicable","Reservoir / Impoundment - non flow related","Confirmed"
-"8","GB106039029820","Agriculture and rural land management","Confirmed","Agriculture - Arable","Land use - arable","Confirmed"
-"9","GB106039029820","Mining and quarrying","Suspected","Quarrying","Trade/Industry discharge","Suspected"
-"10","GB106039029820","Agriculture and rural land management","Suspected","Agriculture - Arable","Poor soil management","Suspected"
-"11","GB106039029820","Water Industry","Suspected","Not applicable","Groundwater abstraction","Suspected"
-"12","GB106039029820","Domestic General Public","Probable","Not applicable","Misconnections","Probable"
-"13","GB106039029820","Urban and transport","Probable","Urban","Urbanisation - urban development","Probable"
-"14","GB106039029820","Domestic General Public","Probable","Not applicable","Misconnections","Probable"
-"15","GB106039029820","Urban and transport","Probable","Urban","Urbanisation - urban development","Probable"
-"16","GB106039029820","Urban and transport","Probable","Urban","Urbanisation - urban development","Probable"
-"17","GB106039029820","Domestic General Public","Probable","Not applicable","Misconnections","Probable"
+"source","target","value"
+"Agriculture and rural land management","Land use - arable",1
+"Agriculture and rural land management","Poor soil management",1
+"Domestic General Public","Misconnections",4
+"Mining and quarrying","Trade/Industry discharge",1
+"Other","Reservoir / Impoundment - non flow related",1
+"Sector under investigation","Unknown (pending investigation)",1
+"Urban and transport","Transport Drainage",1
+"Urban and transport","Urbanisation - urban development",5
+"Water Industry","Groundwater abstraction",3

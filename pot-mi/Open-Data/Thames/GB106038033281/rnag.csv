@@ -1,5 +1,6 @@
-"","WBID","Category","Category Certainty","Business Sector","Activity","Activity Certainty"
-"1","GB106038033281","Water Industry","Confirmed","Waste water treatment","Sewage discharge (continuous)","Confirmed"
-"2","GB106038033281","Water Industry","Confirmed","Waste water treatment","Sewage discharge (intermittent)","Confirmed"
-"3","GB106038033281","Urban and transport","Confirmed","Urban","Urbanisation - urban development","Confirmed"
-"4","GB106038033281","Navigation","Confirmed","Inland Waterways","Inland boating and structures","Confirmed"
+"source","target","value"
+"Navigation","Inland boating and structures",1
+"Sector under investigation","Unknown (pending investigation)",4
+"Urban and transport","Urbanisation - urban development",1
+"Water Industry","Sewage discharge (continuous)",1
+"Water Industry","Sewage discharge (intermittent)",1

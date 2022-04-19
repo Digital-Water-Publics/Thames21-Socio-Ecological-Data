@@ -1,10 +1,10 @@
-"","WBID","Category","Category Certainty","Business Sector","Activity","Activity Certainty"
-"1","GB106039029860","Water Industry","Confirmed","Water supply","Groundwater abstraction","Confirmed"
-"2","GB106039029860","Water Industry","Confirmed","Waste water treatment","Sewage discharge (continuous)","Confirmed"
-"3","GB106039029860","Urban and transport","Probable","Urban","Urbanisation - urban development","Probable"
-"4","GB106039029860","Navigation","Suspected","Inland Waterways","Private Sewage Treatment","Suspected"
-"5","GB106039029860","Agriculture and rural land management","Suspected","Agriculture - Livestock","Poor Livestock Management","Suspected"
-"6","GB106039029860","Recreation","Confirmed","Recreation","Other (not in list, must add details in comments)","Confirmed"
-"7","GB106039029860","Urban and transport","Confirmed","Not applicable","Other (not in list, must add details in comments)","Confirmed"
-"8","GB106039029860","Navigation","Confirmed","Inland Waterways","Inland boating and structures","Confirmed"
-"9","GB106039029860","Urban and transport","Confirmed","Not applicable","Urbanisation - urban development","Confirmed"
+"source","target","value"
+"Agriculture and rural land management","Poor Livestock Management",1
+"Navigation","Inland boating and structures",1
+"Navigation","Private Sewage Treatment",1
+"Recreation","Other (not in list, must add details in comments)",1
+"Sector under investigation","Unknown (pending investigation)",1
+"Urban and transport","Other (not in list, must add details in comments)",1
+"Urban and transport","Urbanisation - urban development",2
+"Water Industry","Groundwater abstraction",1
+"Water Industry","Sewage discharge (continuous)",1

@@ -1,15 +1,8 @@
-"","WBID","Category","Category Certainty","Business Sector","Activity","Activity Certainty"
-"1","GB106038027920","Domestic General Public","Confirmed","Not applicable","Misconnections","Confirmed"
-"2","GB106038027920","Urban and transport","Probable","Urban","Urbanisation - urban development","Probable"
-"3","GB106038027920","Water Industry","Probable","Waste water treatment","Sewage discharge (intermittent)","Probable"
-"4","GB106038027920","Domestic General Public","Confirmed","Not applicable","Misconnections","Confirmed"
-"5","GB106038027920","Water Industry","Probable","Waste water treatment","Sewage discharge (intermittent)","Probable"
-"6","GB106038027920","Urban and transport","Probable","Urban","Urbanisation - urban development","Probable"
-"7","GB106038027920","Urban and transport","Probable","Roads","Urbanisation - transport","Probable"
-"8","GB106038027920","Local and Central Government","Confirmed","Not applicable","Other (not in list, must add details in comments)","Confirmed"
-"9","GB106038027920","Urban and transport","Confirmed","Not applicable","Other (not in list, must add details in comments)","Confirmed"
-"10","GB106038027920","Urban and transport","Probable","Urban","Urbanisation - urban development","Probable"
-"11","GB106038027920","Water Industry","Probable","Not applicable","Sewage discharge (intermittent)","Probable"
-"12","GB106038027920","Domestic General Public","Probable","Not applicable","Misconnections","Probable"
-"13","GB106038027920","Urban and transport","Confirmed","Not applicable","Flood protection - structures","Confirmed"
-"14","GB106038027920","Urban and transport","Confirmed","Not applicable","Urbanisation - urban development","Confirmed"
+"source","target","value"
+"Domestic General Public","Misconnections",3
+"Local and Central Government","Other (not in list, must add details in comments)",1
+"Urban and transport","Flood protection - structures",1
+"Urban and transport","Other (not in list, must add details in comments)",1
+"Urban and transport","Urbanisation - transport",1
+"Urban and transport","Urbanisation - urban development",4
+"Water Industry","Sewage discharge (intermittent)",3

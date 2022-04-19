@@ -1,3 +1,4 @@
-"","WBID","Category","Category Certainty","Business Sector","Activity","Activity Certainty"
-"1","GB106039037432","Navigation","Confirmed","Inland Waterways","Other (not in list, must add details in comments)","Confirmed"
-"2","GB106039037432","Water Industry","Suspected","Waste water treatment","Sewage discharge (continuous)","Suspected"
+"source","target","value"
+"Navigation","Other (not in list, must add details in comments)",1
+"Sector under investigation","Unknown (pending investigation)",1
+"Water Industry","Sewage discharge (continuous)",1

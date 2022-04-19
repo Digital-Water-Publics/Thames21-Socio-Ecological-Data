@@ -1,16 +1,9 @@
-"","WBID","Category","Category Certainty","Business Sector","Activity","Activity Certainty"
-"1","GB106039017621","Agriculture and rural land management","Probable","Agriculture - Arable","Poor nutrient management","Probable"
-"2","GB106039017621","Water Industry","Confirmed","Waste water treatment","Sewage discharge (continuous)","Confirmed"
-"3","GB106039017621","Water Industry","Probable","Waste water treatment","Sewage discharge (intermittent)","Probable"
-"4","GB106039017621","Agriculture and rural land management","Probable","Agriculture - Arable","Poor nutrient management","Probable"
-"5","GB106039017621","Water Industry","Probable","Waste water treatment","Sewage discharge (intermittent)","Probable"
-"6","GB106039017621","Water Industry","Probable","Waste water treatment","Sewage discharge (continuous)","Probable"
-"7","GB106039017621","Water Industry","Probable","Waste water treatment","Sewage discharge (intermittent)","Probable"
-"8","GB106039017621","Water Industry","Confirmed","Waste water treatment","Sewage discharge (continuous)","Confirmed"
-"9","GB106039017621","Agriculture and rural land management","Probable","Agriculture - Arable","Poor soil management","Probable"
-"10","GB106039017621","Domestic General Public","Probable","Domestic/General public","Private Sewage Treatment","Probable"
-"11","GB106039017621","Agriculture and rural land management","Suspected","Agriculture - Livestock","Poor Livestock Management","Suspected"
-"12","GB106039017621","Agriculture and rural land management","Probable","Agriculture - Arable","Poor soil management","Probable"
-"13","GB106039017621","Agriculture and rural land management","Suspected","Agriculture - Livestock","Poor Livestock Management","Suspected"
-"14","GB106039017621","No sector responsible","Not applicable","Not applicable","North american signal crayfish","Confirmed"
-"15","GB106039017621","Domestic General Public","Probable","Domestic/General public","Private Sewage Treatment","Probable"
+"source","target","value"
+"Agriculture and rural land management","Poor Livestock Management",2
+"Agriculture and rural land management","Poor nutrient management",2
+"Agriculture and rural land management","Poor soil management",2
+"Domestic General Public","Private Sewage Treatment",2
+"No sector responsible","North american signal crayfish",1
+"Sector under investigation","Unknown (pending investigation)",4
+"Water Industry","Sewage discharge (continuous)",3
+"Water Industry","Sewage discharge (intermittent)",3

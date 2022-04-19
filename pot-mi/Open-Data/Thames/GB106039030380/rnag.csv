@@ -1,9 +1,8 @@
-"","WBID","Category","Category Certainty","Business Sector","Activity","Activity Certainty"
-"1","GB106039030380","Local and Central Government","Confirmed","Not applicable","Other (not in list, must add details in comments)","Confirmed"
-"2","GB106039030380","Urban and transport","Confirmed","Not applicable","Other (not in list, must add details in comments)","Confirmed"
-"3","GB106039030380","Industry","Probable","Other industry, manufacturing and Business","Trade/Industry discharge","Probable"
-"4","GB106039030380","Urban and transport","Probable","Other (not in list)","Urbanisation - urban development","Probable"
-"5","GB106039030380","Industry","Probable","Other industry, manufacturing and Business","Trade/Industry discharge","Probable"
-"6","GB106039030380","No sector responsible","Not applicable","Not applicable","North american signal crayfish","Suspected"
-"7","GB106039030380","Industry","Probable","Other industry, manufacturing and Business","Trade/Industry discharge","Probable"
-"8","GB106039030380","Navigation","Suspected","Inland Waterways","Groundwater abstraction","Suspected"
+"source","target","value"
+"Industry","Trade/Industry discharge",3
+"Local and Central Government","Other (not in list, must add details in comments)",1
+"Navigation","Groundwater abstraction",1
+"No sector responsible","North american signal crayfish",1
+"Sector under investigation","Unknown (pending investigation)",1
+"Urban and transport","Other (not in list, must add details in comments)",1
+"Urban and transport","Urbanisation - urban development",1

@@ -1,12 +1,9 @@
-"","WBID","Category","Category Certainty","Business Sector","Activity","Activity Certainty"
-"1","GB106037028090","Urban and transport","Probable","Urban","Contaminated land","Probable"
-"2","GB106037028090","Agriculture and rural land management","Probable","Agriculture - Arable","Poor soil management","Probable"
-"3","GB106037028090","Urban and transport","Probable","Urban","Contaminated land","Probable"
-"4","GB106037028090","Urban and transport","Probable","Urban","Urbanisation - urban development","Probable"
-"5","GB106037028090","Agriculture and rural land management","Suspected","Agriculture - Arable","Poor nutrient management","Suspected"
-"6","GB106037028090","Mining and quarrying","Suspected","Non coal mining","Active mine","Suspected"
-"7","GB106037028090","Agriculture and rural land management","Probable","Agriculture - Arable","Poor nutrient management","Probable"
-"8","GB106037028090","Other","Suspected","Not applicable","Private Sewage Treatment","Suspected"
-"9","GB106037028090","Urban and transport","Probable","Urban","Urbanisation - urban development","Probable"
-"10","GB106037028090","Local and Central Government","Probable","Environment, Farming, Rural","Reservoir / Impoundment - non flow related","Probable"
-"11","GB106037028090","No sector responsible","Not applicable","Not applicable","Drought","Probable"
+"source","target","value"
+"Agriculture and rural land management","Poor nutrient management",2
+"Agriculture and rural land management","Poor soil management",1
+"Local and Central Government","Reservoir / Impoundment - non flow related",1
+"Mining and quarrying","Active mine",1
+"No sector responsible","Drought",1
+"Other","Private Sewage Treatment",1
+"Urban and transport","Contaminated land",2
+"Urban and transport","Urbanisation - urban development",2

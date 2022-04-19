@@ -1,5 +1,5 @@
-"","WBID","Category","Category Certainty","Business Sector","Activity","Activity Certainty"
-"1","GB40601G604100","Agriculture and rural land management","Probable","Agriculture - Arable","Poor nutrient management","Probable"
-"2","GB40601G604100","Domestic General Public","Probable","Not applicable","Private Sewage Treatment","Probable"
-"3","GB40601G604100","Industry","Suspected","Other industry, manufacturing and Business","Contaminated land","Suspected"
-"4","GB40601G604100","Agriculture and rural land management","Probable","Agriculture - Livestock","Poor Livestock Management","Probable"
+"source","target","value"
+"Agriculture and rural land management","Poor Livestock Management",1
+"Agriculture and rural land management","Poor nutrient management",1
+"Domestic General Public","Private Sewage Treatment",1
+"Industry","Contaminated land",1

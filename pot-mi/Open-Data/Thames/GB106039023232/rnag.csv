@@ -1,16 +1,11 @@
-"","WBID","Category","Category Certainty","Business Sector","Activity","Activity Certainty"
-"1","GB106039023232","Urban and transport","Probable","Urban","Transport Drainage","Probable"
-"2","GB106039023232","Water Industry","Probable","Other (not in list)","Sewage discharge (continuous)","Probable"
-"3","GB106039023232","Agriculture and rural land management","Probable","Agriculture - Arable","Poor nutrient management","Probable"
-"4","GB106039023232","Agriculture and rural land management","Probable","Agriculture - Arable","Poor nutrient management","Probable"
-"5","GB106039023232","Water Industry","Probable","Waste water treatment","Sewage discharge (continuous)","Probable"
-"6","GB106039023232","Water Industry","Probable","Waste water treatment","Sewage discharge (continuous)","Probable"
-"7","GB106039023232","Agriculture and rural land management","Probable","Not applicable","Poor nutrient management","Probable"
-"8","GB106039023232","Urban and transport","Probable","Urban","Transport Drainage","Probable"
-"9","GB106039023232","Local and Central Government","Confirmed","Not applicable","Other (not in list, must add details in comments)","Confirmed"
-"10","GB106039023232","Water Industry","Confirmed","Not applicable","Other (not in list, must add details in comments)","Confirmed"
-"11","GB106039023232","Navigation","Confirmed","Inland Waterways","Other (not in list, must add details in comments)","Confirmed"
-"12","GB106039023232","Water Industry","Confirmed","Water supply","Surface water abstraction","Confirmed"
-"13","GB106039023232","Water Industry","Suspected","Waste water treatment","Sewage discharge (continuous)","Suspected"
-"14","GB106039023232","No sector responsible","Not applicable","Not applicable","Low Flow (not drought)","Suspected"
-"15","GB106039023232","Other","Suspected","Not applicable","Water level management in impounded water bodies","Suspected"
+"source","target","value"
+"Agriculture and rural land management","Poor nutrient management",3
+"Local and Central Government","Other (not in list, must add details in comments)",1
+"Navigation","Other (not in list, must add details in comments)",1
+"No sector responsible","Low Flow (not drought)",1
+"Other","Water level management in impounded water bodies",1
+"Sector under investigation","Unknown (pending investigation)",1
+"Urban and transport","Transport Drainage",2
+"Water Industry","Other (not in list, must add details in comments)",1
+"Water Industry","Sewage discharge (continuous)",4
+"Water Industry","Surface water abstraction",1

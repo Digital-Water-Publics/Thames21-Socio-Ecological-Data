@@ -1,12 +1,7 @@
-"","WBID","Category","Category Certainty","Business Sector","Activity","Activity Certainty"
-"1","GB106037028140","Urban and transport","Confirmed","Not applicable","Other (not in list, must add details in comments)","Confirmed"
-"2","GB106037028140","Local and Central Government","Confirmed","Not applicable","Other (not in list, must add details in comments)","Confirmed"
-"3","GB106037028140","Urban and transport","Probable","Urban","Urbanisation - urban development","Probable"
-"4","GB106037028140","Urban and transport","Probable","Urban","Urbanisation - urban development","Probable"
-"5","GB106037028140","Urban and transport","Probable","Urban","Urbanisation - urban development","Probable"
-"6","GB106037028140","Domestic General Public","Suspected","Not applicable","Misconnections","Suspected"
-"7","GB106037028140","Domestic General Public","Suspected","Not applicable","Misconnections","Suspected"
-"8","GB106037028140","Domestic General Public","Suspected","Not applicable","Misconnections","Suspected"
-"9","GB106037028140","Urban and transport","Confirmed","Not applicable","Flood protection - structures","Confirmed"
-"10","GB106037028140","Urban and transport","Confirmed","Not applicable","Urbanisation - urban development","Confirmed"
-"11","GB106037028140","Urban and transport","Probable","Urban","Urbanisation - urban development","Probable"
+"source","target","value"
+"Domestic General Public","Misconnections",3
+"Local and Central Government","Other (not in list, must add details in comments)",1
+"Sector under investigation","Unknown (pending investigation)",1
+"Urban and transport","Flood protection - structures",1
+"Urban and transport","Other (not in list, must add details in comments)",1
+"Urban and transport","Urbanisation - urban development",5

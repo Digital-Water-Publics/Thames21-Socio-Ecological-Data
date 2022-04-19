@@ -1,3 +1,4 @@
-"","WBID","Category","Category Certainty","Business Sector","Activity","Activity Certainty"
-"1","GB106039022870","Agriculture and rural land management","Probable","Not applicable","Poor soil management","Probable"
-"2","GB106039022870","No sector responsible","Not applicable","Not applicable","Other (not in list, must add details in comments)","Probable"
+"source","target","value"
+"Agriculture and rural land management","Poor soil management",1
+"No sector responsible","Other (not in list, must add details in comments)",1
+"Sector under investigation","Unknown (pending investigation)",2

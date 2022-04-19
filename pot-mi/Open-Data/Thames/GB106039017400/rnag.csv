@@ -1,8 +1,5 @@
-"","WBID","Category","Category Certainty","Business Sector","Activity","Activity Certainty"
-"1","GB106039017400","Water Industry","Suspected","Not applicable","Sewage discharge (continuous)","Suspected"
-"2","GB106039017400","Water Industry","Suspected","Not applicable","Sewage discharge (continuous)","Suspected"
-"3","GB106039017400","Water Industry","Suspected","Other (not in list)","Sewage discharge (intermittent)","Suspected"
-"4","GB106039017400","Agriculture and rural land management","Suspected","Not applicable","Land drainage - operational management","Suspected"
-"5","GB106039017400","Water Industry","Probable","Waste water treatment","Sewage discharge (continuous)","Probable"
-"6","GB106039017400","Agriculture and rural land management","Suspected","Not applicable","Land drainage - operational management","Suspected"
-"7","GB106039017400","Other","Suspected","Not applicable","Barriers - ecological discontinuity","Suspected"
+"source","target","value"
+"Agriculture and rural land management","Land use - arable",2
+"Other","Barriers - ecological discontinuity",1
+"Water Industry","Sewage discharge (continuous)",3
+"Water Industry","Sewage discharge (intermittent)",1

@@ -1,9 +1,4 @@
-"","WBID","Category","Category Certainty","Business Sector","Activity","Activity Certainty"
-"1","GB106039023370","Agriculture and rural land management","Probable","Agriculture - Arable","Poor nutrient management","Probable"
-"2","GB106039023370","Industry","Probable","Other industry, manufacturing and Business","Trade/Industry discharge","Probable"
-"3","GB106039023370","Industry","Probable","Other industry, manufacturing and Business","Trade/Industry discharge","Probable"
-"4","GB106039023370","Agriculture and rural land management","Probable","Agriculture - Arable","Poor nutrient management","Probable"
-"5","GB106039023370","Industry","Probable","Other industry, manufacturing and Business","Trade/Industry discharge","Probable"
-"6","GB106039023370","Industry","Suspected","Not applicable","Trade/Industry discharge","Suspected"
-"7","GB106039023370","Agriculture and rural land management","Suspected","Agriculture - Arable","Poor nutrient management","Suspected"
-"8","GB106039023370","No sector responsible","Not applicable","Not applicable","Not applicable","Not applicable"
+"source","target","value"
+"Agriculture and rural land management","Poor nutrient management",3
+"Industry","Trade/Industry discharge",4
+"Sector under investigation","Unknown (pending investigation)",1

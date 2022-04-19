@@ -1,7 +1,7 @@
-"","WBID","Category","Category Certainty","Business Sector","Activity","Activity Certainty"
-"1","GB30641956","Urban and transport","Probable","Urban","Urbanisation - urban development","Probable"
-"2","GB30641956","Water Industry","Probable","Waste water treatment","Sewage discharge (intermittent)","Probable"
-"3","GB30641956","Water Industry","Confirmed","Waste water treatment","Sewage discharge (continuous)","Confirmed"
-"4","GB30641956","Agriculture and rural land management","Probable","Agriculture - Arable","Poor nutrient management","Probable"
-"5","GB30641956","Water Industry","Probable","Waste water treatment","Sewage discharge (continuous)","Probable"
-"6","GB30641956","Water Industry","Confirmed","Not applicable","Other (not in list, must add details in comments)","Confirmed"
+"source","target","value"
+"Agriculture and rural land management","Poor nutrient management",1
+"Sector under investigation","Unknown (pending investigation)",1
+"Urban and transport","Urbanisation - urban development",1
+"Water Industry","Other (not in list, must add details in comments)",1
+"Water Industry","Sewage discharge (continuous)",2
+"Water Industry","Sewage discharge (intermittent)",1

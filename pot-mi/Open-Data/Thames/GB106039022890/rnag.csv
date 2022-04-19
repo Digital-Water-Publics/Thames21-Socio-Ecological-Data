@@ -1,6 +1,4 @@
-"","WBID","Category","Category Certainty","Business Sector","Activity","Activity Certainty"
-"1","GB106039022890","Agriculture and rural land management","Probable","Agriculture - Livestock","Poor Livestock Management","Probable"
-"2","GB106039022890","Urban and transport","Suspected","Not applicable","Transport Drainage","Probable"
-"3","GB106039022890","Urban and transport","Suspected","Urban","Urbanisation - urban development","Suspected"
-"4","GB106039022890","Agriculture and rural land management","Suspected","Agriculture - Livestock","Poor Livestock Management","Suspected"
-"5","GB106039022890","Urban and transport","Suspected","Not applicable","Transport Drainage","Suspected"
+"source","target","value"
+"Agriculture and rural land management","Poor Livestock Management",2
+"Urban and transport","Transport Drainage",2
+"Urban and transport","Urbanisation - urban development",1

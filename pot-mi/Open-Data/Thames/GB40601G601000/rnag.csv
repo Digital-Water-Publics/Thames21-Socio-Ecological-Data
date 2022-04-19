@@ -1,4 +1,3 @@
-"","WBID","Category","Category Certainty","Business Sector","Activity","Activity Certainty"
-"1","GB40601G601000","Agriculture and rural land management","Suspected","Agriculture - Arable","Poor nutrient management","Suspected"
-"2","GB40601G601000","Agriculture and rural land management","Confirmed","Agriculture - Arable","Poor nutrient management","Confirmed"
-"3","GB40601G601000","Industry","Probable","Not applicable","Landfill leaching","Probable"
+"source","target","value"
+"Agriculture and rural land management","Poor nutrient management",2
+"Industry","Landfill leaching",1

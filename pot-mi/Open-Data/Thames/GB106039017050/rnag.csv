@@ -1,4 +1,4 @@
-"","WBID","Category","Category Certainty","Business Sector","Activity","Activity Certainty"
-"1","GB106039017050","Domestic General Public","Probable","Not applicable","Urbanisation - urban development","Probable"
-"2","GB106039017050","No sector responsible","Not applicable","Not applicable","Natural mineralisation","Probable"
-"3","GB106039017050","Urban and transport","Suspected","Urban","Urbanisation - urban development","Suspected"
+"source","target","value"
+"Domestic General Public","Urbanisation - urban development",1
+"No sector responsible","Natural mineralisation",1
+"Urban and transport","Urbanisation - urban development",1

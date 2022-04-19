@@ -1,10 +1,4 @@
-"","WBID","Category","Category Certainty","Business Sector","Activity","Activity Certainty"
-"1","GB106039023051","Water Industry","Confirmed","Waste water treatment","Sewage discharge (intermittent)","Confirmed"
-"2","GB106039023051","Urban and transport","Probable","Urban","Urbanisation - urban development","Probable"
-"3","GB106039023051","Water Industry","Confirmed","Waste water treatment","Sewage discharge (intermittent)","Confirmed"
-"4","GB106039023051","Water Industry","Confirmed","Waste water treatment","Sewage discharge (intermittent)","Confirmed"
-"5","GB106039023051","Domestic General Public","Probable","Not applicable","Misconnections","Probable"
-"6","GB106039023051","Domestic General Public","Probable","Not applicable","Misconnections","Probable"
-"7","GB106039023051","Urban and transport","Confirmed","Urban","Urbanisation - urban development","Confirmed"
-"8","GB106039023051","Domestic General Public","Probable","Not applicable","Misconnections","Probable"
-"9","GB106039023051","Urban and transport","Probable","Urban","Urbanisation - urban development","Probable"
+"source","target","value"
+"Domestic General Public","Misconnections",3
+"Urban and transport","Urbanisation - urban development",3
+"Water Industry","Sewage discharge (intermittent)",3

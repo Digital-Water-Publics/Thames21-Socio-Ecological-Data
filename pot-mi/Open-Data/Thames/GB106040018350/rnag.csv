@@ -1,13 +1,8 @@
-"","WBID","Category","Category Certainty","Business Sector","Activity","Activity Certainty"
-"1","GB106040018350","Local and Central Government","Confirmed","Not applicable","Other (not in list, must add details in comments)","Confirmed"
-"2","GB106040018350","Agriculture and rural land management","Probable","Agriculture - Arable","Poor nutrient management","Probable"
-"3","GB106040018350","Agriculture and rural land management","Probable","Agriculture - Arable","Poor nutrient management","Probable"
-"4","GB106040018350","Water Industry","Confirmed","Waste water treatment","Sewage discharge (continuous)","Confirmed"
-"5","GB106040018350","Water Industry","Confirmed","Waste water treatment","Sewage discharge (continuous)","Confirmed"
-"6","GB106040018350","No sector responsible","Not applicable","Not applicable","Natural conditions - other","Suspected"
-"7","GB106040018350","Agriculture and rural land management","Probable","Agriculture - Arable","Poor soil management","Probable"
-"8","GB106040018350","Agriculture and rural land management","Probable","Agriculture - Livestock","Riparian/in-river activities (inc bankside erosion)","Probable"
-"9","GB106040018350","Agriculture and rural land management","Probable","Agriculture - Arable","Poor soil management","Probable"
-"10","GB106040018350","Agriculture and rural land management","Probable","Agriculture - Livestock","Riparian/in-river activities (inc bankside erosion)","Probable"
-"11","GB106040018350","Sector under investigation","Not applicable","Not applicable","Unknown (pending investigation)","Not applicable"
-"12","GB106040018350","Sector under investigation","Not applicable","Not applicable","Unknown (pending investigation)","Not applicable"
+"source","target","value"
+"Agriculture and rural land management","Poor nutrient management",2
+"Agriculture and rural land management","Poor soil management",2
+"Agriculture and rural land management","Riparian/in-river activities (inc bankside erosion)",2
+"Local and Central Government","Other (not in list, must add details in comments)",1
+"No sector responsible","Natural conditions - other",1
+"Sector under investigation","Unknown (pending investigation)",3
+"Water Industry","Sewage discharge (continuous)",2

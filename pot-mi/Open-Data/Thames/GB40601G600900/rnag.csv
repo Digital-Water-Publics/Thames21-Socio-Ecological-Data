@@ -1,7 +1,4 @@
-"","WBID","Category","Category Certainty","Business Sector","Activity","Activity Certainty"
-"1","GB40601G600900","Domestic General Public","Probable","Not applicable","Private Sewage Treatment","Probable"
-"2","GB40601G600900","Agriculture and rural land management","Probable","Agriculture - Arable","Poor nutrient management","Probable"
-"3","GB40601G600900","Agriculture and rural land management","Probable","Agriculture - Arable","Poor nutrient management","Probable"
-"4","GB40601G600900","Agriculture and rural land management","Suspected","Agriculture - Arable","Poor nutrient management","Suspected"
-"5","GB40601G600900","Water Industry","Suspected","Other (not in list)","Groundwater abstraction","Suspected"
-"6","GB40601G600900","Water Industry","Suspected","Other (not in list)","Groundwater abstraction","Suspected"
+"source","target","value"
+"Agriculture and rural land management","Poor nutrient management",3
+"Domestic General Public","Private Sewage Treatment",1
+"Water Industry","Groundwater abstraction",2

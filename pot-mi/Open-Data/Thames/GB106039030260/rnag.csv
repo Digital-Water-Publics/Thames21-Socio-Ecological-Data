@@ -1,5 +1,4 @@
-"","WBID","Category","Category Certainty","Business Sector","Activity","Activity Certainty"
-"1","GB106039030260","Water Industry","Suspected","Waste water treatment","Incidents","Suspected"
-"2","GB106039030260","Agriculture and rural land management","Suspected","Agriculture - Arable","Land drainage","Suspected"
-"3","GB106039030260","No sector responsible","Not applicable","Not applicable","Not applicable","Not applicable"
-"4","GB106039030260","No sector responsible","Not applicable","Not applicable","Drought","Suspected"
+"source","target","value"
+"Agriculture and rural land management","Land drainage",1
+"No sector responsible","Drought",1
+"Water Industry","Incidents",1

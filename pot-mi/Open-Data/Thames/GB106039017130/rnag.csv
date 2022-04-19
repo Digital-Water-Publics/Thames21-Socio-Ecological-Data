@@ -1,12 +1,7 @@
-"","WBID","Category","Category Certainty","Business Sector","Activity","Activity Certainty"
-"1","GB106039017130","No sector responsible","Not applicable","Not applicable","Drought","Suspected"
-"2","GB106039017130","Urban and transport","Confirmed","Other (not in list)","Urbanisation - urban development","Confirmed"
-"3","GB106039017130","Urban and transport","Confirmed","Other (not in list)","Urbanisation - urban development","Confirmed"
-"4","GB106039017130","Urban and transport","Probable","Other (not in list)","Transport Drainage","Probable"
-"5","GB106039017130","Other","Suspected","Not applicable","Barriers - ecological discontinuity","Confirmed"
-"6","GB106039017130","Urban and transport","Confirmed","Other (not in list)","Flood protection - structures","Confirmed"
-"7","GB106039017130","Urban and transport","Probable","Other (not in list)","Transport Drainage","Probable"
-"8","GB106039017130","Other","Suspected","Not applicable","Contaminated land","Suspected"
-"9","GB106039017130","Urban and transport","Confirmed","Other (not in list)","Urbanisation - urban development","Confirmed"
-"10","GB106039017130","Urban and transport","Confirmed","Other (not in list)","Flood protection - structures","Confirmed"
-"11","GB106039017130","Urban and transport","Confirmed","Other (not in list)","Flood protection - structures","Confirmed"
+"source","target","value"
+"No sector responsible","Drought",1
+"Other","Barriers - ecological discontinuity",1
+"Other","Contaminated land",1
+"Urban and transport","Flood protection - structures",3
+"Urban and transport","Transport Drainage",2
+"Urban and transport","Urbanisation - urban development",3

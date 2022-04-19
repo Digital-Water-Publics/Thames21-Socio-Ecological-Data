@@ -1,13 +1,13 @@
-"","WBID","Category","Category Certainty","Business Sector","Activity","Activity Certainty"
-"1","GB106040018260","Water Industry","Confirmed","Not applicable","Other (not in list, must add details in comments)","Confirmed"
-"2","GB106040018260","Local and Central Government","Confirmed","Not applicable","Other (not in list, must add details in comments)","Confirmed"
-"3","GB106040018260","Water Industry","Confirmed","Not applicable","Other (not in list, must add details in comments)","Confirmed"
-"4","GB106040018260","Other","Confirmed","Not applicable","Fish stocking","Confirmed"
-"5","GB106040018260","Agriculture and rural land management","Probable","Agriculture - Arable","Poor pesticide management","Probable"
-"6","GB106040018260","Agriculture and rural land management","Probable","Agriculture - Arable","Poor soil management","Probable"
-"7","GB106040018260","Water Industry","Probable","Waste water treatment","Sewage discharge (continuous)","Probable"
-"8","GB106040018260","Domestic General Public","Probable","Domestic/General public","Private Sewage Treatment","Probable"
-"9","GB106040018260","Agriculture and rural land management","Probable","Agriculture - Arable","Poor nutrient management","Probable"
-"10","GB106040018260","Agriculture and rural land management","Probable","Agriculture - Livestock","Poor Livestock Management","Probable"
-"11","GB106040018260","Agriculture and rural land management","Probable","Not applicable","Flood protection - structures","Probable"
-"12","GB106040018260","Agriculture and rural land management","Probable","Agriculture - Arable","Barriers - ecological discontinuity","Probable"
+"source","target","value"
+"Agriculture and rural land management","Barriers - ecological discontinuity",1
+"Agriculture and rural land management","Flood protection - structures",1
+"Agriculture and rural land management","Poor Livestock Management",1
+"Agriculture and rural land management","Poor nutrient management",1
+"Agriculture and rural land management","Poor pesticide management",1
+"Agriculture and rural land management","Poor soil management",1
+"Domestic General Public","Private Sewage Treatment",1
+"Local and Central Government","Other (not in list, must add details in comments)",1
+"Other","Fish stocking",1
+"Sector under investigation","Unknown (pending investigation)",1
+"Water Industry","Other (not in list, must add details in comments)",2
+"Water Industry","Sewage discharge (continuous)",1

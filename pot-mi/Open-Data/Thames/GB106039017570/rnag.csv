@@ -1,13 +1,10 @@
-"","WBID","Category","Category Certainty","Business Sector","Activity","Activity Certainty"
-"1","GB106039017570","Water Industry","Probable","Waste water treatment","Sewage discharge (intermittent)","Probable"
-"2","GB106039017570","Agriculture and rural land management","Confirmed","Agriculture - Livestock","Riparian/in-river activities (inc bankside erosion)","Confirmed"
-"3","GB106039017570","Urban and transport","Confirmed","Not applicable","Barriers - ecological discontinuity","Confirmed"
-"4","GB106039017570","Agriculture and rural land management","Probable","Agriculture - Arable","Poor nutrient management","Probable"
-"5","GB106039017570","Agriculture and rural land management","Probable","Not applicable","Land drainage - operational management","Probable"
-"6","GB106039017570","No sector responsible","Not applicable","Not applicable","Low Flow (not drought)","Probable"
-"7","GB106039017570","Agriculture and rural land management","Confirmed","Agriculture - Arable","Barriers - ecological discontinuity","Confirmed"
-"8","GB106039017570","Domestic General Public","Probable","Domestic/General public","Private Sewage Treatment","Probable"
-"9","GB106039017570","Water Industry","Probable","Waste water treatment","Sewage discharge (intermittent)","Probable"
-"10","GB106039017570","Agriculture and rural land management","Probable","Agriculture - Arable","Poor nutrient management","Probable"
-"11","GB106039017570","Domestic General Public","Probable","Domestic/General public","Private Sewage Treatment","Probable"
-"12","GB106039017570","No sector responsible","Not applicable","Not applicable","Drought","Confirmed"
+"source","target","value"
+"Agriculture and rural land management","Barriers - ecological discontinuity",1
+"Agriculture and rural land management","Land drainage - operational management",1
+"Agriculture and rural land management","Poor nutrient management",2
+"Agriculture and rural land management","Riparian/in-river activities (inc bankside erosion)",1
+"Domestic General Public","Private Sewage Treatment",2
+"No sector responsible","Drought",1
+"No sector responsible","Low Flow (not drought)",1
+"Urban and transport","Barriers - ecological discontinuity",1
+"Water Industry","Sewage discharge (intermittent)",2

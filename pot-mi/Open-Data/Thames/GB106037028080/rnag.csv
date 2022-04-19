@@ -1,11 +1,4 @@
-"","WBID","Category","Category Certainty","Business Sector","Activity","Activity Certainty"
-"1","GB106037028080","Water Industry","Probable","Waste water treatment","Sewage discharge (continuous)","Probable"
-"2","GB106037028080","Water Industry","Suspected","Waste water treatment","Sewage discharge (continuous)","Suspected"
-"3","GB106037028080","Water Industry","Probable","Waste water treatment","Sewage discharge (continuous)","Probable"
-"4","GB106037028080","Industry","Probable","Food and drink","Trade/Industry discharge","Probable"
-"5","GB106037028080","Local and Central Government","Confirmed","Environment, Farming, Rural","Flood protection - other operational management","Confirmed"
-"6","GB106037028080","Water Industry","Probable","Waste water treatment","Sewage discharge (continuous)","Probable"
-"7","GB106037028080","Water Industry","Probable","Waste water treatment","Sewage discharge (continuous)","Probable"
-"8","GB106037028080","Local and Central Government","Confirmed","Environment, Farming, Rural","Flood protection - other operational management","Confirmed"
-"9","GB106037028080","Water Industry","Confirmed","Waste water treatment","Sewage discharge (continuous)","Confirmed"
-"10","GB106037028080","Water Industry","Confirmed","Waste water treatment","Sewage discharge (continuous)","Confirmed"
+"source","target","value"
+"Industry","Trade/Industry discharge",1
+"Local and Central Government","Flood protection - other operational management",2
+"Water Industry","Sewage discharge (continuous)",7

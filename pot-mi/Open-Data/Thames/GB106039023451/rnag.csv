@@ -1,5 +1,4 @@
-"","WBID","Category","Category Certainty","Business Sector","Activity","Activity Certainty"
-"1","GB106039023451","Urban and transport","Confirmed","Urban","Urbanisation - urban development","Confirmed"
-"2","GB106039023451","Industry","Suspected","Other industry, manufacturing and Business","Trade/Industry discharge","Suspected"
-"3","GB106039023451","Urban and transport","Probable","Urban","Urbanisation - urban development","Probable"
-"4","GB106039023451","No sector responsible","Not applicable","Not applicable","Drought","Confirmed"
+"source","target","value"
+"Industry","Trade/Industry discharge",1
+"No sector responsible","Drought",1
+"Urban and transport","Urbanisation - urban development",2

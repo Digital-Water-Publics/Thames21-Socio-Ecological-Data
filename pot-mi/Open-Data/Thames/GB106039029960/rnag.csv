@@ -1,10 +1,8 @@
-"","WBID","Category","Category Certainty","Business Sector","Activity","Activity Certainty"
-"1","GB106039029960","Agriculture and rural land management","Probable","Agriculture - Arable","Poor nutrient management","Probable"
-"2","GB106039029960","Water Industry","Probable","Other (not in list)","Sewage discharge (continuous)","Probable"
-"3","GB106039029960","Agriculture and rural land management","Probable","Agriculture - Arable","Poor nutrient management","Probable"
-"4","GB106039029960","Other","Probable","Not applicable","Barriers - ecological discontinuity","Probable"
-"5","GB106039029960","Other","Probable","Not applicable","Land drainage - operational management","Probable"
-"6","GB106039029960","Water Industry","Suspected","Not applicable","Sewage discharge (intermittent)","Suspected"
-"7","GB106039029960","Agriculture and rural land management","Suspected","Agriculture - Arable","Poor nutrient management","Suspected"
-"8","GB106039029960","Water Industry","Suspected","Not applicable","Sewage discharge (continuous)","Suspected"
-"9","GB106039029960","No sector responsible","Not applicable","Not applicable","North american signal crayfish","Suspected"
+"source","target","value"
+"Agriculture and rural land management","Land use - arable",1
+"Agriculture and rural land management","Poor nutrient management",3
+"No sector responsible","North american signal crayfish",1
+"Other","Barriers - ecological discontinuity",1
+"Sector under investigation","Unknown (pending investigation)",1
+"Water Industry","Sewage discharge (continuous)",2
+"Water Industry","Sewage discharge (intermittent)",1

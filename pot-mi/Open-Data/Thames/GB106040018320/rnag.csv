@@ -1,10 +1,9 @@
-"","WBID","Category","Category Certainty","Business Sector","Activity","Activity Certainty"
-"1","GB106040018320","Domestic General Public","Probable","Not applicable","Private Sewage Treatment","Probable"
-"2","GB106040018320","Water Industry","Confirmed","Waste water treatment","Sewage discharge (continuous)","Confirmed"
-"3","GB106040018320","Local and Central Government","Confirmed","Not applicable","Other (not in list, must add details in comments)","Confirmed"
-"4","GB106040018320","Agriculture and rural land management","Probable","Agriculture - Livestock","Poor Livestock Management","Probable"
-"5","GB106040018320","Agriculture and rural land management","Probable","Agriculture - Arable","Poor nutrient management","Probable"
-"6","GB106040018320","Agriculture and rural land management","Probable","Agriculture - Arable","Poor soil management","Probable"
-"7","GB106040018320","Domestic General Public","Probable","Not applicable","Sewage discharge (intermittent)","Probable"
-"8","GB106040018320","Agriculture and rural land management","Probable","Not applicable","Water level management in impounded water bodies","Probable"
-"9","GB106040018320","Water Industry","Probable","Waste water treatment","Sewage discharge (continuous)","Probable"
+"source","target","value"
+"Agriculture and rural land management","Poor Livestock Management",1
+"Agriculture and rural land management","Poor nutrient management",1
+"Agriculture and rural land management","Poor soil management",1
+"Agriculture and rural land management","Water level management in impounded water bodies",1
+"Domestic General Public","Private Sewage Treatment",1
+"Domestic General Public","Sewage discharge (intermittent)",1
+"Local and Central Government","Other (not in list, must add details in comments)",1
+"Water Industry","Sewage discharge (continuous)",2

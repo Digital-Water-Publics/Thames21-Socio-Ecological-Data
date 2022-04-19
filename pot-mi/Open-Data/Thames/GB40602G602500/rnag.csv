@@ -1,7 +1,4 @@
-"","WBID","Category","Category Certainty","Business Sector","Activity","Activity Certainty"
-"1","GB40602G602500","Sector under investigation","Not applicable","Not applicable","Unknown (pending investigation)","Not applicable"
-"2","GB40602G602500","Industry","Suspected","Other industry, manufacturing and Business","Groundwater abstraction","Suspected"
-"3","GB40602G602500","Water Industry","Probable","Water supply","Groundwater abstraction","Probable"
-"4","GB40602G602500","Water Industry","Probable","Water supply","Groundwater abstraction","Probable"
-"5","GB40602G602500","Industry","Suspected","Other industry, manufacturing and Business","Groundwater abstraction","Suspected"
-"6","GB40602G602500","Sector under investigation","Not applicable","Not applicable","Unknown (pending investigation)","Not applicable"
+"source","target","value"
+"Industry","Groundwater abstraction",2
+"Sector under investigation","Unknown (pending investigation)",3
+"Water Industry","Groundwater abstraction",2

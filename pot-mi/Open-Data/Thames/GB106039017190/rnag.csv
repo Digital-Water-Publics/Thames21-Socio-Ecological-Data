@@ -1,10 +1,5 @@
-"","WBID","Category","Category Certainty","Business Sector","Activity","Activity Certainty"
-"1","GB106039017190","Water Industry","Confirmed","Waste water treatment","Sewage discharge (continuous)","Confirmed"
-"2","GB106039017190","Water Industry","Probable","Waste water treatment","Sewage discharge (continuous)","Probable"
-"3","GB106039017190","Water Industry","Confirmed","Other (not in list)","Sewage discharge (continuous)","Confirmed"
-"4","GB106039017190","Sector under investigation","Not applicable","Unknown (pending investigation)","Sewage discharge (intermittent)","Probable"
-"5","GB106039017190","Water Industry","Confirmed","Not applicable","Sewage discharge (continuous)","Confirmed"
-"6","GB106039017190","Sector under investigation","Not applicable","Unknown (pending investigation)","Sewage discharge (intermittent)","Probable"
-"7","GB106039017190","No sector responsible","Not applicable","","Private Sewage Treatment","Probable"
-"8","GB106039017190","No sector responsible","Not applicable","Not applicable","Not applicable","Not applicable"
-"9","GB106039017190","No sector responsible","Not applicable","Not applicable","Not applicable","Not applicable"
+"source","target","value"
+"No sector responsible","Private Sewage Treatment",1
+"Sector under investigation","Sewage discharge (intermittent)",2
+"Sector under investigation","Unknown (pending investigation)",1
+"Water Industry","Sewage discharge (continuous)",4

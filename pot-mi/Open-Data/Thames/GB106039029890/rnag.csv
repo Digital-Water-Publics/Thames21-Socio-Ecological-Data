@@ -1,12 +1,9 @@
-"","WBID","Category","Category Certainty","Business Sector","Activity","Activity Certainty"
-"1","GB106039029890","Water Industry","Confirmed","Waste water treatment","Sewage discharge (continuous)","Confirmed"
-"2","GB106039029890","Urban and transport","Confirmed","Not applicable","Other (not in list, must add details in comments)","Confirmed"
-"3","GB106039029890","Recreation","Confirmed","Recreation","Other (not in list, must add details in comments)","Confirmed"
-"4","GB106039029890","Water Industry","Probable","Water supply","Groundwater abstraction","Probable"
-"5","GB106039029890","Navigation","Confirmed","Inland Waterways","Inland boating and structures","Confirmed"
-"6","GB106039029890","Navigation","Probable","Inland Waterways","Groundwater abstraction","Probable"
-"7","GB106039029890","Navigation","Suspected","Inland Waterways","Inland boating and structures","Suspected"
-"8","GB106039029890","Urban and transport","Confirmed","Not applicable","Urbanisation - urban development","Confirmed"
-"9","GB106039029890","Water Industry","Confirmed","Waste water treatment","Sewage discharge (continuous)","Confirmed"
-"10","GB106039029890","Navigation","Confirmed","Inland Waterways","Inland boating and structures","Confirmed"
-"11","GB106039029890","Urban and transport","Confirmed","Not applicable","Urbanisation - urban development","Confirmed"
+"source","target","value"
+"Navigation","Groundwater abstraction",1
+"Navigation","Inland boating and structures",3
+"Recreation","Other (not in list, must add details in comments)",1
+"Sector under investigation","Unknown (pending investigation)",1
+"Urban and transport","Other (not in list, must add details in comments)",1
+"Urban and transport","Urbanisation - urban development",2
+"Water Industry","Groundwater abstraction",1
+"Water Industry","Sewage discharge (continuous)",2

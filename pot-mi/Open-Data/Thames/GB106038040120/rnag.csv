@@ -1,13 +1,10 @@
-"","WBID","Category","Category Certainty","Business Sector","Activity","Activity Certainty"
-"1","GB106038040120","No sector responsible","Not applicable","Not applicable","Drought","Probable"
-"2","GB106038040120","Agriculture and rural land management","Confirmed","Agriculture - Livestock","Riparian/in-river activities (inc bankside erosion)","Confirmed"
-"3","GB106038040120","Agriculture and rural land management","Probable","Agriculture - Arable","Poor soil management","Probable"
-"4","GB106038040120","No sector responsible","Not applicable","Not applicable","Drought","Confirmed"
-"5","GB106038040120","Local and Central Government","Suspected","Environment, Farming, Rural","Reservoir / Impoundment - non flow related","Suspected"
-"6","GB106038040120","Agriculture and rural land management","Probable","Agriculture - Arable","Poor soil management","Probable"
-"7","GB106038040120","Agriculture and rural land management","Confirmed","Agriculture - Livestock","Riparian/in-river activities (inc bankside erosion)","Confirmed"
-"8","GB106038040120","Other","Suspected","Not applicable","Reservoir / Impoundment - non flow related","Suspected"
-"9","GB106038040120","Urban and transport","Probable","Roads","Urbanisation - transport","Probable"
-"10","GB106038040120","Agriculture and rural land management","Confirmed","Other (not in list)","Flood protection - sediment management","Confirmed"
-"11","GB106038040120","No sector responsible","Not applicable","Not applicable","Drought","Confirmed"
-"12","GB106038040120","Water Industry","Suspected","Waste water treatment","Sewage discharge (continuous)","Suspected"
+"source","target","value"
+"Agriculture and rural land management","Flood protection - sediment management",1
+"Agriculture and rural land management","Poor soil management",2
+"Agriculture and rural land management","Riparian/in-river activities (inc bankside erosion)",2
+"Local and Central Government","Reservoir / Impoundment - non flow related",1
+"No sector responsible","Drought",3
+"Other","Reservoir / Impoundment - non flow related",1
+"Sector under investigation","Unknown (pending investigation)",1
+"Urban and transport","Urbanisation - transport",1
+"Water Industry","Sewage discharge (continuous)",1

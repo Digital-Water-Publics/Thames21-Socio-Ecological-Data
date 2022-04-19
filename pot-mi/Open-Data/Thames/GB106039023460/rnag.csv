@@ -1,27 +1,15 @@
-"","WBID","Category","Category Certainty","Business Sector","Activity","Activity Certainty"
-"1","GB106039023460","Water Industry","Confirmed","Waste water treatment","Sewage discharge (continuous)","Confirmed"
-"2","GB106039023460","Urban and transport","Confirmed","Not applicable","Other (not in list, must add details in comments)","Confirmed"
-"3","GB106039023460","Local and Central Government","Confirmed","Not applicable","Other (not in list, must add details in comments)","Confirmed"
-"4","GB106039023460","Sector under investigation","Not applicable","Not applicable","Unknown (pending investigation)","Not applicable"
-"5","GB106039023460","Water Industry","Confirmed","Waste water treatment","Sewage discharge (intermittent)","Confirmed"
-"6","GB106039023460","Local and Central Government","Confirmed","Environment, Farming, Rural","Barriers - ecological discontinuity","Confirmed"
-"7","GB106039023460","Sector under investigation","Not applicable","Not applicable","Unknown (pending investigation)","Not applicable"
-"8","GB106039023460","Sector under investigation","Not applicable","Not applicable","Unknown (pending investigation)","Not applicable"
-"9","GB106039023460","Domestic General Public","Confirmed","Not applicable","Misconnections","Confirmed"
-"10","GB106039023460","Water Industry","Confirmed","Waste water treatment","Sewage discharge (intermittent)","Confirmed"
-"11","GB106039023460","Urban and transport","Probable","Not applicable","Reservoir / Impoundment - non flow related","Confirmed"
-"12","GB106039023460","Local and Central Government","Confirmed","Environment, Farming, Rural","Flood protection - structures","Confirmed"
-"13","GB106039023460","Urban and transport","Probable","Not applicable","Barriers - ecological discontinuity","Confirmed"
-"14","GB106039023460","Urban and transport","Probable","Roads","Urbanisation - transport","Probable"
-"15","GB106039023460","Water Industry","Confirmed","Waste water treatment","Incidents","Confirmed"
-"16","GB106039023460","Water Industry","Confirmed","Waste water treatment","Sewage discharge (continuous)","Confirmed"
-"17","GB106039023460","Urban and transport","Confirmed","Urban","Urbanisation - urban development","Confirmed"
-"18","GB106039023460","Urban and transport","Probable","Roads","Urbanisation - transport","Probable"
-"19","GB106039023460","Water Industry","Probable","Waste water treatment","Incidents","Probable"
-"20","GB106039023460","Urban and transport","Probable","Roads","Transport Drainage","Probable"
-"21","GB106039023460","Domestic General Public","Probable","Not applicable","Misconnections","Probable"
-"22","GB106039023460","Urban and transport","Confirmed","Urban","Urbanisation - urban development","Confirmed"
-"23","GB106039023460","Local and Central Government","Confirmed","Environment, Farming, Rural","Flood protection - structures","Confirmed"
-"24","GB106039023460","Water Industry","Confirmed","Waste water treatment","Sewage discharge (continuous)","Confirmed"
-"25","GB106039023460","Water Industry","Confirmed","Waste water treatment","Sewage discharge (intermittent)","Confirmed"
-"26","GB106039023460","Domestic General Public","Confirmed","Not applicable","Misconnections","Confirmed"
+"source","target","value"
+"Domestic General Public","Misconnections",3
+"Local and Central Government","Barriers - ecological discontinuity",1
+"Local and Central Government","Flood protection - structures",2
+"Local and Central Government","Other (not in list, must add details in comments)",1
+"Sector under investigation","Unknown (pending investigation)",4
+"Urban and transport","Barriers - ecological discontinuity",1
+"Urban and transport","Other (not in list, must add details in comments)",1
+"Urban and transport","Reservoir / Impoundment - non flow related",1
+"Urban and transport","Transport Drainage",1
+"Urban and transport","Urbanisation - transport",2
+"Urban and transport","Urbanisation - urban development",2
+"Water Industry","Incidents",2
+"Water Industry","Sewage discharge (continuous)",3
+"Water Industry","Sewage discharge (intermittent)",3

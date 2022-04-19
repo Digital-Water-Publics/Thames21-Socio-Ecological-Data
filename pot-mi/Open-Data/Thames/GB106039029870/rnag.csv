@@ -1,14 +1,9 @@
-"","WBID","Category","Category Certainty","Business Sector","Activity","Activity Certainty"
-"1","GB106039029870","Urban and transport","Probable","Not applicable","Flood protection - other operational management","Probable"
-"2","GB106039029870","Urban and transport","Confirmed","Not applicable","Flood protection - structures","Confirmed"
-"3","GB106039029870","Other","Confirmed","Not applicable","Barriers - ecological discontinuity","Confirmed"
-"4","GB106039029870","Water Industry","Confirmed","Not applicable","Sewage discharge (continuous)","Confirmed"
-"5","GB106039029870","Agriculture and rural land management","Probable","Agriculture - Livestock","Riparian/in-river activities (inc bankside erosion)","Probable"
-"6","GB106039029870","Other","Probable","Not applicable","Fish stocking","Probable"
-"7","GB106039029870","Agriculture and rural land management","Confirmed","Not applicable","Reservoir / Impoundment - non flow related","Confirmed"
-"8","GB106039029870","Water Industry","Confirmed","Not applicable","Sewage discharge (continuous)","Confirmed"
-"9","GB106039029870","Water Industry","Probable","Water supply","Groundwater abstraction","Probable"
-"10","GB106039029870","Water Industry","Confirmed","Water supply","Groundwater abstraction","Confirmed"
-"11","GB106039029870","Water Industry","Confirmed","Waste water treatment","Sewage discharge (continuous)","Confirmed"
-"12","GB106039029870","Water Industry","Probable","Water supply","Groundwater abstraction","Probable"
-"13","GB106039029870","Urban and transport","Probable","Not applicable","Flood protection - other operational management","Probable"
+"source","target","value"
+"Agriculture and rural land management","Reservoir / Impoundment - non flow related",1
+"Agriculture and rural land management","Riparian/in-river activities (inc bankside erosion)",1
+"Other","Barriers - ecological discontinuity",1
+"Other","Fish stocking",1
+"Urban and transport","Flood protection - other operational management",2
+"Urban and transport","Flood protection - structures",1
+"Water Industry","Groundwater abstraction",3
+"Water Industry","Sewage discharge (continuous)",3

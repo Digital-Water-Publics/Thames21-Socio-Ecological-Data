@@ -1,21 +1,11 @@
-"","WBID","Category","Category Certainty","Business Sector","Activity","Activity Certainty"
-"1","GB106040018340","Domestic General Public","Probable","Domestic/General public","Private Sewage Treatment","Probable"
-"2","GB106040018340","Domestic General Public","Probable","Domestic/General public","Private Sewage Treatment","Probable"
-"3","GB106040018340","Domestic General Public","Probable","Domestic/General public","Private Sewage Treatment","Probable"
-"4","GB106040018340","Agriculture and rural land management","Probable","Not applicable","Reservoir / Impoundment - non flow related","Probable"
-"5","GB106040018340","Agriculture and rural land management","Probable","Not applicable","Reservoir / Impoundment - non flow related","Probable"
-"6","GB106040018340","Industry","Suspected","Not applicable","Private Sewage Treatment","Suspected"
-"7","GB106040018340","Agriculture and rural land management","Probable","Not applicable","Reservoir / Impoundment - non flow related","Probable"
-"8","GB106040018340","Domestic General Public","Confirmed","Domestic/General public","Private Sewage Treatment","Confirmed"
-"9","GB106040018340","Agriculture and rural land management","Suspected","Agriculture - Livestock","Poor Livestock Management","Suspected"
-"10","GB106040018340","Domestic General Public","Probable","Domestic/General public","Private Sewage Treatment","Probable"
-"11","GB106040018340","Agriculture and rural land management","Probable","Agriculture - Livestock","Riparian/in-river activities (inc bankside erosion)","Probable"
-"12","GB106040018340","Agriculture and rural land management","Probable","Agriculture - Livestock","Riparian/in-river activities (inc bankside erosion)","Probable"
-"13","GB106040018340","Agriculture and rural land management","Probable","Agriculture - Arable","Poor soil management","Probable"
-"14","GB106040018340","Industry","Probable","Other industry, manufacturing and Business","Trade/Industry discharge","Probable"
-"15","GB106040018340","No sector responsible","Not applicable","Not applicable","Low Flow (not drought)","Probable"
-"16","GB106040018340","Agriculture and rural land management","Probable","Agriculture - Arable","Poor soil management","Probable"
-"17","GB106040018340","Industry","Probable","Other industry, manufacturing and Business","Trade/Industry discharge","Probable"
-"18","GB106040018340","No sector responsible","Not applicable","Not applicable","Drought","Suspected"
-"19","GB106040018340","No sector responsible","Not applicable","Not applicable","Low Flow (not drought)","Probable"
-"20","GB106040018340","No sector responsible","Not applicable","Not applicable","Natural conditions - other","Probable"
+"source","target","value"
+"Agriculture and rural land management","Poor Livestock Management",1
+"Agriculture and rural land management","Poor soil management",2
+"Agriculture and rural land management","Reservoir / Impoundment - non flow related",3
+"Agriculture and rural land management","Riparian/in-river activities (inc bankside erosion)",2
+"Domestic General Public","Private Sewage Treatment",5
+"Industry","Private Sewage Treatment",1
+"Industry","Trade/Industry discharge",2
+"No sector responsible","Drought",1
+"No sector responsible","Low Flow (not drought)",2
+"No sector responsible","Natural conditions - other",1

@@ -1,26 +1,14 @@
-"","WBID","Category","Category Certainty","Business Sector","Activity","Activity Certainty"
-"1","GB106039023270","Local and Central Government","Confirmed","Not applicable","Other (not in list, must add details in comments)","Confirmed"
-"2","GB106039023270","Urban and transport","Confirmed","Not applicable","Other (not in list, must add details in comments)","Confirmed"
-"3","GB106039023270","Domestic General Public","Probable","Not applicable","Misconnections","Probable"
-"4","GB106039023270","Urban and transport","Confirmed","Not applicable","Flood protection - structures","Confirmed"
-"5","GB106039023270","Water Industry","Probable","Waste water treatment","Sewage discharge (intermittent)","Probable"
-"6","GB106039023270","Water Industry","Probable","Waste water treatment","Leaking utility sewers","Probable"
-"7","GB106039023270","Domestic General Public","Probable","Not applicable","Misconnections","Probable"
-"8","GB106039023270","Water Industry","Probable","Waste water treatment","Sewage discharge (intermittent)","Probable"
-"9","GB106039023270","Water Industry","Probable","Waste water treatment","Leaking utility sewers","Probable"
-"10","GB106039023270","No sector responsible","Not applicable","Not applicable","Chinese mitten crab","Probable"
-"11","GB106039023270","Local and Central Government","Probable","Environment, Farming, Rural","Land drainage - structures","Probable"
-"12","GB106039023270","Water Industry","Probable","Waste water treatment","Sewage discharge (intermittent)","Probable"
-"13","GB106039023270","Water Industry","Probable","Waste water treatment","Leaking utility sewers","Probable"
-"14","GB106039023270","Domestic General Public","Probable","Not applicable","Misconnections","Probable"
-"15","GB106039023270","Domestic General Public","Confirmed","Not applicable","Misconnections","Confirmed"
-"16","GB106039023270","Domestic General Public","Probable","Not applicable","Misconnections","Probable"
-"17","GB106039023270","No sector responsible","Not applicable","Not applicable","Natural conditions - other","Confirmed"
-"18","GB106039023270","Domestic General Public","Confirmed","Not applicable","Misconnections","Confirmed"
-"19","GB106039023270","No sector responsible","Not applicable","Not applicable","Natural conditions - other","Confirmed"
-"20","GB106039023270","Water Industry","Probable","Waste water treatment","Leaking utility sewers","Probable"
-"21","GB106039023270","Urban and transport","Confirmed","Not applicable","Urbanisation - urban development","Confirmed"
-"22","GB106039023270","Urban and transport","Probable","Not applicable","Barriers - ecological discontinuity","Confirmed"
-"23","GB106039023270","Urban and transport","Confirmed","Not applicable","Flood protection - structures","Confirmed"
-"24","GB106039023270","Urban and transport","Confirmed","Not applicable","Urbanisation - urban development","Confirmed"
-"25","GB106039023270","Local and Central Government","Probable","Environment, Farming, Rural","Barriers - ecological discontinuity","Probable"
+"source","target","value"
+"Domestic General Public","Misconnections",6
+"Local and Central Government","Barriers - ecological discontinuity",1
+"Local and Central Government","Land drainage - structures",1
+"Local and Central Government","Other (not in list, must add details in comments)",1
+"No sector responsible","Chinese mitten crab",1
+"No sector responsible","Natural conditions - other",2
+"Sector under investigation","Unknown (pending investigation)",1
+"Urban and transport","Barriers - ecological discontinuity",1
+"Urban and transport","Flood protection - structures",2
+"Urban and transport","Other (not in list, must add details in comments)",1
+"Urban and transport","Urbanisation - urban development",2
+"Water Industry","Leaking utility sewers",4
+"Water Industry","Sewage discharge (intermittent)",3

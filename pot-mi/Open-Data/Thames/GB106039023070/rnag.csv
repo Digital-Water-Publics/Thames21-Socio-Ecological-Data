@@ -1,3 +1,4 @@
-"","WBID","Category","Category Certainty","Business Sector","Activity","Activity Certainty"
-"1","GB106039023070","Urban and transport","Probable","Urban","Urbanisation - urban development","Probable"
-"2","GB106039023070","Urban and transport","Confirmed","Not applicable","Other (not in list, must add details in comments)","Confirmed"
+"source","target","value"
+"Sector under investigation","Unknown (pending investigation)",1
+"Urban and transport","Other (not in list, must add details in comments)",1
+"Urban and transport","Urbanisation - urban development",1

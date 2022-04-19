@@ -1,4 +1,5 @@
-"","WBID","Category","Category Certainty","Business Sector","Activity","Activity Certainty"
-"1","GB106039030480","Agriculture and rural land management","Suspected","Not applicable","Barriers - ecological discontinuity","Suspected"
-"2","GB106039030480","Agriculture and rural land management","Suspected","Agriculture - Arable","Land drainage","Suspected"
-"3","GB106039030480","Water Industry","Suspected","Not applicable","Groundwater abstraction","Suspected"
+"source","target","value"
+"Agriculture and rural land management","Barriers - ecological discontinuity",1
+"Agriculture and rural land management","Land drainage",1
+"Sector under investigation","Unknown (pending investigation)",1
+"Water Industry","Groundwater abstraction",1

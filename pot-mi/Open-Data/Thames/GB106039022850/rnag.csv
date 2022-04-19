@@ -1,21 +1,12 @@
-"","WBID","Category","Category Certainty","Business Sector","Activity","Activity Certainty"
-"1","GB106039022850","Urban and transport","Confirmed","Not applicable","Other (not in list, must add details in comments)","Confirmed"
-"2","GB106039022850","Local and Central Government","Confirmed","Not applicable","Other (not in list, must add details in comments)","Confirmed"
-"3","GB106039022850","Water Industry","Confirmed","Waste water treatment","Sewage discharge (intermittent)","Confirmed"
-"4","GB106039022850","No sector responsible","Not applicable","Not applicable","Drought","Confirmed"
-"5","GB106039022850","Local and Central Government","Probable","Environment, Farming, Rural","Barriers - ecological discontinuity","Confirmed"
-"6","GB106039022850","Sector under investigation","Not applicable","Not applicable","Unknown (pending investigation)","Not applicable"
-"7","GB106039022850","Local and Central Government","Probable","Environment, Farming, Rural","Coastal erosion protection and control - structure","Probable"
-"8","GB106039022850","Urban and transport","Probable","Urban","Urbanisation - urban development","Probable"
-"9","GB106039022850","Domestic General Public","Probable","Not applicable","Misconnections","Probable"
-"10","GB106039022850","Domestic General Public","Confirmed","Not applicable","Misconnections","Confirmed"
-"11","GB106039022850","Water Industry","Probable","Waste water treatment","Sewage discharge (intermittent)","Probable"
-"12","GB106039022850","Water Industry","Confirmed","Waste water treatment","Sewage discharge (continuous)","Confirmed"
-"13","GB106039022850","No sector responsible","Not applicable","Not applicable","Low Flow (not drought)","Probable"
-"14","GB106039022850","Water Industry","Probable","Waste water treatment","Sewage discharge (intermittent)","Probable"
-"15","GB106039022850","Water Industry","Confirmed","Waste water treatment","Sewage discharge (continuous)","Confirmed"
-"16","GB106039022850","Domestic General Public","Confirmed","Not applicable","Misconnections","Confirmed"
-"17","GB106039022850","Water Industry","Confirmed","Waste water treatment","Sewage discharge (continuous)","Confirmed"
-"18","GB106039022850","Water Industry","Confirmed","Waste water treatment","Sewage discharge (continuous)","Confirmed"
-"19","GB106039022850","Water Industry","Probable","Waste water treatment","Sewage discharge (intermittent)","Probable"
-"20","GB106039022850","Domestic General Public","Probable","Not applicable","Misconnections","Probable"
+"source","target","value"
+"Domestic General Public","Misconnections",4
+"Local and Central Government","Barriers - ecological discontinuity",1
+"Local and Central Government","Coastal erosion protection and control - structure",1
+"Local and Central Government","Other (not in list, must add details in comments)",1
+"No sector responsible","Drought",1
+"No sector responsible","Low Flow (not drought)",1
+"Sector under investigation","Unknown (pending investigation)",2
+"Urban and transport","Other (not in list, must add details in comments)",1
+"Urban and transport","Urbanisation - urban development",1
+"Water Industry","Sewage discharge (continuous)",4
+"Water Industry","Sewage discharge (intermittent)",4

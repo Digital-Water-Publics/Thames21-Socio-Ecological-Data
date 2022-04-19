@@ -1,19 +1,13 @@
-"","WBID","Category","Category Certainty","Business Sector","Activity","Activity Certainty"
-"1","GB40601G501800","Sector under investigation","Not applicable","Not applicable","Unknown (pending investigation)","Not applicable"
-"2","GB40601G501800","Sector under investigation","Not applicable","Not applicable","Unknown (pending investigation)","Not applicable"
-"3","GB40601G501800","Industry","Suspected","Other industry, manufacturing and Business","Contaminated land","Suspected"
-"4","GB40601G501800","Domestic General Public","Suspected","Domestic/General public","Private Sewage Treatment","Suspected"
-"5","GB40601G501800","Agriculture and rural land management","Probable","Agriculture - Arable","Poor soil management","Probable"
-"6","GB40601G501800","Agriculture and rural land management","Probable","Agriculture - Arable","Poor nutrient management","Probable"
-"7","GB40601G501800","Water Industry","Suspected","Waste water treatment","Leaking utility sewers","Suspected"
-"8","GB40601G501800","Water Industry","Probable","Water supply","Surface water abstraction","Probable"
-"9","GB40601G501800","Industry","Suspected","Other industry, manufacturing and Business","Contaminated land","Suspected"
-"10","GB40601G501800","Agriculture and rural land management","Confirmed","Agriculture - Arable","Poor nutrient management","Confirmed"
-"11","GB40601G501800","Agriculture and rural land management","Confirmed","Agriculture - Arable","Groundwater abstraction","Confirmed"
-"12","GB40601G501800","Agriculture and rural land management","Probable","Not applicable","Farm/site infrastructure","Probable"
-"13","GB40601G501800","Water Industry","Suspected","Waste water treatment","Leaking utility sewers","Suspected"
-"14","GB40601G501800","No sector responsible","Not applicable","Not applicable","Natural conditions - other","Confirmed"
-"15","GB40601G501800","Water Industry","Confirmed","Water supply","Groundwater abstraction","Confirmed"
-"16","GB40601G501800","Domestic General Public","Suspected","Domestic/General public","Private Sewage Treatment","Suspected"
-"17","GB40601G501800","Urban and transport","Suspected","Roads","Transport Drainage","Suspected"
-"18","GB40601G501800","Industry","Suspected","Other industry, manufacturing and Business","Contaminated land","Suspected"
+"source","target","value"
+"Agriculture and rural land management","Farm/site infrastructure",1
+"Agriculture and rural land management","Groundwater abstraction",1
+"Agriculture and rural land management","Poor nutrient management",2
+"Agriculture and rural land management","Poor soil management",1
+"Domestic General Public","Private Sewage Treatment",2
+"Industry","Contaminated land",3
+"No sector responsible","Natural conditions - other",1
+"Sector under investigation","Unknown (pending investigation)",4
+"Urban and transport","Transport Drainage",1
+"Water Industry","Groundwater abstraction",1
+"Water Industry","Leaking utility sewers",2
+"Water Industry","Surface water abstraction",1

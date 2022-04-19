@@ -1,6 +1,4 @@
-"","WBID","Category","Category Certainty","Business Sector","Activity","Activity Certainty"
-"1","GB106039029830","Sector under investigation","Not applicable","Not applicable","Flood protection - structures","Confirmed"
-"2","GB106039029830","Water Industry","Confirmed","Water supply","Groundwater abstraction","Confirmed"
-"3","GB106039029830","Sector under investigation","Not applicable","Not applicable","Barriers - ecological discontinuity","Confirmed"
-"4","GB106039029830","Water Industry","Confirmed","Water supply","Groundwater abstraction","Confirmed"
-"5","GB106039029830","Water Industry","Probable","Water supply","Groundwater abstraction","Probable"
+"source","target","value"
+"Sector under investigation","Barriers - ecological discontinuity",1
+"Sector under investigation","Flood protection - structures",1
+"Water Industry","Groundwater abstraction",3
