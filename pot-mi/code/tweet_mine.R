@@ -48,9 +48,18 @@ mine_blue_mentions = function(river_query, wbid) {
 }
 # read csv of mine sheet
 waterbodies = read.csv("data/111021_mine_query_sheet_hp.csv")
+waterbodies = read.csv("../../../../Downloads/060422_mine_query_sheet_hp.csv")
+
+new_run = "GB106038077851,GB106038027950,GB106038033392,GB106038033240,GB106038033391,GB40601G602900,GB106038077852,GB106038033200,GB106039022970,GB106039023890,GB106039023880"
+new_run = as.data.frame(strsplit(new_run,",")[[1]])
+colnames(new_run) = "WBID"
+new_run = inner_join(new_run,waterbodies)
 
 # run mine
-# for (i in 1:nrow(waterbodies)) {
-#   mine_blue_mentions(river_query = waterbodies$mine_query[i], wbid = waterbodies$WBID[i])
-# }
-#
+ for (i in 1:nrow(waterbodies)) {
+   mine_blue_mentions(river_query = waterbodies$mine_query[i], wbid = waterbodies$WBID[i])
+ }
+
+new_run = rbind(river_lee,river_wye_OR_wye_valley,Silk_Stream,upper_lee,
+                hoo_lake,fields_lea,small_lee,lee_nav_weir,lea_naav_locks
+)

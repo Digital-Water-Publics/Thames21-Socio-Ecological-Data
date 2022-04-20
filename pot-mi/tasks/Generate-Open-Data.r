@@ -98,42 +98,42 @@ for (i in 1:nrow(wbids)) {
   #### STEP 2: Generate sentiment and textual datasets for waterbody
   ####
   ####
-  # message("STEP 2: Generate sentiment and textual datasets for waterbody")
-  # # 2.1 Sentiment Polarity score
-  # river_mean_senti = river %>% mutate(created_at = as.Date(ymd_hms(created_at))) %>%
-  #   group_by(created_at) %>%
-  #   summarise(mean_senti = mean(senti_score),)
-  # write.csv(river_mean_senti,paste0(path,"/polarity-score.csv"))
-  # # 2.2 Emotional frequency in tweets
-  # corpus = corpus(river$clean_tweet)
-  # emo_freq = data.frame(text = corpus, stringsAsFactors = FALSE) %>% unnest_tokens(word, text) %>%
-  #   inner_join(get_sentiments("nrc") %>%
-  #                filter(sentiment %ni% c("positive", "negative"))) %>%
-  #   count(sentiment) %>%
-  #   mutate(percent = (n / sum(n)) * 100) %>%
-  #   mutate(percent = round(percent, 2))
-  # write.csv(emo_freq,paste0(path,"/emolex-frequency.csv"))
-  # #2.3 Common nounphrases
-  # parsed = spacy_extract_nounphrases(
-  #   river$clean_tweet,
-  #   output = c("data.frame"),
-  #   multithread = TRUE
-  # ) %>%
-  #   filter(length > 2) %>%
-  #   select(text) %>%
-  #   mutate(text = str_remove_all(text, regex(" ?(f&ht)(tp)(s?)(://)(.*)[.&/](.*)"))) %>%
-  #   mutate(text = str_remove_all(text, regex("@[[:alnum:]_]{4,}"))) %>%
-  #   mutate(text = str_remove_all(text, regex("#[[:alnum:]_]+"))) %>%
-  #   mutate(text = str_remove_all(text, regex("[[:punct:]]"))) %>%
-  #   mutate(text = str_remove_all(text, regex("^RT:? "))) %>%
-  #   mutate(text = str_replace(text, "amp", "and")) %>%
-  #   anti_join(stop_words, by = c("text" = "word")) %>%
-  #   mutate(text = str_to_lower(text)) %>%
-  #   # Remove any trailing whitespace around the text
-  #   mutate(text = str_trim(text, "both")) %>%
-  #   count(text) %>%
-  #   arrange(desc(n))
-  # write.csv(parsed,paste0(path,"/common-nounphrase.csv"))
+  message("STEP 2: Generate sentiment and textual datasets for waterbody")
+  # 2.1 Sentiment Polarity score
+  river_mean_senti = river %>% mutate(created_at = as.Date(ymd_hms(created_at))) %>%
+    group_by(created_at) %>%
+    summarise(mean_senti = mean(senti_score),)
+  write.csv(river_mean_senti,paste0(path,"/polarity-score.csv"))
+  # 2.2 Emotional frequency in tweets
+  corpus = corpus(river$clean_tweet)
+  emo_freq = data.frame(text = corpus, stringsAsFactors = FALSE) %>% unnest_tokens(word, text) %>%
+    inner_join(get_sentiments("nrc") %>%
+                 filter(sentiment %ni% c("positive", "negative"))) %>%
+    count(sentiment) %>%
+    mutate(percent = (n / sum(n)) * 100) %>%
+    mutate(percent = round(percent, 2))
+  write.csv(emo_freq,paste0(path,"/emolex-frequency.csv"))
+  #2.3 Common nounphrases
+  parsed = spacy_extract_nounphrases(
+    river$clean_tweet,
+    output = c("data.frame"),
+    multithread = TRUE
+  ) %>%
+    filter(length > 2) %>%
+    select(text) %>%
+    mutate(text = str_remove_all(text, regex(" ?(f&ht)(tp)(s?)(://)(.*)[.&/](.*)"))) %>%
+    mutate(text = str_remove_all(text, regex("@[[:alnum:]_]{4,}"))) %>%
+    mutate(text = str_remove_all(text, regex("#[[:alnum:]_]+"))) %>%
+    mutate(text = str_remove_all(text, regex("[[:punct:]]"))) %>%
+    mutate(text = str_remove_all(text, regex("^RT:? "))) %>%
+    mutate(text = str_replace(text, "amp", "and")) %>%
+    anti_join(stop_words, by = c("text" = "word")) %>%
+    mutate(text = str_to_lower(text)) %>%
+    # Remove any trailing whitespace around the text
+    mutate(text = str_trim(text, "both")) %>%
+    count(text) %>%
+    arrange(desc(n))
+  write.csv(parsed,paste0(path,"/common-nounphrase.csv"))
   ####
   ####
   #### STEP 3: Fetch ecological data from the EA for each waterbody
@@ -141,13 +141,13 @@ for (i in 1:nrow(wbids)) {
   ####
   message("STEP 3: Fetch ecological data from the EA for each waterbody")
   # #3.1 Get Ecological Classification
-  # wb_class = get_wb_classification(string = river$WBID[1], column = "WB") %>%
-  #   filter(Classification.Item == "Ecological") %>%
-  #   filter(Status != "Does not require assessment") %>%
-  #   filter(Cycle == 2) %>%
-  #   select(Year,Status)  %>%
-  #   pivot_wider(names_from = "Year",values_from = "Status")
-  # write.csv(wb_class,paste0(path,"/eco-class.csv"))
+  wb_class = get_wb_classification(string = river$WBID[1], column = "WB") %>%
+    filter(Classification.Item == "Ecological") %>%
+    filter(Status != "Does not require assessment") %>%
+    filter(Cycle == 2) %>%
+    select(Year,Status)  %>%
+    pivot_wider(names_from = "Year",values_from = "Status")
+  write.csv(wb_class,paste0(path,"/eco-class.csv"))
   #3.2 Get Reasons for not achieving good
   wb_rnag = get_wb_rnag(string = river$WBID[1], column = "WB") %>%
     select(Category,Activity) %>%
@@ -155,19 +155,19 @@ for (i in 1:nrow(wbids)) {
     count() %>%
     filter(Activity != "Not applicable") %>%
     rename(source = Category, target = Activity, value = n)
-  write.csv(wb_rnag,paste0(path,river$WBID[1]/"/rnag.csv"), row.names = FALSE)
+  write.csv(wb_rnag,paste0(path,river$WBID[1],"/rnag.csv"), row.names = FALSE)
   #3.3 Get waterbody polygon
-  # wb_sf = get_wb_sf(string = river$WBID[1], column = "WB")
-  # write_sf(wb_sf,paste0(path,"/wb_poly.geojson"))
+  wb_sf = get_wb_sf(string = river$WBID[1], column = "WB")
+  write_sf(wb_sf,paste0(path,"/wb_poly.geojson"))
   # #3.4 Get waterbody line
-  # tryCatch(
-  #   expr = {
-  #     wb_line = wb_all %>% filter(river$WBID[1] == WBID)
-  #     write_sf(wb_line,paste0(path,"/wb_line.geojson"))
-  #   },
-  #   error = function(e){
-  #     message("No waterbody line found, moving on")
-  #   }
-  # )
+  tryCatch(
+    expr = {
+      wb_line = wb_all %>% filter(river$WBID[1] == WBID)
+      write_sf(wb_line,paste0(path,"/wb_line.geojson"))
+    },
+    error = function(e){
+      message("No waterbody line found, moving on")
+    }
+  )
 }
-``
+

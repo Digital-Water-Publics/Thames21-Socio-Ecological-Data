@@ -17,7 +17,7 @@ if (file.exists("data/web/oc.geojson")) {
     select(WBID, name, OC, OC_num, MC, MC_num, RBD, RBD_num)
 
   # join with main data to get categorical variables
-  clean_senti = inner_join(clean_senti, thames_wb)
+  clean_senti_run = inner_join(clean_senti_run, thames_wb)
 
   # aggregate data
   MC = as.data.frame(aggregate(senti_score  ~ MC_num, clean_senti, mean))

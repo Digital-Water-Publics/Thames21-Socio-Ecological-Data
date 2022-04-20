@@ -30,14 +30,18 @@ if(file.exists("data/river_queries/clean_senti.RDS")){
                 )
 
   # merge data
-  clean_senti = left_join(data, emotions)
-  clean_senti[is.na(clean_senti)] = 0
+  clean_senti_run = left_join(new_run, emotions)
+  clean_senti_run[,17:24][is.na(clean_senti_run[,17:24])] = 0
+  
+  # sesntiment plot from syhzet package
+  clean_senti_run$senti_score = get_sentiment(clean_senti_run$clean_tweet, method = "syuzhet")
+  clean_senti_run$senti_log = log(clean_senti_run$senti_score)
   # save rds
   saveRDS(clean_senti, "data/river_queries/clean_senti.RDS")
 }
 
-clean_senti = readRDS("data/river_queries/clean_senti.RDS")
-clean_senti$senti_score = get_sentiment(clean_senti$clean_tweet, method = "syuzhet")
+
+
 
 
 
