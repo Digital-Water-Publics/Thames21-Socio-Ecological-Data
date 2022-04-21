@@ -55,8 +55,8 @@ report = function(x) {
 ##                      Read Data                             ##
 #################################################################
 clean_senti = readRDS("data/river_queries/clean_senti.RDS")
-wbids = as.data.frame(unique(clean_senti$WBID))
-colnames(wbids) = "WBID"
+query = as.data.frame(unique(clean_senti$query))
+colnames(query) = "query"
 
 # read data for waterbodies
 wb = read_sf("../../../../Downloads/EA_WFDRiverWaterBodiesCycle1_SHP_Full/data/WFD_River_Water_Bodies_Cycle_1.shp") %>%
@@ -82,15 +82,25 @@ rm(wb,lakes,canals,surface)
 #################################################################
 ##                      loop through wbid                      ##
 #################################################################
-for (i in 1:nrow(wbids)) {
+for (i in 1:nrow(query)) {
   ####
   ####
   #### STEP 1: Filter sentiment data for waterbody & set up file path
   ####
   ####
   message("STEP 1: Filter sentiment data for waterbody & set up file path")
-  river = clean_senti %>% filter(WBID == wbids$WBID[i])
+  river = clean_senti %>% filter(query == query[i])
   path = paste0("Open-Data/",river$RBD[1],"/")
+  setwd(path)
+  if(file.exists(path) == TRUE){
+    path = paste0(path,i)
+    dir.create(paste0(path,i))
+  } else {
+    dir.create(river$WBID[1])
+  }
+
+  path = paste0("Open-Data/",river$RBD[1],"/",river$WBID[1])
+  setwd("../../")
 
   message(paste0("Generating for ", river$WBID[i], "path = ", path ))
   ####
@@ -155,7 +165,7 @@ for (i in 1:nrow(wbids)) {
     count() %>%
     filter(Activity != "Not applicable") %>%
     rename(source = Category, target = Activity, value = n)
-  write.csv(wb_rnag,paste0(path,river$WBID[1],"/rnag.csv"), row.names = FALSE)
+  write.csv(wb_rnag,paste0(path,"/rnag.csv"), row.names = FALSE)
   #3.3 Get waterbody polygon
   wb_sf = get_wb_sf(string = river$WBID[1], column = "WB")
   write_sf(wb_sf,paste0(path,"/wb_poly.geojson"))
