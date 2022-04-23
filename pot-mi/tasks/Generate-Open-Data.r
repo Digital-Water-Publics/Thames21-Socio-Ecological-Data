@@ -92,16 +92,17 @@ for (i in 1:nrow(query)) {
   river = clean_senti %>% filter(query == query[i])
   path = paste0("Open-Data/",river$RBD[1],"/")
   setwd(path)
-  if(file.exists(path) == TRUE){
-    path = paste0(path,i)
-    dir.create(paste0(path,i))
+  if(file.exists(river$WBID[1])){
+    print("Duplicate WBID found, WBID has been renamed including nth number")
+    dir.create(paste0(river$WBID[1],"-",i))
+    path = paste0("Open-Data/",river$RBD[1],"/",river$WBID[1])
   } else {
+    print("New directory created")
     dir.create(river$WBID[1])
+    path = paste0("Open-Data/",river$RBD[1],"/",river$WBID[1])
   }
 
-  path = paste0("Open-Data/",river$RBD[1],"/",river$WBID[1])
   setwd("../../")
-
   message(paste0("Generating for ", river$WBID[i], "path = ", path ))
   ####
   ####
@@ -179,5 +180,7 @@ for (i in 1:nrow(query)) {
       message("No waterbody line found, moving on")
     }
   )
+  if(path != paste0("Open-Data/",river$RBD[1],"/",river$WBID[1])){river$WBID = paste0(river$WBID[1],"-",i)}
+
 }
 
