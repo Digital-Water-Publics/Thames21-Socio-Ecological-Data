@@ -101,7 +101,7 @@ for (i in 1:nrow(wb_query)) {
   #   dir.create(river$WBID[1])
   #   path = paste0("Open-Data/",river$RBD[1],"/",river$WBID[1])
   # }
-
+  path = paste0("Open-Data/",river$RBD[1],"/",river$WBID[1])
   #setwd("../../")
   message(paste0("Generating for ", river$WBID[i], " path = ", path ))
   ####
