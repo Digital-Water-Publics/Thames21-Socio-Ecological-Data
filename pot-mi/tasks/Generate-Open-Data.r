@@ -54,9 +54,9 @@ report = function(x) {
 #################################################################
 ##                      Read Data                             ##
 #################################################################
-clean_senti = readRDS("data/river_queries/clean_senti.RDS")
-query = as.data.frame(unique(clean_senti$query))
-colnames(query) = "query"
+clean_senti1 = readRDS("data/river_queries/clean_senti.RDS")
+wb_query = as.data.frame(unique(clean_senti$WBID))
+colnames(wb_query) = "WBID"
 
 # read data for waterbodies
 wb = read_sf("../../../../Downloads/EA_WFDRiverWaterBodiesCycle1_SHP_Full/data/WFD_River_Water_Bodies_Cycle_1.shp") %>%
@@ -82,20 +82,20 @@ rm(wb,lakes,canals,surface)
 #################################################################
 ##                      loop through wbid                      ##
 #################################################################
-for (i in 1:nrow(query)) {
+for (i in 1:nrow(wb_query)) {
   ####
   ####
   #### STEP 1: Filter sentiment data for waterbody & set up file path
   ####
   ####
   message("STEP 1: Filter sentiment data for waterbody & set up file path")
-  river = clean_senti %>% filter(query == query[i])
+  river = clean_senti %>% filter(WBID == wb_query[i,])
   path = paste0("Open-Data/",river$RBD[1],"/")
   setwd(path)
   if(file.exists(river$WBID[1])){
     print("Duplicate WBID found, WBID has been renamed including nth number")
     dir.create(paste0(river$WBID[1],"-",i))
-    path = paste0("Open-Data/",river$RBD[1],"/",river$WBID[1])
+    path = paste0("Open-Data/",river$RBD[1],"/",river$WBID[1],"-",i)
   } else {
     print("New directory created")
     dir.create(river$WBID[1])
@@ -103,7 +103,7 @@ for (i in 1:nrow(query)) {
   }
 
   setwd("../../")
-  message(paste0("Generating for ", river$WBID[i], "path = ", path ))
+  message(paste0("Generating for ", river$WBID[i], " path = ", path ))
   ####
   ####
   #### STEP 2: Generate sentiment and textual datasets for waterbody
