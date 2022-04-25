@@ -90,19 +90,19 @@ for (i in 1:nrow(wb_query)) {
   ####
   message("STEP 1: Filter sentiment data for waterbody & set up file path")
   river = clean_senti %>% filter(WBID == wb_query[i,])
-  path = paste0("Open-Data/",river$RBD[1],"/")
-  setwd(path)
-  if(file.exists(river$WBID[1])){
-    print("Duplicate WBID found, WBID has been renamed including nth number")
-    dir.create(paste0(river$WBID[1],"-",i))
-    path = paste0("Open-Data/",river$RBD[1],"/",river$WBID[1],"-",i)
-  } else {
-    print("New directory created")
-    dir.create(river$WBID[1])
-    path = paste0("Open-Data/",river$RBD[1],"/",river$WBID[1])
-  }
+  # path = paste0("Open-Data/",river$RBD[1],"/")
+  # setwd(path)
+  # if(file.exists(river$WBID[1])){
+  #   print("Duplicate WBID found, WBID has been renamed including nth number")
+  #   dir.create(paste0(river$WBID[1],"-",i))
+  #   path = paste0("Open-Data/",river$RBD[1],"/",river$WBID[1],"-",i)
+  # } else {
+  #   print("New directory created")
+  #   dir.create(river$WBID[1])
+  #   path = paste0("Open-Data/",river$RBD[1],"/",river$WBID[1])
+  # }
 
-  setwd("../../")
+  #setwd("../../")
   message(paste0("Generating for ", river$WBID[i], " path = ", path ))
   ####
   ####
@@ -111,19 +111,19 @@ for (i in 1:nrow(wb_query)) {
   ####
   message("STEP 2: Generate sentiment and textual datasets for waterbody")
   # 2.1 Sentiment Polarity score
-  river_mean_senti = river %>% mutate(created_at = as.Date(ymd_hms(created_at))) %>%
-    group_by(created_at) %>%
-    summarise(mean_senti = mean(senti_score),)
-  write.csv(river_mean_senti,paste0(path,"/polarity-score.csv"))
-  # 2.2 Emotional frequency in tweets
-  corpus = corpus(river$clean_tweet)
-  emo_freq = data.frame(text = corpus, stringsAsFactors = FALSE) %>% unnest_tokens(word, text) %>%
-    inner_join(get_sentiments("nrc") %>%
-                 filter(sentiment %ni% c("positive", "negative"))) %>%
-    count(sentiment) %>%
-    mutate(percent = (n / sum(n)) * 100) %>%
-    mutate(percent = round(percent, 2))
-  write.csv(emo_freq,paste0(path,"/emolex-frequency.csv"))
+  # river_mean_senti = river %>% mutate(created_at = as.Date(ymd_hms(created_at))) %>%
+  #   group_by(created_at) %>%
+  #   summarise(mean_senti = mean(senti_score),)
+  # write.csv(river_mean_senti,paste0(path,"/polarity-score.csv"))
+  # # 2.2 Emotional frequency in tweets
+  # corpus = corpus(river$clean_tweet)
+  # emo_freq = data.frame(text = corpus, stringsAsFactors = FALSE) %>% unnest_tokens(word, text) %>%
+  #   inner_join(get_sentiments("nrc") %>%
+  #                filter(sentiment %ni% c("positive", "negative"))) %>%
+  #   count(sentiment) %>%
+  #   mutate(percent = (n / sum(n)) * 100) %>%
+  #   mutate(percent = round(percent, 2))
+  # write.csv(emo_freq,paste0(path,"/emolex-frequency.csv"))
   #2.3 Common nounphrases
   parsed = spacy_extract_nounphrases(
     river$clean_tweet,
@@ -150,37 +150,37 @@ for (i in 1:nrow(wb_query)) {
   #### STEP 3: Fetch ecological data from the EA for each waterbody
   ####
   ####
-  message("STEP 3: Fetch ecological data from the EA for each waterbody")
-  # #3.1 Get Ecological Classification
-  wb_class = get_wb_classification(string = river$WBID[1], column = "WB") %>%
-    filter(Classification.Item == "Ecological") %>%
-    filter(Status != "Does not require assessment") %>%
-    filter(Cycle == 2) %>%
-    select(Year,Status)  %>%
-    pivot_wider(names_from = "Year",values_from = "Status")
-  write.csv(wb_class,paste0(path,"/eco-class.csv"))
-  #3.2 Get Reasons for not achieving good
-  wb_rnag = get_wb_rnag(string = river$WBID[1], column = "WB") %>%
-    select(Category,Activity) %>%
-    group_by(Category,Activity) %>%
-    count() %>%
-    filter(Activity != "Not applicable") %>%
-    rename(source = Category, target = Activity, value = n)
-  write.csv(wb_rnag,paste0(path,"/rnag.csv"), row.names = FALSE)
-  #3.3 Get waterbody polygon
-  wb_sf = get_wb_sf(string = river$WBID[1], column = "WB")
-  write_sf(wb_sf,paste0(path,"/wb_poly.geojson"))
-  # #3.4 Get waterbody line
-  tryCatch(
-    expr = {
-      wb_line = wb_all %>% filter(river$WBID[1] == WBID)
-      write_sf(wb_line,paste0(path,"/wb_line.geojson"))
-    },
-    error = function(e){
-      message("No waterbody line found, moving on")
-    }
-  )
-  if(path != paste0("Open-Data/",river$RBD[1],"/",river$WBID[1])){river$WBID = paste0(river$WBID[1],"-",i)}
+  # message("STEP 3: Fetch ecological data from the EA for each waterbody")
+  # # #3.1 Get Ecological Classification
+  # wb_class = get_wb_classification(string = river$WBID[1], column = "WB") %>%
+  #   filter(Classification.Item == "Ecological") %>%
+  #   filter(Status != "Does not require assessment") %>%
+  #   filter(Cycle == 2) %>%
+  #   select(Year,Status)  %>%
+  #   pivot_wider(names_from = "Year",values_from = "Status")
+  # write.csv(wb_class,paste0(path,"/eco-class.csv"))
+  # #3.2 Get Reasons for not achieving good
+  # wb_rnag = get_wb_rnag(string = river$WBID[1], column = "WB") %>%
+  #   select(Category,Activity) %>%
+  #   group_by(Category,Activity) %>%
+  #   count() %>%
+  #   filter(Activity != "Not applicable") %>%
+  #   rename(source = Category, target = Activity, value = n)
+  # write.csv(wb_rnag,paste0(path,"/rnag.csv"), row.names = FALSE)
+  # #3.3 Get waterbody polygon
+  # wb_sf = get_wb_sf(string = river$WBID[1], column = "WB")
+  # write_sf(wb_sf,paste0(path,"/wb_poly.geojson"))
+  # # #3.4 Get waterbody line
+  # tryCatch(
+  #   expr = {
+  #     wb_line = wb_all %>% filter(river$WBID[1] == WBID)
+  #     write_sf(wb_line,paste0(path,"/wb_line.geojson"))
+  #   },
+  #   error = function(e){
+  #     message("No waterbody line found, moving on")
+  #   }
+  # )
+  # if(path != paste0("Open-Data/",river$RBD[1],"/",river$WBID[1])){river$WBID = paste0(river$WBID[1],"-",i)}
 
 }
 
