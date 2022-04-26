@@ -8,7 +8,7 @@ if (file.exists("data/web/oc.geojson")) {
 } else {
   # From continous to categorical -------------------------------------------
 
-  clean_senti = readRDS("data/river_queries/clean_senti_polatiry.rds")
+  clean_senti = readRDS("data/river_queries/clean_senti.rds")
   summary(clean_senti$senti_score)
 
   # read water bodies
@@ -17,7 +17,7 @@ if (file.exists("data/web/oc.geojson")) {
     select(WBID, name, OC, OC_num, MC, MC_num, RBD, RBD_num)
 
   # join with main data to get categorical variables
-  clean_senti_run = inner_join(clean_senti_run, thames_wb)
+  clean_senti = inner_join(clean_senti, thames_wb)
 
   # aggregate data
   MC = as.data.frame(aggregate(senti_score  ~ MC_num, clean_senti, mean))
