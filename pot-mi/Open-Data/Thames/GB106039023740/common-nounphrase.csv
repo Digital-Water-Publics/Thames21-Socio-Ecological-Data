@@ -1,214 +1,26 @@
-"","text","n"
-"1","flood alert river thame and chalgrove brook",439
-"2","flood alert river thame",168
-"3","normal river thame",22
-"4","the chalgrove brook",18
-"5","the river thame",15
-"6","04042016 river thame",8
-"7","1040am 19012016 river thame",8
-"8","15022016 river thame",8
-"9","210pm 15032016 river thame",8
-"10","732am 28032016 river thame",8
-"11","742pm 01012016 river thame",8
-"12","754pm 09032016 river thame",8
-"13","flood alert 503pm 15092016 river thame",8
-"14","flood alert 714am",8
-"15","08022016 river thame and chalgrove brook",7
-"16","17092016 river thame",7
-"17","233pm 25062016 river thame",7
-"18","711pm 17062016 river thame and chalgrove brook",7
-"19","a  sandle",5
-"20","a flood alert",4
-"21","flood alert river thame and chalgrove brook 1110 4 january",4
-"22","the environment agency",4
-"23","areaposs flood minor rds",3
-"24","flood alert river thame and chalgrove brook 1050 8 february",3
-"25","flood alert river thame and chalgrove brook 1101 3 january",3
-"26","flood alert river thame and chalgrove brook 1153 8 january",3
-"27","flood alert river thame and chalgrove brook 1447 14 march",3
-"28","flood alert river thame and chalgrove brook 1654 3 february",3
-"29","flood alert river thame and chalgrove brook 1722 18 january",3
-"30","flood alert river thame and chalgrove brook 1733 30 march",3
-"31","flood alert river thame and chalgrove brook 1851 14 february",3
-"32","four oxfordshire waterways",3
-"33","the river ray",3
-"34","4 oxfordshire waterways",2
-"35","brook  flooding",2
-"36","chalgrove brook flood alerts",2
-"37","flood alert river thame and chalgrove brook 1846 29 march",2
-"38","flood alert river thame and chalgrove brook 1848 16 january",2
-"39","the  brook",2
-"40","<u+26a0><u+fe0f>flood alert",1
-"41","0839 23 december",1
-"42","0956 13 march",1
-"43","1000 19 november",1
-"44","1009 2 april",1
-"45","1128am 27122017 river thame",1
-"46","1155am 16022018 river thame",1
-"47","12000+ new homes",1
-"48","120pm 29032018 river thame",1
-"49","1248pm 11032018 river thame",1
-"50","15062016 river thame",1
-"51","1557 11 march",1
-"52","1727 13 march",1
-"53","1744 15 november",1
-"54","1817 20 december",1
-"55","1931 5 april",1
-"56","1960 foreground prefabs",1
-"57","22112016 river thame",1
-"58","25 new homes",1
-"59","3 oxfordshire waterways",1
-"60","3 year deal",1
-"61","309pm 28052017 river thame",1
-"62","4 other oxfordshire waterways",1
-"63","4 other waterways",1
-"64","424pm 27062017 river thame",1
-"65","5 local waterways",1
-"66","618pm 21012018 river thame",1
-"67","7 oxon waterways",1
-"68","712am 16012017 river thame",1
-"69","807pm 26052018 river thame",1
-"70","811am 05022019 river thame",1
-"71","a chalk stream",1
-"72","a high chalgrove brook",1
-"73","a largely dry weekend",1
-"74","all that water cress beds",1
-"75","berryfields shabbington ickford rowsham",1
-"76","broad daylight ver",1
-"77","chalgrove brook care",1
-"78","chalgrove brook r",1
-"79","chalgrove front brook",1
-"80","concerned call floodline",1
-"81","ecosystem engineer density experiment",1
-"82","environment agency issue flood warning",1
-"83","five oxfordshire waterways",1
-"84","flood alert river thame and chalgrove brook 0712 16 january",1
-"85","flood alert river thame and chalgrove brook 0811 5 february",1
-"86","flood alert river thame and chalgrove brook 0840 13 january",1
-"87","flood alert river thame and chalgrove brook 0855 23 january",1
-"88","flood alert river thame and chalgrove brook 0902 18 march",1
-"89","flood alert river thame and chalgrove brook 0915 4 march",1
-"90","flood alert river thame and chalgrove brook 0917",1
-"91","flood alert river thame and chalgrove brook 0933 15 january",1
-"92","flood alert river thame and chalgrove brook 0948 7 january",1
-"93","flood alert river thame and chalgrove brook 0955 1 june",1
-"94","flood alert river thame and chalgrove brook 0956 22 january",1
-"95","flood alert river thame and chalgrove brook 1016 28 january",1
-"96","flood alert river thame and chalgrove brook 1031 17 january",1
-"97","flood alert river thame and chalgrove brook 1036 16 january",1
-"98","flood alert river thame and chalgrove brook 1051 14 january",1
-"99","flood alert river thame and chalgrove brook 1052 1 january",1
-"100","flood alert river thame and chalgrove brook 1052 11 march",1
-"101","flood alert river thame and chalgrove brook 1104 27 february",1
-"102","flood alert river thame and chalgrove brook 1104 30 march",1
-"103","flood alert river thame and chalgrove brook 1114 19 january",1
-"104","flood alert river thame and chalgrove brook 1141 5 april",1
-"105","flood alert river thame and chalgrove brook 1141 6 march",1
-"106","flood alert river thame and chalgrove brook 1320 29 march",1
-"107","flood alert river thame and chalgrove brook 1335 29 january",1
-"108","flood alert river thame and chalgrove brook 1424 1 january",1
-"109","flood alert river thame and chalgrove brook 1445 2 january",1
-"110","flood alert river thame and chalgrove brook 1547 14 january",1
-"111","flood alert river thame and chalgrove brook 1625 17 march",1
-"112","flood alert river thame and chalgrove brook 1700 4 november",1
-"113","flood alert river thame and chalgrove brook 1703 29 january",1
-"114","flood alert river thame and chalgrove brook 1707 23 november",1
-"115","flood alert river thame and chalgrove brook 1721 31 january",1
-"116","flood alert river thame and chalgrove brook 1804 28 november",1
-"117","flood alert river thame and chalgrove brook 1811 26 january",1
-"118","flood alert river thame and chalgrove brook 1817 19 january",1
-"119","flood alert river thame and chalgrove brook 1822 25 january",1
-"120","flood alert river thame and chalgrove brook 1830 18 june",1
-"121","flood alert river thame and chalgrove brook 1830 22 january",1
-"122","flood alert river thame and chalgrove brook 1848 23 january",1
-"123","flood alert river thame and chalgrove brook 1853 20 january",1
-"124","flood alert river thame and chalgrove brook 1858 11 january",1
-"125","flood alert river thame and chalgrove brook 1900 20 january",1
-"126","flood alert river thame and chalgrove brook 1901 15 january",1
-"127","flood alert river thame and chalgrove brook 1917 29 march",1
-"128","flood alert river thame and chalgrove brook 1918 20 february",1
-"129","flood alert river thame and chalgrove brook 1925 23 january",1
-"130","flood alert river thame and chalgrove brook 1930 4 january",1
-"131","flood alert river thame and chalgrove brook 2007 8 march",1
-"132","flood alert river thame and chalgrove brook 2116 5 march",1
-"133","flood alert river thame and chalgrove brook 2147 16 january",1
-"134","flood alerts flooding",1
-"135","flood warning area",1
-"136","flood watch river thame",1
-"137","great day out on the   yesterday scrub",1
-"138","heavy rainfall flooding",1
-"139","infamous shepherds hut firm",1
-"140","its chocolate box",1
-"141","its local plan",1
-"142","low lying land",1
-"143","low lying roads paths",1
-"144","lowlying land footpaths",1
-"145","mail news flood alerts",1
-"146","multiple pollution incidents",1
-"147","my artweeks exhibition midnovember",1
-"148","new riverfly monitoring site",1
-"149","north aylesbury ickford quarrendon cuddington",1
-"150","north bucks river thame and chalgrove brook  areas",1
-"151","not the back brook",1
-"152","our best site",1
-"153","our fish refuge",1
-"154","our recent surveys",1
-"155","pangbourne  river thames",1
-"156","potential flooding vicinity",1
-"157","pyrtle spring pyrtle spring",1
-"158","ray and chalgrove brook",1
-"159","ray thame cherwell evenlode glyme",1
-"160","river thame and chalgrove brook",1
-"161","river thame and chalgrove brook  enviroment agency",1
-"162","river thame and chalgrove brook  river thames",1
-"163","river thame andchalgrove brook",1
-"164","river thame chalgrove brook evenlode",1
-"165","rowsham north aylesbury cuddington",1
-"166","some beautiful photos",1
-"167","some great work",1
-"168","thame cherwell ray and chalgrove brook",1
-"169","the  area further rainfall",1
-"170","the  away day",1
-"171","the  conservation awards",1
-"172","the abingdon area",1
-"173","the brook surgery",1
-"174","the chalgrove brook email natalieorg",1
-"175","the chalgrove brook hahaha",1
-"176","the chalgrove brook lewknor brook",1
-"177","the cherwell ray thame thames",1
-"178","the county river ouzel mk bear brook aylesbury  river thame",1
-"179","the eas lowest level flood alert",1
-"180","the final two remaining flood alerts",1
-"181","the full length",1
-"182","the holton brook",1
-"183","the kassam stadium",1
-"184","the kingsey cuttle brook",1
-"185","the lewknor brook",1
-"186","the main river occ",1
-"187","the new town",1
-"188","the next 10 hours",1
-"189","the only flood warning",1
-"190","the only thame tributary",1
-"191","the river cherwell",1
-"192","the river cherwells",1
-"193","the river evenlode",1
-"194","the river thame chalgrove brook river evenlode and river glyme",1
-"195","the river thames",1
-"196","the rt harris days",1
-"197","the thame and chalgrove brook",1
-"198","the thame thames",1
-"199","the thames region river thame and chalgrove brook remander",1
-"200","the three oxfordshire waterways",1
-"201","the trout population",1
-"202","the water supply",1
-"203","the watercress beds",1
-"204","this old cottage",1
-"205","this trout stream",1
-"206","three flood alerts",1
-"207","three oxfordshire waterways",1
-"208","u+0001f44f>watlington environment group",1
-"209","u+26a0><u+fe0f><u+27a1><u+fe0f>river thame",1
-"210","u+26a0><u+fe0f>flood alert",1
-"211","update flood alerts",1
-"212","what haseley brook action group",1
-"213","yes very exciting chalgrove brook",1
+"","X","text","n"
+"1",1,"flood alert river thame and chalgrove brook",439
+"2",2,"flood alert river thame",168
+"3",3,"normal river thame",22
+"4",4,"the chalgrove brook",18
+"5",5,"the river thame",15
+"6",6,"04042016 river thame",8
+"7",7,"1040am 19012016 river thame",8
+"8",8,"15022016 river thame",8
+"9",9,"210pm 15032016 river thame",8
+"10",10,"732am 28032016 river thame",8
+"11",11,"742pm 01012016 river thame",8
+"12",12,"754pm 09032016 river thame",8
+"13",13,"flood alert 503pm 15092016 river thame",8
+"14",14,"flood alert 714am",8
+"15",15,"08022016 river thame and chalgrove brook",7
+"16",16,"17092016 river thame",7
+"17",17,"233pm 25062016 river thame",7
+"18",18,"711pm 17062016 river thame and chalgrove brook",7
+"19",19,"a  sandle",5
+"20",20,"a flood alert",4
+"21",21,"flood alert river thame and chalgrove brook 1110 4 january",4
+"22",22,"the environment agency",4
+"23",23,"areaposs flood minor rds",3
+"24",24,"flood alert river thame and chalgrove brook 1050 8 february",3
+"25",25,"flood alert river thame and chalgrove brook 1101 3 january",3

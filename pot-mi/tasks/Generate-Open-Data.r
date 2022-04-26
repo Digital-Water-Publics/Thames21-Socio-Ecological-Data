@@ -125,26 +125,27 @@ for (i in 1:nrow(wb_query)) {
   #   mutate(percent = round(percent, 2))
   # write.csv(emo_freq,paste0(path,"/emolex-frequency.csv"))
   #2.3 Common nounphrases
-  parsed = spacy_extract_nounphrases(
-    river$clean_tweet,
-    output = c("data.frame"),
-    multithread = TRUE
-  ) %>%
-    filter(length > 2) %>%
-    select(text) %>%
-    mutate(text = str_remove_all(text, regex(" ?(f&ht)(tp)(s?)(://)(.*)[.&/](.*)"))) %>%
-    mutate(text = str_remove_all(text, regex("@[[:alnum:]_]{4,}"))) %>%
-    mutate(text = str_remove_all(text, regex("#[[:alnum:]_]+"))) %>%
-    mutate(text = str_remove_all(text, regex("[[:punct:]]"))) %>%
-    mutate(text = str_remove_all(text, regex("^RT:? "))) %>%
-    mutate(text = str_replace(text, "amp", "and")) %>%
-    anti_join(stop_words, by = c("text" = "word")) %>%
-    mutate(text = str_to_lower(text)) %>%
-    # Remove any trailing whitespace around the text
-    mutate(text = str_trim(text, "both")) %>%
-    count(text) %>%
-    arrange(desc(n))
-  write.csv(parsed,paste0(path,"/common-nounphrase.csv"))
+  # parsed = spacy_extract_nounphrases(
+  #   river$clean_tweet,
+  #   output = c("data.frame"),
+  #   multithread = TRUE
+  # ) %>%
+  #   filter(length > 2) %>%
+  #   select(text) %>%
+  #   mutate(text = str_remove_all(text, regex(" ?(f&ht)(tp)(s?)(://)(.*)[.&/](.*)"))) %>%
+  #   mutate(text = str_remove_all(text, regex("@[[:alnum:]_]{4,}"))) %>%
+  #   mutate(text = str_remove_all(text, regex("#[[:alnum:]_]+"))) %>%
+  #   mutate(text = str_remove_all(text, regex("[[:punct:]]"))) %>%
+  #   mutate(text = str_remove_all(text, regex("^RT:? "))) %>%
+  #   mutate(text = str_replace(text, "amp", "and")) %>%
+  #   anti_join(stop_words, by = c("text" = "word")) %>%
+  #   mutate(text = str_to_lower(text)) %>%
+  #   # Remove any trailing whitespace around the text
+  #   mutate(text = str_trim(text, "both")) %>%
+  #   count(text) %>%
+  #   arrange(desc(n)) %>%
+  csv = read.csv(paste0(path,"/common-nounphrase.csv"))
+  write.csv(head(paste0(path,"/common-nounphrase.csv")))
   ####
   ####
   #### STEP 3: Fetch ecological data from the EA for each waterbody
