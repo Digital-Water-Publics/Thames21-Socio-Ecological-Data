@@ -15,7 +15,7 @@ if(file.exists("data/river_queries/clean_senti.RDS")){
   clean_senti = readRDS("data/river_queries/clean_senti.RDS")
 } else {
   # calculate words that match the NRC emo lex, group by tweet_id and pivot into wide format
-  emotions = data %>%
+  emotions = newdata %>%
     unnest_tokens(word, clean_tweet) %>%
     anti_join(stop_words, by = "word") %>%
     filter(!grepl('[0-9]', word)) %>%
@@ -30,9 +30,9 @@ if(file.exists("data/river_queries/clean_senti.RDS")){
                 )
 
   # merge data
-  clean_senti_run = left_join(new_run, emotions)
+  clean_senti_run = left_join(newdata, emotions)
   clean_senti_run[,17:24][is.na(clean_senti_run[,17:24])] = 0
-  
+
   # sesntiment plot from syhzet package
   clean_senti_run$senti_score = get_sentiment(clean_senti_run$clean_tweet, method = "syuzhet")
   clean_senti_run$senti_log = log(clean_senti_run$senti_score)

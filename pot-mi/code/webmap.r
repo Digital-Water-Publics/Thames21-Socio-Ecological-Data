@@ -78,7 +78,7 @@ if (file.exists("data/web/oc.geojson")) {
   oc_cent = st_centroid(oc_sf) %>% rename(name = OC) %>% select(name, geometry)
 
   wb_sf = read_sf("data/web/wb.geojson")
-  wb_cent = st_centroid(wb_sf) %>% select(name, geometry)
+  wb_cent = st_centroid(thames_water) %>% select(name, WBID, geometry)
 
   wb_sf_class = inner_join(wb_sf, wb_class)
   write_sf(wb_sf_class, "data/web/wb_class.geojson")

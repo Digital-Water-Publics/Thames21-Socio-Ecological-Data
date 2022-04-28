@@ -55,7 +55,7 @@ report = function(x) {
 ##                      Read Data                             ##
 #################################################################
 clean_senti = readRDS("data/river_queries/clean_senti.RDS")
-wb_query = as.data.frame(unique(clean_senti$WBID))
+wb_query = as.data.frame(unique(clean$WBID))
 colnames(wb_query) = "WBID"
 
 # read data for waterbodies
@@ -89,7 +89,7 @@ for (i in 1:nrow(wb_query)) {
   ####
   ####
   message("STEP 1: Filter sentiment data for waterbody & set up file path")
-  river = clean_senti %>% filter(WBID == wb_query[i,])
+  river = clean_senti_run %>% filter(WBID == wb_query[i,])
   path = paste0("Open-Data/",river$RBD[1],"/")
   setwd(path)
   if(file.exists(river$WBID[1])){
@@ -113,7 +113,7 @@ for (i in 1:nrow(wb_query)) {
   # 2.1 Sentiment Polarity score
   river_mean_senti = river %>% mutate(created_at = as.Date(ymd_hms(created_at))) %>%
     group_by(created_at) %>%
-    summarise(mean_senti = mean(senti_score),)
+    summarise(mean_senti = mean(senti_score))
   write.csv(river_mean_senti,paste0(path,"/polarity-score.csv"))
   # 2.2 Emotional frequency in tweets
   corpus = corpus(river$clean_tweet)
@@ -143,8 +143,9 @@ for (i in 1:nrow(wb_query)) {
     # Remove any trailing whitespace around the text
     mutate(text = str_trim(text, "both")) %>%
     count(text) %>%
-    arrange(desc(n)) %>%
-  write.csv(head(25),paste0(path,"/common-nounphrase.csv"))
+    arrange(desc(n))
+
+  write.csv(head(parsed,25),paste0(path,"/common-nounphrase.csv"))
   ####
   ####
   #### STEP 3: Fetch ecological data from the EA for each waterbody
