@@ -8,8 +8,15 @@ if (file.exists("data/web/oc.geojson")) {
 } else {
   # From continous to categorical -------------------------------------------
 
-  clean_senti = readRDS("data/river_queries/clean_senti.rds")
-  summary(clean_senti$senti_score)
+  clean_senti = readRDS("data/river_queries/clean_senti.RDS")
+  clean_senti_wbids = as.data.frame(unique(clean_senti$WBID))
+  colnames(clean_senti_wbids) = "WBID"
+  sf::sf_use_s2(FALSE)
+  thames_wb = read_sf("data/thames_river.geojson")
+  wbs = inner_join(clean_senti_wbids,thames_wb)
+  wbs = st_as_sf(wbs)
+  wb_cent = st_centroid(wbs) %>% select(name, WBID, geometry)
+  sf::write_sf(wb_cent, "data/web/water_centroids.geojson")
 
   # read water bodies
   thames_wb = read_sf("data/thames_river.geojson") %>%
@@ -20,25 +27,27 @@ if (file.exists("data/web/oc.geojson")) {
   clean_senti = inner_join(clean_senti, thames_wb)
 
   # aggregate data
-  MC = as.data.frame(aggregate(senti_score  ~ MC_num, clean_senti, mean))
-  OC = as.data.frame(aggregate(senti_score  ~ OC_num, clean_senti, mean))
-  RBD = as.data.frame(aggregate(senti_score  ~ RBD_num, clean_senti, mean))
-  WB = as.data.frame(aggregate(senti_score  ~ WBID, clean_senti, mean))
+  # MC = as.data.frame(aggregate(senti_score  ~ MC_num, clean_senti, mean))
+  # OC = as.data.frame(aggregate(senti_score  ~ OC_num, clean_senti, mean))
+  # RBD = as.data.frame(aggregate(senti_score  ~ RBD_num, clean_senti, mean))
+   WB = as.data.frame(aggregate(senti_score  ~ WBID, clean_senti, mean))
 
   make_that_data_categorial = function(data) {
-    data$group[data$senti_score >= Percentile_00 &
-                 data$senti_score <  Percentile_33]  = 1
-    data$group[data$senti_score >= Percentile_33 &
-                 data$senti_score <  Percentile_67]  = 2
-    data$group[data$senti_score >= Percentile_67 &
-                 data$senti_score <= Percentile_100] = 3
+    data$group[data$senti_score >= -1.1 &
+                 data$senti_score <  0.26]  = 1
+    data$group[data$senti_score >= 0.26 &
+                 data$senti_score <  0.4]  = 2
+    data$group[data$senti_score >= 0.4 &
+                 data$senti_score <= 2.9] = 3
     return(data)
   }
 
-  MC = make_that_data_categorial(data = MC)
-  OC = make_that_data_categorial(data = OC)
-  RBD = make_that_data_categorial(data = RBD)
+  # MC = make_that_data_categorial(data = MC)
+  # OC = make_that_data_categorial(data = OC)
+  # RBD = make_that_data_categorial(data = RBD)
   WB = make_that_data_categorial(WB)
+  WB_all = inner_join(WB,thames_wb)
+
   # Generate geojson files for various catchment geogrpahies ----------------
 
   # generate mc geojson
