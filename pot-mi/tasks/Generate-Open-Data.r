@@ -108,16 +108,35 @@ for (i in 1:nrow(wb_query)) {
   ####
   message("STEP 2: Generate sentiment and textual datasets for waterbody")
   # 2.1 Sentiment Polarity score
-  river_mean_senti = river %>% mutate(created_at = as.Date(ymd_hms(created_at))) %>%
-    group_by(created_at) %>%
-    summarise(mean_senti = mean(senti_score)) %>%
-    drop_na() %>%
-    group_by(year = year(created_at), month = month(created_at)) %>%
-    summarise_if(is.numeric, mean) %>%
-    within(Date <- sprintf("%d-%02d", year, month)) %>%
-    select(-c(year,month)) %>%
-    mutate(Date = as.Date(paste(Date,"-01",sep="")))
-  river_mean_senti = river_mean_senti[-1]
+   tryCatch(
+     expr = {
+       river_mean_senti = river %>% mutate(created_at = as.Date(ymd_hms(created_at))) %>%
+         group_by(created_at) %>%
+         summarise(mean_senti = mean(senti_score)) %>%
+         drop_na() %>%
+         group_by(year = year(created_at), month = month(created_at)) %>%
+         summarise_if(is.numeric, mean) %>%
+         within(Date <- sprintf("%d-%02d", year, month)) %>%
+         select(-c(year,month)) %>%
+         mutate(Date = as.Date(paste(Date,"-01",sep="")))
+       river_mean_senti = river_mean_senti[-1]
+     },
+     error = function(e){
+       message("woopsie lets change that date")
+       river$created_at = as.POSIXct(as.numeric(as.character(river$created_at)), origin="1970-01-01", tz="GMT")
+       river_mean_senti = river %>% mutate(created_at = as.Date(ymd_hms(created_at))) %>%
+         group_by(created_at) %>%
+         summarise(mean_senti = mean(senti_score)) %>%
+         drop_na() %>%
+         group_by(year = year(created_at), month = month(created_at)) %>%
+         summarise_if(is.numeric, mean) %>%
+         within(Date <- sprintf("%d-%02d", year, month)) %>%
+         select(-c(year,month)) %>%
+         mutate(Date = as.Date(paste(Date,"-01",sep="")))
+       river_mean_senti = river_mean_senti[-1]
+     }
+   )
+
 
   write.csv(river_mean_senti,paste0(path,"/polarity-score-new.csv"))
  #  # 2.2 Emotional frequency in tweets
