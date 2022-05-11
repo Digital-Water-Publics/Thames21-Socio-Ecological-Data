@@ -1,546 +1,546 @@
-"","WBID","name","mine_query","mine_noise_risk"
-"1","GB106039023160","Loddon (Swallowfield to River Thames confluence)","","medium/low"
-"2","GB106039017130","Cove Brook","Cove Brook","medium/low"
-"3","GB30642945","Heath Lake","","medium/low"
-"4","GB106039017180","Blackwater (Aldershot to Cove Brook confluence at Hawley)","","medium/low"
-"5","GB106039017140","Bow Brook (Bramley to Sherfield Green)","","medium/low"
-"6","GB106039017110","Vyne Stream","Vyne Stream","medium/low"
-"7","GB106039017240","Whitewater","Whitewater","medium/low"
-"8","GB106039017400","Barkham Brook","Barkham Brook","medium/low"
-"9","GB106039017330","Loddon (Sherfield on Loddon to Swallowfield)","","medium/low"
-"10","GB106039017090","Hart (Crondall to Elvetham)","","medium/low"
-"11","GB106039017080","Loddon (Basingstoke to River Lyde confluence at Hartley Wespall)","","medium/low"
-"12","GB106039017120","Fleet Brook","Fleet Brook","medium/low"
-"13","GB106039017320","Blackwater (Bramshill to River Loddon confluence at Swallowfield)","","medium/low"
-"14","GB106039017170","Hart (Elvetham to Hartley Wintney)","","medium/low"
-"15","GB106039017160","Bow Brook (Pamber End to Bramley)","","medium/low"
-"16","GB106039023130","Emm Brook","Emm Brook","medium/low"
-"17","GB30643339","Mytchett Lake","","medium/low"
-"18","GB30643315","Fleet Pond","Fleet Pond","medium/low"
-"19","GB106039017290","Blackwater (Hawley to Whitewater confluence at Bramshill)","","medium/low"
-"20","GB106039023190","Twyford Brook","Twyford Brook","medium/low"
-"21","GB106039017150","Loddon (Hartley Wespall to Sherfield on Loddon)","","medium/low"
-"22","GB106039017100","Lyde","Lyde","medium/low"
-"23","GB106039017920","Addlestone Bourne (West End to Hale/Mill Bourne confluence at Mimbridge)","","medium/low"
-"24","GB106039017860","East Clandon Stream","East Clandon Stream","medium/low"
-"25","GB30642753","Thorpe Park Lakes","Thorpe Park Lakes","medium/low"
-"26","GB30643359","Whitmoor Common Pond","","medium/low"
-"27","GB30644031","Frensham Great Pond","Frensham Great Pond","medium/low"
-"28","GB30643943","Frensham Little Pond","Frensham Little Pond","medium/low"
-"29","GB106039017800","North Wey at Alton","North Wey","medium/low"
-"30","GB106039017690","Hollywater and Deadwater at Bordon","","medium/low"
-"31","GB106039017850","Clasford Brook and Wood Street Brook","Clasford Brook OR Wood Street Brook","medium/low"
-"32","GB106039017780","South Wey (River Slea confluence to Tilford)","","medium/low"
-"33","GB106039017840","Tillingbourne","Tillingbourne","medium/low"
-"34","GB106039017070","Chertsey Bourne (Virginia Water to Chertsey)","","medium/low"
-"35","GB106039017760","Royal Brook","Royal Brook","medium/low"
-"36","GB106039017030","Chertsey Bourne (Chertsey to River Thames confluence)","","medium/low"
-"37","GB106039017770","Truxford Brook","Truxford Brook","medium/low"
-"38","GB106039017750","Slea (Kingsley to Sleaford)","","medium/low"
-"39","GB106039017830","North Wey (Alton to Tilford)","","medium/low"
-"40","GB106039017790","Ock","Ock","medium/low"
-"41","GB106039017930","Hale/Mill Bourne (Bagshot to Addlestone Bourne confluence near Chobham)","","medium/low"
-"42","GB106039017700","South Wey (Haslemere to Bordon)","","medium/low"
-"43","GB106039017040","Chertsey Bourne (Sunningdale to Virginia Water)","","medium/low"
-"44","GB106039017900","Hoe Stream (Pirbright to River Wey confluence at Woking)","","medium/low"
-"45","GB106039017630","Wey (Shalford to River Thames confluence at Weybridge)","","medium/low"
-"46","GB106039017880","Guileshill Brook","Guileshill Brook","medium/low"
-"47","GB106039017910","Wey Navigation (Pyrford reach)","","medium/low"
-"48","GB30643218","Boldermere","Boldermere","medium/low"
-"49","GB106039017870","Hoe Stream (Normandy to Pirbright)","","medium/low"
-"50","GB30643758","The Tarn","","medium/low"
-"51","GB106039017730","Caker Stream","Caker Stream","medium/low"
-"52","GB30644576","Forest Mere","Forest Mere","medium/low"
-"53","GB106039017050","Chertsey Bourne (Ascot to Virginia Water)","","medium/low"
-"54","GB106039017060","The Moat at Egham","Moat Egham","medium/low"
-"55","GB106039017020","Addlestone Bourne (Mill/Hale to Chertsey Bourne)","","medium/low"
-"56","GB106039017820","Wey (Tilford to Shalford)","","medium/low"
-"57","GB106039017720","South Wey (Bordon to River Slea confluence)","","medium/low"
-"58","GB30642691","Virginia Water","Virginia Water","medium/low"
-"59","GB106039017810","Cranleigh Waters","Cranleigh Waters","medium/low"
-"60","GB30644464","Cranmer Pond","","medium/low"
-"61","GB106039017890","Stratford Brook","Stratford Brook","medium/low"
-"62","GB106039017710","Oakhanger Stream","Oakhanger Stream","medium/low"
-"63","GB30642875","Swinley Park Pond","","medium/low"
-"64","GB30644482","Woolmer Pond","","medium/low"
-"65","GB106040018310","Marden Mill Stream","Marden Mill Stream","medium/low"
-"66","GB106040018250","Upper Teise","Teise","medium/low"
-"67","GB106040018260","Teise and Lesser Teise","Teise OR Lesser Teise","medium/low"
-"68","GB106040018130","Lower Teise","Teise","medium/low"
-"69","GB106040018240","Bartley Mill Stream","Bartley Mill Stream","medium/low"
-"70","GB106040018520","Teise at Lamberhurst","Teise","medium/low"
-"71","GB106040018500","Bewl","Bewl","medium/low"
-"72","GB106040018510","Tributary of Teise","","medium/low"
-"73","GB30644398","Bewl Water","Bewl Water","medium/low"
-"74","GB106040018440","Medway at Maidstone","Medway","medium/low"
-"75","GB106040018210","Bourne (Medway)","","medium/low"
-"76","GB106040018170","Hilden Brook","Hilden Brook","medium/low"
-"77","GB106040018420","Loose Stream","Loose Stream","medium/low"
-"78","GB106040018150","Little Hawden Stream","Little Hawden Stream","medium/low"
-"79","GB106040018200","Ditton Stream","Ditton Stream","medium/low"
-"80","GB106040018450","Leybourne Stream","Leybourne Stream","medium/low"
-"81","GB106040018410","Somerhill Stream","Somerhill Stream","medium/low"
-"82","GB106040018120","Tudeley Brook","Tudeley Brook","medium/low"
-"83","GB106040018430","Len","Len","medium/low"
-"84","GB106040018190","Mereworth Stream","","medium/low"
-"85","GB106040018182","Mid Medway from Eden Confluence to Yalding","Medway","medium/low"
-"86","GB106040018110","Alder Stream and Hammer Dyke","Alder Stream OR Hammer Dyke","medium/low"
-"87","GB30643117","Snodland Reservoir","","medium/low"
-"88","GB30642424","Cliffe Pools South Lake","","medium/low"
-"89","GB30642407","Cliffe Pools North Lake","","medium/low"
-"90","GB106040018320","Sherway","Sherway","medium/low"
-"91","GB106040018290","Hammer Stream","Hammer Stream","medium/low"
-"92","GB106040018330","Ulcombe Stream","Ulcombe Stream","medium/low"
-"93","GB106040018280","Upper Beult - High Halden and Bethersden Stream","","medium/low"
-"94","GB106040018040","Tributary of Beult at Sutton Valance","","medium/low"
-"95","GB106040018270","Beult","Beult","medium/low"
-"96","GB106040018030","Tributary of Beult at Frittenden","Beult","medium/low"
-"97","GB106040018140","Beult at Yalding","Beult","medium/low"
-"98","GB30647024","Marden Meadow Ponds","","medium/low"
-"99","GB106040018300","Upper Beult","Beult","medium/low"
-"100","GB106040018340","Ray Brook","Ray Brook","medium/low"
-"101","GB106040018650","Tributary of Edenbrook","Eden Brook","medium/low"
-"102","GB106040018660","Eden Brook","Eden Brook","medium/low"
-"103","GB106040018630","Upper Eden","Eden","medium/low"
-"104","GB106040018060","Tributary of Eden at Four Elms","Eden","medium/low"
-"105","GB30643602","Bough Beech Reservoir","Bough Beech Reservoir","medium/low"
-"106","GB106040018640","Gibbs Brook","Gibbs Brook","medium/low"
-"107","GB30643485","Bay Pond","Bay Pond","medium/low"
-"108","GB106040018160","Lower Eden","Eden","medium/low"
-"109","GB106040018350","Middle Eden","Eden","medium/low"
-"110","GB30644023","Hedgecourt Lake","Hedgecourt Lake","medium/low"
-"111","GB106040018390","Eridge Stream","Eridge Stream","medium/low"
-"112","GB106040018370","Friars Gate Stream","Friars Gate Stream","medium/low"
-"113","GB106040018070","Medway at Weir Wood","Medway","medium/low"
-"114","GB106040013360","Jarvis Brook","","medium/low"
-"115","GB106040018090","Kent Water","Kent Water","medium/low"
-"116","GB106040013370","Upper Eridge Stream","Eridge Stream","medium/low"
-"117","GB106040018181","Mid Medway from Hartfield to Eden Confluence","Medway","medium/low"
-"118","GB106040018360","Pippingford Brook","Pippingford Brook","medium/low"
-"119","GB30644310","Weir Wood Reservoir","Weir Wood Reservoir","medium/low"
-"120","GB106040018400","Grom","Grom","medium/low"
-"121","GB106040018080","Shovelstrode Stream","Shovelstrode Stream","medium/low"
-"122","GB106040018100","Barden Mill Stream","Barden Mill Stream","medium/low"
-"123","GB106039037410","Evenlode (Compton Bk to Bledington Bk) and 4 Shires","","medium/low"
-"124","GB106039030010","Glyme (Enstone to Dorn)","","medium/low"
-"125","GB106039029880","Evenlode (Glyme to Thames)","","medium/low"
-"126","GB106039037380","Dorn (Source to Glyme)","","medium/low"
-"127","GB106039030030","Heythorpe Stream and tributaries","Heythorpe Stream","medium/low"
-"128","GB106039029910","Littlestock Stream to tributary of Evenlode at Shipton","Littlestock Stream","medium/low"
-"129","GB106039030000","Bledington Brook (Source to Evenlode)","","medium/low"
-"130","GB106039029970","Coldron and Taston Brooks","Coldron Brook OR Taston Brook","medium/low"
-"131","GB106039037420","Evenlode (Source to Four Shires S) and Longborough Stream","","medium/low"
-"132","GB106039029950","Westcote Brook (source to Evenlode at Bledington)","","medium/low"
-"133","GB106039029940","Glyme (Dorn confluence to Evenlode)","","medium/low"
-"134","GB106039029980","Sars Brook (source to Evenlode downstream Bledington)","","medium/low"
-"135","GB106039037400","Cornwell Brook and tributaries (Source to Evenlode)","","medium/low"
-"136","GB106039030020","Glyme (Source to Enstone)","","medium/low"
-"137","GB30640488","Cornbury Park Lakes","","medium/low"
-"138","GB106039037390","Little Compton Brook and tributaries (Source to Evenlode)","","medium/low"
-"139","GB106039029960","Evenlode (Bledington to Glyme confluence)","","medium/low"
-"140","GB30640514","Blenheim Lakes","Blenheim Lakes","medium/low"
-"141","GB106039030333","Thames (Leach to Evenlode)","","medium/low"
-"142","GB106039030440","Windrush and tributaries (Little Rissington to Thames)","","medium/low"
-"143","GB106039030260","Highmoor Brook at Brize Norton","Highmoor Brook","medium/low"
-"144","GB106039030040","Leach (Source to Thames)","","medium/low"
-"145","GB106039037460","Windrush (Source to Slade Barn Stream)","","medium/low"
-"146","GB106039030280","Shill Brook and Tributaries","Shill Brook","medium/low"
-"147","GB106039030470","Dikler (Wyck Rissington to Windrush) and Lower Eye","","medium/low"
-"148","GB106039030450","Hazelford and Coombe Brook","Hazelford Brook OR Coombe Brook","medium/low"
-"149","GB106039030232","Broadwell Brook","Broadwell Brook","medium/low"
-"150","GB106039037450","Eye (Source to Dikler)","","medium/low"
-"151","GB106039023770","Wadley Stream (Source to Thames at Duxford)","","medium/low"
-"152","GB106039030460","Sherbourne Brook","Sherbourne Brook","medium/low"
-"153","GB106039037440","Slade Barn Stream (Source to Windrush)","","medium/low"
-"154","GB106039030231","Radcot Cut","Radcot Cut","medium/low"
-"155","GB30641011","Farmoor Reservoir","Farmoor Reservoir","medium/low"
-"156","GB106039030210","Filchhampstead Brook at Farmoor","Filchhampstead Brook","medium/low"
-"157","GB106039030310","Chil and Limb Brooks (source to B4044)","","medium/low"
-"158","GB106039037470","Dikler (Source to Wyck Rissington)","","medium/low"
-"159","GB106039030480","Windrush (Slade Barn Stream to Dikler)","","medium/low"
-"160","GB106039023550","Chalvey Ditches","Chalvey Ditches","medium/low"
-"161","GB106039023231","Thames (Cookham to Egham)","","medium/low"
-"162","GB106039023232","Thames (Egham to Teddington)","","medium/low"
-"163","GB106039023440","Cut (Ascot to Bull Brook confluence at Warfield)","","medium/low"
-"164","GB30642430","Wraysbury Lake","Wraysbury Lake","medium/low"
-"165","GB106039023520","Datchet Common Brook","Datchet Common Brook","medium/low"
-"166","GB106039017670","Bull Brook","Bull Brook","medium/low"
-"167","GB106039023540","Roundmoor Ditch and Boveney Ditch","Roundmoor Ditch OR Boveney Ditch","medium/low"
-"168","GB106039017660","Cut at west Bracknell","River Cut","medium/low"
-"169","GB106039017680","Cut (Warfield to north Bracknell)","","medium/low"
-"170","GB30642791","Knight Reservoir","Knight Reservoir","medium/low"
-"171","GB106039023530","Salthill Stream","Salthill Stream","medium/low"
-"172","GB106039023511","Maidenhead Ditch","Maidenhead Ditch","medium/low"
-"173","GB106039023510","Cut (Binfield to River Thames confluence) and Maidenhead Ditch","","medium/low"
-"174","GB30642779","Bessborough Reservoir","Bessborough Reservoir","medium/low"
-"175","GB30642757","Englemere Pond","Englemere Pond","medium/low"
-"176","GB30647022","Littleworth Ponds","","medium/low"
-"177","GB106038040120","Quin","Quin","medium/low"
-"178","GB106038033270","Mimram (Codicote Bottom to Lee)","","medium/low"
-"179","GB106038040110","Beane (Source to Stevenage Brook)","","medium/low"
-"180","GB106038033330","Great Hallingbury Brook","Great Hallingbury Brook","medium/low"
-"181","GB106038033460","Mimram (Whitwell to Codicote Bottom)","","medium/low"
-"182","GB106038033380","Pincey Brook","Pincey Brook","medium/low"
-"183","GB106038040140","Rib (upper stretches, above confluence with the Quin)","","medium/low"
-"184","GB106038033392","Lee (from Luton Hoo Lakes to Hertford)","","medium/low"
-"185","GB106038033281","Stort and Navigation, B Stortford to Harlow","","medium/low"
-"186","GB106038040090","Stanstead Brook","Stanstead Brook","medium/low"
-"187","GB106038033282","Stort and Navigation, Harlow to Lee","","medium/low"
-"188","GB106038033240","Lee Navigation (Hertford to Fieldes Weir)","","medium/low"
-"189","GB106038033260","Fiddlers Brook","Fiddlers Brook","medium/low"
-"190","GB106038033340","Stort and Bourne Brook","Stort Brook OR Bourne Brook","medium/low"
-"191","GB106038033360","Rib (from confluence with Quin to Lee Navigation)","","medium/low"
-"192","GB106038040100","Ash (from Meesden to confluence with Bury Green Brook)","","medium/low"
-"193","GB106038033410","Stevenage Brook","Stevenage Brook","medium/low"
-"194","GB106038040130","Stort (at Clavering)","","medium/low"
-"195","GB106038033391","Lee (from Luton to Luton Hoo Lakes)","","medium/low"
-"196","GB106038033290","Ash (from confluence with Bury Green Brook to Lee)","","medium/low"
-"197","GB106038033220","Cannons Brook","Cannons Brook","medium/low"
-"198","GB106038033310","Beane (from confluence with Stevenage Brook to Lee)","","medium/low"
-"199","GB106038033250","Little Hallingbury Brook","Little Hallingbury Brook","medium/low"
-"200","GB40602G601700","Old Basing Tertiaries","Old Basing Tertiaries","medium/low"
-"201","GB40602G602500","Greenwich Tertiaries and Chalk","Greenwich Tertiaries OR Greenwhich Chalk","medium/low"
-"202","GB40602G401000","South Essex Lower London Tertiaries","","medium/low"
-"203","GB40601G601100","South-West Chilterns Chalk","","medium/low"
-"204","GB40601G501800","West Kent Darent and Cray Chalk","West Kent Darent OR Cray Chalk","medium/low"
-"205","GB40601G600400","Burford Jurassic","Burford Jurassic","medium/low"
-"206","GB40601G604100","Chiltern Chalk Scarp","Chiltern Chalk Scarp","medium/low"
-"207","GB40601G604400","Alton Chalk","","medium/low"
-"208","GB40602G600800","Bicester-Otmoor Cornbrash","","medium/low"
-"209","GB40602G500200","North Kent Tertiaries","North Kent Tertiaries","medium/low"
-"210","GB40601G501700","North Kent Swale Chalk","North Kent Swale Chalk","medium/low"
-"211","GB40602G601400","Chobham Bagshot Beds","Chobham Bagshot Beds","medium/low"
-"212","GB40602G601300","Farnborough Bagshot Beds","","medium/low"
-"213","GB40602G502300","Kent Weald Western - Medway","","medium/low"
-"214","GB40602G602400","Copthorne Tunbridge Wells Sands","","medium/low"
-"215","GB40601G604300","Guildford Chalk","Guildford Chalk","medium/low"
-"216","GB40602G601800","Effingham Tertiaries","","medium/low"
-"217","GB40601G602900","Upper Lee Chalk","Upper Lee Chalk","medium/low"
-"218","GB40602G401200","North Mymms Tertiaries","North Mymms Tertiaries","medium/low"
-"219","GB40602G600600","Shrivenham Corallian","","medium/low"
-"220","GB40601G602600","Maidenhead Chalk","Maidenhead Chalk","medium/low"
-"221","GB40601G501300","Basingstoke Chalk","Basingstoke Chalk","medium/low"
-"222","GB40602G600500","Kemble Forest Marble","Kemble Forest Marble","medium/low"
-"223","GB40602G600200","Banbury Jurassic","Banbury Jurassic","medium/low"
-"224","GB40602G602300","Bromley Tertiaries","Bromley Tertiaries","medium/low"
-"225","GB40602G501900","West Kent Tertiaries","","medium/low"
-"226","GB40602G601500","Aldermaston Bagshot Beds","","medium/low"
-"227","GB40601G401100","South Essex Thurrock Chalk","","medium/low"
-"228","GB40602G600700","Headington Corallian","","medium/low"
-"229","GB40601G601200","Mid-Chilterns Chalk","","medium/low"
-"230","GB40602G602800","Radlett Tertiaries","Radlett Tertiaries","medium/low"
-"231","GB40603G000300","Lower Thames Gravels","Lower Thames Gravels","medium/low"
-"232","GB40601G603100","Tackley Jurassic","","medium/low"
-"233","GB40601G600900","Berkshire Downs Chalk","Berkshire Downs Chalk","medium/low"
-"234","GB40602G601600","Thatcham Tertiaries","","medium/low"
-"235","GB40601G500400","Kent Greensand Middle","Kent Greensand Middle","medium/low"
-"236","GB40601G500500","Kent Greensand Western","Kent Greensand Western","medium/low"
-"237","GB40602G604200","Byfield Jurassic","","medium/low"
-"238","GB40601G602000","Reigate Lower Greensand","Reigate Lower Greensand","medium/low"
-"239","GB40602G600300","Chipping Norton Jurassic","Chipping Norton Jurassic","medium/low"
-"240","GB40601G601000","Vale of White Horse Chalk","Vale of White Horse Chalk","medium/low"
-"241","GB40601G601900","Godalming Lower Greensand","Godalming Lower Greensand","medium/low"
-"242","GB40601G500300","North Kent Medway Chalk","North Kent Medway Chalk","medium/low"
-"243","GB40602G602700","Twyford Tertiaries","Twyford Tertiaries","medium/low"
-"244","GB40601G602100","Dorking North Downs Chalk","Dorking North Downs Chalk","medium/low"
-"245","GB40601G602200","Epsom North Downs Chalk","Epsom North Downs Chalk","medium/low"
-"246","GB40603G000200","Upper Thames Gravels","Upper Thames Gravels","medium/low"
-"247","GB106039037290","Farthinghoe Stream (Source to Cherwell) and tributaries","","medium/low"
-"248","GB106039037340","Hanwell Brook","Hanwell Brook","medium/low"
-"249","GB106039037240","Bloxham Brook (Source to Sor Brook)","","medium/low"
-"250","GB106039042650","Cherwell (Source to Trafford Bridge)","","medium/low"
-"251","GB106039029780","Bayswater Brook","Bayswater Brook","medium/low"
-"252","GB106039037320","Sor Brook (Source to Broughton)","","medium/low"
-"253","GB106039037190","Deddington Brook (Source to Cherwell)","","medium/low"
-"254","GB106039037200","Upper Swere (Source to Wigginton)","","medium/low"
-"255","GB106039037310","Cherwell (Cropredy to Nell Bridge)","","medium/low"
-"256","GB106039037260","Sor Brook  (Broughton to Cherwell)","","medium/low"
-"257","GB106039037360","Ashby Brook (Source to Cherwell)","","medium/low"
-"258","GB106039037370","Clayton and Wormleighton Brook, Source to Highfurlong Brook","","medium/low"
-"259","GB106039029800","Cherwell (Ray to Thames) and Woodeaton Brook","","medium/low"
-"260","GB106039037270","Tadmarton Stream (Source to Sor Brook)","","medium/low"
-"261","GB106039037220","Swere (Wigginton to Cherwell)","","medium/low"
-"262","GB106039042660","Highfurlong Brook (to Cherwell)","","medium/low"
-"263","GB106039037350","Cherwell (Ashby Brook to Cropredy)","","medium/low"
-"264","GB106039037210","Hook Norton Brook (Source to Swere)","","medium/low"
-"265","GB30639472","Grimsbury Reservoir","Grimsbury Reservoir","medium/low"
-"266","GB106039037280","Chacombe Brook (Source to Cherwell)","","medium/low"
-"267","GB106039037230","Ockley Brook and Croughton Brook (Source to Cherwell)","","medium/low"
-"268","GB106039037431","Cherwell (Nell Bridge to Bletchingdon)","","medium/low"
-"269","GB106039037300","Shutford Stream (Source to Sor Brook)","","medium/low"
-"270","GB106039037432","Cherwell (Bletchingdon to Ray)","","medium/low"
-"271","GB106039030070","Tetchwick Brook, Source to Ray and tribs","","medium/low"
-"272","GB106039030110","Gubbinshole and Broadmoor ditch to Ray (Oxon)","","medium/low"
-"273","GB106039030150","Town Brook at Bicester","Town Brook","medium/low"
-"274","GB106039030100","Ray and tributaries NorthEast of Grendon Underwood","Ray Brook","medium/low"
-"275","GB106039030090","Oxon Ray (upstream A41 to Cherwell) including Otmoor","","medium/low"
-"276","GB106039030120","Summerstown Ditch and Launton and Cutters Brook","Summerstown Ditch OR Launton Brook OR Cutters Brook","medium/low"
-"277","GB106039030130","Gallos Brook","Gallos Brook","medium/low"
-"278","GB106039030140","Langford Brook (Bicester to Ray inc Gagle Brook)","","medium/low"
-"279","GB106039030160","Langford Brook (source to downstream A41)","","medium/low"
-"280","GB106039030080","Bletchingdon Stream","Bletchingdon Stream","medium/low"
-"281","GB106039030060","Ludgershall Brook and Muswellhill Brook","Ludgershall Brook OR Muswellhill Brook","medium/low"
-"282","GB106039030180","Northfield Brook (Source to Thames) at Sandford","","medium/low"
-"283","GB106039023630","Moor Ditch and Ladygrove Ditch","Moor Ditch OR Ladygrove Ditch","medium/low"
-"284","GB106039023350","Letcombe Brook","Letcombe Brook","medium/low"
-"285","GB106039030334","Thames (Evenlode to Thame)","","medium/low"
-"286","GB106039023340","Stutfield Brook (source to Ock)","","medium/low"
-"287","GB106039023410","Sandford Brook (source to Ock)","","medium/low"
-"288","GB106039023420","Frilford and Marcham Brook","Frilford OR Marcham Brook","medium/low"
-"289","GB106039023660","Ginge Brook and Mill Brook","Ginge Brook OR Mill Brook","medium/low"
-"290","GB106039023360","Cow Common Brook and Portobello Ditch","Cow Common Brook OR Portobello Ditch","medium/low"
-"291","GB106039023380","Childrey Brook and Norbrook at Common Barn","Childrey Brook OR Norbrook","medium/low"
-"292","GB106039023430","Ock and tributaries (Land Brook confluence to Thames)","","medium/low"
-"293","GB106039023370","Childrey and Woodhill Brooks","Childrey Brook OR Woodhill Brook","medium/low"
-"294","GB106039023400","Ock (to Cherbury Brook)","","medium/low"
-"295","GB106039022860","Liden Brook, Swindon","","medium/low"
-"296","GB106039023110","Dudgrove Brook","Dudgrove Brook","medium/low"
-"297","GB106039030300","Ampney and Poulton Brooks (Source to Thames)","","medium/low"
-"298","GB106039023730","Cole (Bower Bridge to Thames) including Coleshill","","medium/low"
-"299","GB106039023330","Ray (Wiltshire) (Lydiard Brook to Thames)","","medium/low"
-"300","GB106039022950","Waterloo Ditch (East of Coleshill)","","medium/low"
-"301","GB106039022960","Thames (Waterhaybridge to Cricklade) and Chelworth Brook","","medium/low"
-"302","GB106039023650","Key (Source to Thames)","","medium/low"
-"303","GB106039023800","Cerney Wick Brook (source to Thames)","","medium/low"
-"304","GB106039029750","Churn  (Baunton to Cricklade)","","medium/low"
-"305","GB106039023860","Marston Meysey Brook","Marston Meysey Brook","medium/low"
-"306","GB30642155","Coate Water","Coate Water","medium/low"
-"307","GB106039023320","Ray (Wiltshire) source to Lydiard Brook","","medium/low"
-"308","GB106039029810","Churn (source to Perrots Brook)","","medium/low"
-"309","GB106039029992","Coln (from Coln Rogers) and Thames (Coln to Leach)","","medium/low"
-"310","GB106039029760","Thornhill Ditch and tributaries at Cotswolds Water Park","Thornhill Ditch","medium/low"
-"311","GB106039022920","Tuckmill Brook and tributaries","Tuckmill Brook","medium/low"
-"312","GB106039022870","Lenta Brook, East of Swindon","","medium/low"
-"313","GB106039023680","Share ditch","Share ditch","medium/low"
-"314","GB106039023700","Swill Brook (source to Ashton Keynes)","","medium/low"
-"315","GB106039029790","Elkstone Brook","","medium/low"
-"316","GB106039029991","Coln (Source to Coln Rogers)","","medium/low"
-"317","GB106039023810","Kemble Ditch at Kemble","Kemble Ditch","medium/low"
-"318","GB30641559","Cotswold Water Park Lake 12","","medium/low"
-"319","GB106039022890","Cole (source to Lenta Brook)","","medium/low"
-"320","GB106039023620","Derry Brook","Derry Brook","medium/low"
-"321","GB106039029770","Daglingworth Stream (Source to Churn)","","medium/low"
-"322","GB106039023710","Bydemill Brook (Source to Thames)","","medium/low"
-"323","GB106039022930","Cole (Acorn Bridge to Bower Bridge)","","medium/low"
-"324","GB106039023331","Haydon Wick Brook","Haydon Wick Brook","medium/low"
-"325","GB106039023760","Thames (Kemble to Waterhay Bridge)","","medium/low"
-"326","GB106039022990","Thames (Churn to Coln)","","medium/low"
-"327","GB106039022910","South Marston Brook","South Marston Brook","medium/low"
-"328","GB106039023310","Lydiard Brook","Lydiard Brook","medium/low"
-"329","GB106039023711","Westrop Brook","Westrop Brook","medium/low"
-"330","GB106039023090","Colne (Confluence with Chess to River Thames)","","medium/low"
-"331","GB30642525","Staines Reservoir South","Staines Reservoir","medium/low"
-"332","GB106039029920","Ver","Ver","medium/low"
-"333","GB106039023070","Pinn","Pinn","medium/low"
-"334","GB106039029830","Misbourne","Misbourne","medium/low"
-"335","GB106039023480","Surrey Ash","Surry Ash","medium/low"
-"336","GB106039029890","Bulbourne","Bulbourne","medium/low"
-"337","GB106039029850","Colne (upper east arm including Mimshall Brook)","","medium/low"
-"338","GB30642639","Queen Mary Reservoir","Queen Mary Reservoir","medium/low"
-"339","GB106039029860","Gade (from confluence with Bulbourne to Chess)","","medium/low"
-"340","GB30642490","Staines Reservoir North","Staines Reservoir","medium/low"
-"341","GB30642488","King George VI Reservoir","King George VI Reservoir","medium/low"
-"342","GB106039029820","Upper Colne and Ellen Brook","Colne Brook OR Ellen Brook","medium/low"
-"343","GB106039023100","Tykeswater","Tykeswater","medium/low"
-"344","GB106039023040","Horton Brook","Horton Brook","medium/low"
-"345","GB30641907","Broadwater Lake","Broadwater Lake","medium/low"
-"346","GB106039029840","Colne (from Confluence with Ver to Gade)","","medium/low"
-"347","GB106039023080","Alderbourne","Alderbourne","medium/low"
-"348","GB30642538","Heron Lake","Heron Lake","medium/low"
-"349","GB106039023010","Colne Brook","Colne Brook","medium/low"
-"350","GB30642569","Queensmead","Queensmead","medium/low"
-"351","GB106039029900","Gade (Upper stretch Great Gaddesden to confluence with Bulbourne / GUC)","","medium/low"
-"352","GB106039029870","Chess","Chess","medium/low"
-"353","GB30642417","Wraysbury Reservoir","Wraysbury Reservoir","medium/low"
-"354","GB30642334","The Queen Mother Reservoir","The Queen Mother Reservoir","medium/low"
-"355","GB30642489","Wraysbury No 2","","medium/low"
-"356","GB106039017622","Mole (Hersham to R. Thames conf at East Molesey)","","medium/low"
-"357","GB106039017650","Rythe","Rythe","medium/low"
-"358","GB106039017530","Deanoak Brook","Deanoak Brook","medium/low"
-"359","GB106039017621","Mole (Horley to Hersham)","","medium/low"
-"360","GB30643054","Black Pond","","medium/low"
-"361","GB106039017550","Leigh Brook","Leigh Brook","medium/low"
-"362","GB106039017580","Pipp Brook","Pipp Brook","medium/low"
-"363","GB30642813","Queen Elizabeth 2 Storage Reservoir","","medium/low"
-"364","GB106039017600","Downside Ditches and Bookham Brook","Downside Ditches OR Bookham Brook","medium/low"
-"365","GB30642841","Island Barn Reservoir","Island Barn Reservoir","medium/low"
-"366","GB106039017570","Tanners Brook (Holmewood to River Mole confluence at Brockham)","","medium/low"
-"367","GB106039017610","The Rye at Ashtead","","medium/low"
-"368","GB106039017500","Tilgate Brook and Gatwick Stream at Crawley","Tilgate Brook OR Gatwick Stream","medium/low"
-"369","GB106039017520","Burstow Stream","Burstow Stream","medium/low"
-"370","GB106039017460","Ifield Brook","Ifield Brook","medium/low"
-"371","GB106039017540","Salfords Stream (Salfords to River Mole confluence)","","medium/low"
-"372","GB106039017450","Stanford Brook","Stanford Brook","medium/low"
-"373","GB106039017470","Baldhorns Brook","Baldhorns Brook","medium/low"
-"374","GB30644358","Douster Pond","Douster Pond","medium/low"
-"375","GB106039017590","Redhill Brook","Redhill Brook","medium/low"
-"376","GB106039017481","Mole upstream of Horley","","medium/low"
-"377","GB106039017560","Salfords Stream (Redhill Brook confluence upstream)","","medium/low"
-"378","GB530603911402","THAMES MIDDLE","Thames","medium/low"
-"379","GB530603911401","THAMES LOWER","Thames","medium/low"
-"380","GB560604017700","Cliffe Fort Lagoon","","medium/low"
-"381","GB530603911403","THAMES UPPER","Thames","medium/low"
-"382","GB560604017900","West Thurrock Lagoon","","medium/low"
-"383","GB640603690000","Thames Coastal North","Thames","medium/low"
-"384","GB560604017600","Higham Marshes","","medium/low"
-"385","GB560504016800","Allhallows Marshes","","medium/low"
-"386","GB530604002300","MEDWAY","Medway","medium/low"
-"387","GB560604017400","Murston Lakes","","medium/low"
-"388","GB530604011500","SWALE","Swale","medium/low"
-"389","GB106039017360","Inkpen Stream (source to Kennet)","","medium/low"
-"390","GB106039017300","West End Brook (tributary of Foudry Brook)","","medium/low"
-"391","GB106039017380","Foudry Brook (West End Brook to M4)","","medium/low"
-"392","GB106039023120","Clayhill Brook","Clayhill Brook","medium/low"
-"393","GB106039023173","Middle Kennet (Marlborough to Hungerford)","","medium/low"
-"394","GB106039017410","Burghfield Brook","Burghfield Brook","medium/low"
-"395","GB106039017370","Shalbourne  (source to Kennet at Hungerford)","","medium/low"
-"396","GB106039017280","Enborne (Source to downstream A34)","","medium/low"
-"397","GB106039017310","Enborne (downstream A34 to Burghclere Brook)","","medium/low"
-"398","GB30642611","Farnham Flint or Englefield Lagoon","Farnham Flint OR Englefield Lagoon","medium/low"
-"399","GB106039017210","Penwood Stream","Penwood Stream","medium/low"
-"400","GB106039017250","Ecchinswell Brook (source to Enborne)","","medium/low"
-"401","GB30642622","Ameys Lake or Theale Lakes","Ameys Lake OR Theale Lakes","medium/low"
-"402","GB106039023200","Aldbourne","","medium/low"
-"403","GB30643126","Milford Lake","Milford Lake","medium/low"
-"404","GB106039017190","Silchester Brook","Silchester Brook","medium/low"
-"405","GB106039023140","Kennet and Holy Brook","","medium/low"
-"406","GB106039023180","Og","Og","medium/low"
-"407","GB106039017261","Enborne (Burghclere Brook to Kingsclere Brook)","","medium/low"
-"408","GB106039017390","Kennet and Avon Canal and Dun above Hungerford","","medium/low"
-"409","GB106039023220","Lambourn (Source to Newbury)","","medium/low"
-"410","GB106039023171","Upper Kennet to Marlborough","Kennet","medium/low"
-"411","GB106039017200","Baughurst Brook","Baughurst Brook","medium/low"
-"412","GB106039017220","Kingsclere Brook (Source to Enborne)","","medium/low"
-"413","GB106039023210","Winterbourne","Winterbourne","medium/low"
-"414","GB106039017340","Lower Enborne","Enborne","medium/low"
-"415","GB106039023174","Middle Kennet (Hungerford to Newbury)","","medium/low"
-"416","GB106039017420","Kennet (Lambourn confluence to Enborne confluence)","","medium/low"
-"417","GB106039023141","Holy Brook","Holy Brook","medium/low"
-"418","GB106039017350","Upper Dun","Upper Dun","medium/low"
-"419","GB106039017230","Earlstone Stream and  Burghclere Brook (source to Enborne)","","medium/low"
-"420","GB106039017430","Froxfield Stream","Froxfield Stream","medium/low"
-"421","GB30643001","Wasing Wood Ponds","","medium/low"
-"422","GB106039023670","Berrick Stream and Lady Brook","Berrick Stream OR Lady Brook","medium/low"
-"423","GB30642393","Sonning Eye gravel pit","","medium/low"
-"424","GB106039023610","Ewelme Stream (Source to Thames)","","medium/low"
-"425","GB106039023720","Hamble Brook","Hamble Brook","medium/low"
-"426","GB106039023890","Wye (Source to High Wycombe fire station)","","medium/low"
-"427","GB106039023880","Wye (High Wycombe fire station to Thames)","","medium/low"
-"428","GB106039023300","Pang","Pang","medium/low"
-"429","GB106039023233","Thames (Reading to Cookham)","","medium/low"
-"430","GB106039023280","Sulham Brook","Sulham Brook","medium/low"
-"431","GB106039030331","Thames Wallingford to Caversham","Thames","medium/low"
-"432","GB106039023900","Hughenden Stream","Hughenden Stream","medium/low"
-"433","GB106039023570","Cholsey Brook and tributaries","Cholsey Brook","medium/low"
-"434","GB106039023600","Mill Brook and Bradfords Brook system,  Wallingford","","medium/low"
-"435","GB106039030400","Dorton, Chearsley and Waddesdon Brooks","","medium/low"
-"436","GB106039030410","Thame upstream of Aylesbury","Thame","medium/low"
-"437","GB106039030270","Scotsgrove Brook (upstream Kingsey Cuttle Brook)","","medium/low"
-"438","GB106039030240","Thame (Scotsgrove Brook to Thames)","","medium/low"
-"439","GB106039023820","Baldon Brook (South of Oxford)","","medium/low"
-"440","GB106039023850","Chinor Brook and Sydenham Brook","Chinor Brook OR Sydenham Brook","medium/low"
-"441","GB106039030290","Peppershill and Shabbington Brooks","Peppershill Brook OR Shabbington Brook","medium/low"
-"442","GB106039030380","Bear Brook and Wendover Brook","Bear Brook OR Wendover Brook","medium/low"
-"443","GB106039030340","Worminghall Brook and tributaries","Worminghall Brook","medium/low"
-"444","GB106039023780","Haseley Brook","Haseley Brook","medium/low"
-"445","GB106039030320","Stoke Brook Aylesbury","Stoke Brook","medium/low"
-"446","GB106039030370","Thame (Aylesbury to Scotsgrove Brook)","","medium/low"
-"447","GB106039023830","Latchford Brook at Tetsworth","Latchford Brook","medium/low"
-"448","GB106039030360","Holton Brook and tributaries","Holton Brook","medium/low"
-"449","GB106039023840","Cuttle Brook","Cuttle Brook","medium/low"
-"450","GB106039030430","Hardwick Brook (Source to Thame)","","medium/low"
-"451","GB106039023750","Lewknor Brook","Lewknor Brook","medium/low"
-"452","GB106039030420","Fleet Marston Brook, Denham Brook,  Pitchcott Brook west","","medium/low"
-"453","GB106039030200","Kingsey Cuttle Brook and tributaries at Thame","Kingslye Cuttle Brook","medium/low"
-"454","GB106039023740","Chalgrove Brook","Chalgrove Brook","medium/low"
-"455","GB106040024150","Lower Cray","Cray","medium/low"
-"456","GB106040024210","Shuttle","Shuttle","medium/low"
-"457","GB106040023990","Upper Cray","Cray","medium/low"
-"458","GB106040024222","Middle and Lower Darent","Darent","medium/low"
-"459","GB106040024221","Upper Darent","Darent","medium/low"
-"460","GB106039017640","Wandle (Carshalton Branch at Carshalton)","","medium/low"
-"461","GB106039023460","Wandle (Croydon to Wandsworth) and the R. Gra","","medium/low"
-"462","GB30642614","Kempton Park East Reservoir","","medium/low"
-"463","GB106039023030","Crane","Crane","medium/low"
-"464","GB106039023051","Yeading Brook","Yeading Brook","medium/low"
-"465","GB106039023451","Portlane Brook","Portlane Brook","medium/low"
-"466","GB106039022850","Beverley Brook (Motspur Park to Thames) and Pyl Brook at West Barnes","","medium/low"
-"467","GB106039023500","Marsh Dykes (Woolwich)","","medium/low"
-"468","GB106039023290","Quaggy","Quaggy","medium/low"
-"469","GB106039023250","Pool River","Pool River","medium/low"
-"470","GB106039023270","Ravensbourne (Catford to Deptford)","","medium/low"
-"471","GB106039023260","Ravensbourne (Keston to Catford)","","medium/low"
-"472","GB106039022940","Wealdstone Brook","Wealdstone Brook","medium/low"
-"473","GB106039022970","Silk Stream and Edgware Brook","Silk Stream OR Edgware Brook","medium/low"
-"474","GB106039023590","Lower Brent","Brent","medium/low"
-"475","GB106039022980","Dollis Brook and Upper Brent","Dollis Brook OR Brent","medium/low"
-"476","GB30641796","Bentley Priory","","medium/low"
-"477","GB30641690","Welsh Harp","Welsh Harp","medium/low"
-"478","GB106038077852","Lee (Tottenham Locks to Bow Locks/Three Mills Locks)","","medium/low"
-"479","GB30641523","King Georges Reservoir","King Georges Reservoir","medium/low"
-"480","GB30641198","North Metropolitan pit","North Metropolitan pit","medium/low"
-"481","GB106038077851","Lea Navigation (Fieldes Weir to Enfield Lock)","","medium/low"
-"482","GB106038027940","Pymmes Brook upstream Salmon Brook confluence","Pymmey Brook","medium/low"
-"483","GB30641193","Seventy Acres","Seventy Acres","medium/low"
-"484","GB106038027910","Pymmes and Salmon Brooks - Deephams STW to Tottenham Locks","","medium/low"
-"485","GB30641313","Bowyers Water","Bowyers Water","medium/low"
-"486","GB30641659","William Girling Reservoir","","medium/low"
-"487","GB30641975","Stoke Newington East Reservoir","Stoke Newington East Reservoir","medium/low"
-"488","GB30647003","Banbury Reservoir","","medium/low"
-"489","GB106038027960","Salmon Brook upstream Deephams STW","Salmon Brook OR Salmons Brook","medium/low"
-"490","GB30641939","Warwick Reservoir East","Warwick Reservoir East","medium/low"
-"491","GB106038033210","Nazeing Brook","Nazeing Brook","medium/low"
-"492","GB106038033190","Cobbins Brook","Cobbins Brook","medium/low"
-"493","GB30641956","Warwick Reservoir West","Warwick Reservoir West","medium/low"
-"494","GB30641274","Cheshunt Lake","Cheshunt Lake","medium/low"
-"495","GB106038027920","Moselle Brook","Moselle Brook","medium/low"
-"496","GB30641865","Lockwood Reservoir","Lockwood Reservoir","medium/low"
-"497","GB106038033200","Small River Lee (and tributaries)","","medium/low"
-"498","GB106038027930","Ching Brook","Ching Brook","medium/low"
-"499","GB106038027950","Lea Navigation Enfield Lock to Tottenham Locks","Lea Navigation","medium/low"
-"500","GB106038033180","Turkey Brook and Cuffley Brook","Turkey Brook OR Cuffley Brook","medium/low"
-"501","GB30641900","Low Maynard Reservoir","Low Maynard Reservoir","medium/low"
-"502","GB30641922","Walthamstow Reservoir No 4","","medium/low"
-"503","GB30641884","High Maynard Reservoir","High Maynard Reservoir","medium/low"
-"504","GB30641924","Walthamstow Reservoir No 1","","medium/low"
-"505","GB106039017440","Hogsmill","Hogsmill","medium/low"
-"506","GB30643125","Epsom Stew Pond","","medium/low"
-"507","GB106037033490","Higher Laver Brook","Higher Laver Brook","medium/low"
-"508","GB106037028140","Gores Brook","Gores Brook","medium/low"
-"509","GB106037028090","Southall Sewer and Runningwater Brook","Southall Sewer OR Runningwater Brook","medium/low"
-"510","GB106037033481","Cripsey Brook","Cripsey Brook","medium/low"
-"511","GB106037028130","Ingrebourne","Ingrebourne","medium/low"
-"512","GB106037028181","Lower Roding (Loughton to Thames)","","medium/low"
-"513","GB106037028150","Brookhouse Brook","Brookhouse Brook","medium/low"
-"514","GB106037028120","Rom (Bourne Brook to Ravensbourne)","","medium/low"
-"515","GB106037028182","Lower Roding (Cripsey Bk to Loughton)","","medium/low"
-"516","GB106037028100","Beam and Ravensbourne","Beam OR Ravensbourne","medium/low"
-"517","GB106037033500","Upper Roding (to Cripsey Brook)","","medium/low"
-"518","GB106037028170","Seven Kings Water","Seven Kings Water","medium/low"
-"519","GB106037028171","Mayes Brook","Mayes Brook","medium/low"
-"520","GB806100092","Brent Feeder Canal","Brent Feeder Canal","medium/low"
-"521","GB70610078","Grand Union Canal, Uxbridge to Hanwell Locks, Slough Arm, Paddington Arm","","medium/low"
-"522","GB70610183","Grand Union Canal, Wendover Arm (disused)","","medium/low"
-"523","GB806100111","New River","","medium/low"
-"524","GB70610510","Regents Canal, lower section","","medium/low"
-"525","GB70610197","Oxford Canal, summit to Aynho","","medium/low"
-"526","GB70610542","Oxford Canal, Thrupp to Thames","","medium/low"
-"527","GB70610198","Oxford Canal, Aynho to Thrupp","","medium/low"
-"528","GB806100002","Boddington Feeder (Oxford Canal)","","medium/low"
-"529","GB70610180","Kennet and Avon Canal, Copse Lock to Reading","","medium/low"
-"530","GB70610181","Kennet and Avon Canal, summit to Copse Lock","","medium/low"
-"531","GB806100108","Upper Duke of Northumberland's River","","medium/low"
-"532","GB806100095","Lower Duke of Northumberland's River","","medium/low"
-"533","GB806100109","Longford River","Longford River","medium/low"
-"534","GB70610019","Basingstoke Canal","Basingstoke Canal","medium/low"
-"535","GB806100325","Jubilee River","","medium/low"
-"536","GB806100096","King George VI Reservoir water transfer","","medium/low"
-"537","GB70610185","Grand Union Canal, Berkhamstead to Maple Lodge (RIvers Bulbourne, Gade and Colne)","","medium/low"
-"538","GB70610252","Grand Union Canal, Maple Lodge to Uxbridge (Rivers Colne and Chess plus canal)","","medium/low"
-"539","GB70610184","Grand Union Canal, Tring summit to Berkhamstead","","medium/low"
-"540","GB70610182","Grand Union Canal, Tring summit","","medium/low"
-"541","GB106037028070","Mardyke (East Tributary)","","medium/low"
-"542","GB106037028200","Mardyke","Mardyke","medium/low"
-"543","GB106037028080","Mardyke (West Tributary)","","medium/low"
-"544","GB106040018560","White Drain","White Drain","medium/low"
-"545","GB30642956","Murston Lakes, angling lakes","","medium/low"
+WBID,name,mine_query
+GB106039023160,Loddon (Swallowfield to River Thames confluence),Loddon river OR Swallowfield River 
+GB106039017130,Cove Brook,Cove Brook
+GB30642945,Heath Lake,Heath Lake
+GB106039017180,Blackwater (Aldershot to Cove Brook confluence at Hawley),Blackwater River OR Aldershot River OR River Hawley
+GB106039017140,Bow Brook (Bramley to Sherfield Green),Bow Brook Or Bramley River OR Sherfield Green River
+GB106039017110,Vyne Stream,Vyne Stream
+GB106039017240,Whitewater,Whitewater London
+GB106039017400,Barkham Brook,Barkham Brook
+GB106039017330,Loddon (Sherfield on Loddon to Swallowfield),Loddon river OR Sherfield River 
+GB106039017090,Hart (Crondall to Elvetham),Hart River OR crondall river or Elvetham river
+GB106039017080,Loddon (Basingstoke to River Lyde confluence at Hartley Wespall),Loddon river OR Basingstoke River or River Lyde or Hartley Wespall river
+GB106039017120,Fleet Brook,Fleet Brook
+GB106039017320,Blackwater (Bramshill to River Loddon confluence at Swallowfield),Blackwater River OR river Loddon OR Swallowfield river
+GB106039017170,Hart (Elvetham to Hartley Wintney),Hart River OR Elvetham River OR Hartley Wintney river
+GB106039017160,Bow Brook (Pamber End to Bramley),Bow Brook OR Pamber End River OR Bramley River
+GB106039023130,Emm Brook,Emm Brook
+GB30643339,Mytchett Lake,Mytchett Lake
+GB30643315,Fleet Pond,Fleet Pond
+GB106039017290,Blackwater (Hawley to Whitewater confluence at Bramshill),Blackwater River OR Hawley river OR bramshilll river
+GB106039023190,Twyford Brook,Twyford Brook
+GB106039017150,Loddon (Hartley Wespall to Sherfield on Loddon),Loddon OR Hartley Wespall river OR sherfield on loddon river
+GB106039017100,Lyde,River Lyde or Lyde London
+GB106039017920,Addlestone Bourne (West End to Hale/Mill Bourne confluence at Mimbridge),addlestone bourne river OR west end river OR hale river OR Mill bourne river
+GB106039017860,East Clandon Stream,East Clandon Stream
+GB30642753,Thorpe Park Lakes,Thorpe Park Lakes
+GB30643359,Whitmoor Common Pond,whitmoor common pond
+GB30644031,Frensham Great Pond,Frensham Great Pond
+GB30643943,Frensham Little Pond,Frensham Little Pond
+GB106039017800,North Wey at Alton,North Wey river OR alton river
+GB106039017690,Hollywater and Deadwater at Bordon,hollywater river OR deadwater river OR bordon river
+GB106039017850,Clasford Brook and Wood Street Brook,Clasford Brook OR Wood Street Brook
+GB106039017780,South Wey (River Slea confluence to Tilford),south wey river OR tilford river
+GB106039017840,Tillingbourne,Tillingbourne
+GB106039017070,Chertsey Bourne (Virginia Water to Chertsey),chertsey bourne river OR virginia water river OR chertsey river
+GB106039017760,Royal Brook,Royal Brook
+GB106039017030,Chertsey Bourne (Chertsey to River Thames confluence),chertsey bourne OR chertsey river
+GB106039017770,Truxford Brook,Truxford Brook
+GB106039017750,Slea (Kingsley to Sleaford),slea river OR kingsley river OR sleaford river
+GB106039017830,North Wey (Alton to Tilford),north wey river OR alton river OR tilford river
+GB106039017790,Ock,Ock River or Ock London or Ock Water
+GB106039017930,Hale/Mill Bourne (Bagshot to Addlestone Bourne confluence near Chobham),hale river OR mill bourne OR Chobham river
+GB106039017700,South Wey (Haslemere to Bordon),couth wey river OR Haslemere river OR bordon river
+GB106039017040,Chertsey Bourne (Sunningdale to Virginia Water),chertsey bourne river OR sunningdale river OR virginia water river
+GB106039017900,Hoe Stream (Pirbright to River Wey confluence at Woking),hoe stream river OR pirbright river OR woking river
+GB106039017630,Wey (Shalford to River Thames confluence at Weybridge),wey river OR shalford river OR weybridge river
+GB106039017880,Guileshill Brook,Guileshill Brook
+GB106039017910,Wey Navigation (Pyrford reach),wey navigation OR pyrford river
+GB30643218,Boldermere,Boldermere
+GB106039017870,Hoe Stream (Normandy to Pirbright),hoe stream OR normandy river OR pirbright river
+GB30643758,The Tarn,tarn river
+GB106039017730,Caker Stream,Caker Stream
+GB30644576,Forest Mere,Forest Mere
+GB106039017050,Chertsey Bourne (Ascot to Virginia Water),chertsey bourne river OR ascot river OR virginia water river
+GB106039017060,The Moat at Egham,Moat Egham
+GB106039017020,Addlestone Bourne (Mill/Hale to Chertsey Bourne),addlestone bourne river OR mill river OR hale river OR chertsey bourne river
+GB106039017820,Wey (Tilford to Shalford),wey river OR tildford river OR shalford river
+GB106039017720,South Wey (Bordon to River Slea confluence),south wey river OR bordon river
+GB30642691,Virginia Water,Virginia Water
+GB106039017810,Cranleigh Waters,Cranleigh Waters
+GB30644464,Cranmer Pond,Cranmer Pond 
+GB106039017890,Stratford Brook,Stratford Brook
+GB106039017710,Oakhanger Stream,Oakhanger Stream
+GB30642875,Swinley Park Pond,swinley park pond
+GB30644482,Woolmer Pond,woolmer pond
+GB106040018310,Marden Mill Stream,Marden Mill Stream
+GB106040018250,Upper Teise,River Teise
+GB106040018260,Teise and Lesser Teise,River Teise OR Lesser Teise
+GB106040018130,Lower Teise,River Teise
+GB106040018240,Bartley Mill Stream,Bartley Mill Stream
+GB106040018520,Teise at Lamberhurst,River Teise
+GB106040018500,Bewl,River Bewl
+GB106040018510,Tributary of Teise,River Teise
+GB30644398,Bewl Water,Bewl Water
+GB106040018440,Medway at Maidstone,Medway river OR maidstone river
+GB106040018210,Bourne (Medway),bourne river OR medway river
+GB106040018170,Hilden Brook,Hilden Brook
+GB106040018420,Loose Stream,Loose Stream
+GB106040018150,Little Hawden Stream,Little Hawden Stream
+GB106040018200,Ditton Stream,Ditton Stream
+GB106040018450,Leybourne Stream,Leybourne Stream
+GB106040018410,Somerhill Stream,Somerhill Stream
+GB106040018120,Tudeley Brook,Tudeley Brook
+GB106040018430,Len,Len river
+GB106040018190,Mereworth Stream,mereworth stream
+GB106040018182,Mid Medway from Eden Confluence to Yalding,Medway river OR Yalding river
+GB106040018110,Alder Stream and Hammer Dyke,Alder Stream OR Hammer Dyke
+GB30643117,Snodland Reservoir,snodland reservoir
+GB30642424,Cliffe Pools South Lake,cliffe pools south lake
+GB30642407,Cliffe Pools North Lake,Cliffe Pools North Lake
+GB106040018320,Sherway,Sherway river
+GB106040018290,Hammer Stream,Hammer Stream
+GB106040018330,Ulcombe Stream,Ulcombe Stream
+GB106040018280,Upper Beult - High Halden and Bethersden Stream,beult river OR high halden river OR Bethersden Stream
+GB106040018040,Tributary of Beult at Sutton Valance,beult river OR sutton valance river
+GB106040018270,Beult,Beult river
+GB106040018030,Tributary of Beult at Frittenden,Beult river
+GB106040018140,Beult at Yalding,Beult river OR yalding river
+GB30647024,Marden Meadow Ponds,Marden Meadow Ponds
+GB106040018300,Upper Beult,Beult river
+GB106040018340,Ray Brook,Ray Brook
+GB106040018650,Tributary of Edenbrook,Eden Brook
+GB106040018660,Eden Brook,Eden Brook
+GB106040018630,Upper Eden,Eden river
+GB106040018060,Tributary of Eden at Four Elms,Eden river OR four elms river
+GB30643602,Bough Beech Reservoir,Bough Beech Reservoir
+GB106040018640,Gibbs Brook,Gibbs Brook
+GB30643485,Bay Pond,Bay Pond
+GB106040018160,Lower Eden,Eden river
+GB106040018350,Middle Eden,Eden river
+GB30644023,Hedgecourt Lake,Hedgecourt Lake
+GB106040018390,Eridge Stream,Eridge Stream
+GB106040018370,Friars Gate Stream,Friars Gate Stream
+GB106040018070,Medway at Weir Wood,Medway river OR weir wood river
+GB106040013360,Jarvis Brook,Jarvis Brook
+GB106040018090,Kent Water,Kent Water river
+GB106040013370,Upper Eridge Stream,Eridge Stream
+GB106040018181,Mid Medway from Hartfield to Eden Confluence,Medway river OR hartfield river
+GB106040018360,Pippingford Brook,Pippingford Brook
+GB30644310,Weir Wood Reservoir,Weir Wood Reservoir
+GB106040018400,Grom,Grom river
+GB106040018080,Shovelstrode Stream,Shovelstrode Stream
+GB106040018100,Barden Mill Stream,Barden Mill Stream
+GB106039037410,Evenlode (Compton Bk to Bledington Bk) and 4 Shires,evenlode river OR 4 shires river
+GB106039030010,Glyme (Enstone to Dorn),glyme river OR enstone river OR dorn river
+GB106039029880,Evenlode (Glyme to Thames),evenlode river OR glyme river
+GB106039037380,Dorn (Source to Glyme),dorne river OR glyme river
+GB106039030030,Heythorpe Stream and tributaries,Heythorpe Stream
+GB106039029910,Littlestock Stream to tributary of Evenlode at Shipton,Littlestock Stream OR shipton river
+GB106039030000,Bledington Brook (Source to Evenlode),bledington brook
+GB106039029970,Coldron and Taston Brooks,Coldron Brook OR Taston Brook
+GB106039037420,Evenlode (Source to Four Shires S) and Longborough Stream,evenlode river or four shires river OR longborough stream
+GB106039029950,Westcote Brook (source to Evenlode at Bledington),westcote brook OR bledington river
+GB106039029940,Glyme (Dorn confluence to Evenlode),glyme river
+GB106039029980,Sars Brook (source to Evenlode downstream Bledington),sars brook OR bledington river
+GB106039037400,Cornwell Brook and tributaries (Source to Evenlode),cornwell brook
+GB106039030020,Glyme (Source to Enstone),glyme river OR enstone river
+GB30640488,Cornbury Park Lakes,cornbury park lake
+GB106039037390,Little Compton Brook and tributaries (Source to Evenlode),Little Compton Brook
+GB106039029960,Evenlode (Bledington to Glyme confluence),evenlode river
+GB30640514,Blenheim Lakes,Blenheim Lakes
+GB106039030333,Thames (Leach to Evenlode),Thames river OR leach river
+GB106039030440,Windrush and tributaries (Little Rissington to Thames),windrush river 
+GB106039030260,Highmoor Brook at Brize Norton,Highmoor Brook OR brize norton river
+GB106039030040,Leach (Source to Thames),leach river
+GB106039037460,Windrush (Source to Slade Barn Stream),windrush river
+GB106039030280,Shill Brook and Tributaries,Shill Brook
+GB106039030470,Dikler (Wyck Rissington to Windrush) and Lower Eye,dikler river OR wyck rissington river OR lower eye river
+GB106039030450,Hazelford and Coombe Brook,Hazelford Brook OR Coombe Brook
+GB106039030232,Broadwell Brook,Broadwell Brook
+GB106039037450,Eye (Source to Dikler),river eye
+GB106039023770,Wadley Stream (Source to Thames at Duxford),watley stream OR duxford river
+GB106039030460,Sherbourne Brook,Sherbourne Brook
+GB106039037440,Slade Barn Stream (Source to Windrush),Slade Barn Stream
+GB106039030231,Radcot Cut,Radcot Cut
+GB30641011,Farmoor Reservoir,Farmoor Reservoir
+GB106039030210,Filchhampstead Brook at Farmoor,Filchhampstead Brook OR farmoor river
+GB106039030310,Chil and Limb Brooks (source to B4044),chil brook OR limb brook
+GB106039037470,Dikler (Source to Wyck Rissington),river dikler OR wyck rissington river
+GB106039030480,Windrush (Slade Barn Stream to Dikler),windrush river
+GB106039023550,Chalvey Ditches,Chalvey Ditches
+GB106039023231,Thames (Cookham to Egham),thames cookham river OR thames egham river
+GB106039023232,Thames (Egham to Teddington),thames egham river OR thames teddington river
+GB106039023440,Cut (Ascot to Bull Brook confluence at Warfield),cut river OR ascot river OR warfield river
+GB30642430,Wraysbury Lake,Wraysbury Lake
+GB106039023520,Datchet Common Brook,Datchet Common Brook
+GB106039017670,Bull Brook,Bull Brook
+GB106039023540,Roundmoor Ditch and Boveney Ditch,Roundmoor Ditch OR Boveney Ditch
+GB106039017660,Cut at west Bracknell,River Cut OR west bracknell river
+GB106039017680,Cut (Warfield to north Bracknell),cut river OR warfield river OR north bracknell river
+GB30642791,Knight Reservoir,Knight Reservoir
+GB106039023530,Salthill Stream,Salthill Stream
+GB106039023511,Maidenhead Ditch,Maidenhead Ditch
+GB106039023510,Cut (Binfield to River Thames confluence) and Maidenhead Ditch,cut river OR binfield river or maidenhead ditch
+GB30642779,Bessborough Reservoir,Bessborough Reservoir
+GB30642757,Englemere Pond,Englemere Pond
+GB30647022,Littleworth Ponds,Littleworth Ponds
+GB106038040120,Quin,river Quin
+GB106038033270,Mimram (Codicote Bottom to Lee),mimram river OR codicote bottom river
+GB106038040110,Beane (Source to Stevenage Brook),river beane
+GB106038033330,Great Hallingbury Brook,Great Hallingbury Brook
+GB106038033460,Mimram (Whitwell to Codicote Bottom),river mimram OR whitwell river OR codicote bottom river
+GB106038033380,Pincey Brook,Pincey Brook
+GB106038040140,"Rib (upper stretches, above confluence with the Quin",river rib
+GB106038033392,Lee (from Luton Hoo Lakes to Hertford),river lee or huton loo lake
+GB106038033281,"Stort and Navigation, B Stortford to Harlow",river stort or stortford river OR harlow river
+GB106038040090,Stanstead Brook,Stanstead Brook
+GB106038033282,"Stort and Navigation, Harlow to Lee ",river stort OR river harlow
+GB106038033240,Lee Navigation (Hertford to Fieldes Weir),lee navigation OR fieldes weir 
+GB106038033260,Fiddlers Brook,Fiddlers Brook
+GB106038033340,Stort and Bourne Brook,Stort Brook OR Bourne Brook
+GB106038033360,Rib (from confluence with Quin to Lee Navigation),river rib
+GB106038040100,Ash (from Meesden to confluence with Bury Green Brook),river ash OR river meesden
+GB106038033410,Stevenage Brook,Stevenage Brook
+GB106038040130,Stort (at Clavering),river stort OR clavering river
+GB106038033391,Lee (from Luton to Luton Hoo Lakes),river lee OR luton hoo lake
+GB106038033290,Ash (from confluence with Bury Green Brook to Lee),river ash
+GB106038033220,Cannons Brook,Cannons Brook
+GB106038033310,Beane (from confluence with Stevenage Brook to Lee),river beane
+GB106038033250,Little Hallingbury Brook,Little Hallingbury Brook
+GB40602G601700,Old Basing river,Old Basing river
+GB40602G602500,Greenwich river and Chalk,Greenwich river OR Greenwhich Chalk
+GB40602G401000,South Essex Lower London river,South Essex Lower London river
+GB40601G601100,South-West Chilterns Chalk,South-West Chilterns Chalk
+GB40601G501800,West Kent Darent and Cray Chalk,West Kent Darent OR Cray Chalk
+GB40601G600400,Burford river,Burford river
+GB40601G604100,Chiltern Chalk Scarp,Chiltern Chalk Scarp
+GB40601G604400,Alton Chalk,alton chalk stream
+GB40602G600800,Bicester-Otmoor Cornbrash,bicester otmoor river
+GB40602G500200,North Kent river,North Kent river
+GB40601G501700,North Kent Swale Chalk,North Kent Swale Chalk stream
+GB40602G601400,Chobham Bagshot Beds,Chobham Bagshot Beds river
+GB40602G601300,Farnborough Bagshot Beds,Farnborough Bagshot Beds river
+GB40602G502300,Kent Weald Western - Medway,kent weald western river
+GB40602G602400,Copthorne Tunbridge Wells Sands,Copthorne Tunbridge Wells Sands river
+GB40601G604300,Guildford Chalk,Guildford Chalk stream
+GB40602G601800,Effingham river,Effingham river river
+GB40601G602900,Upper Lee Chalk,Upper Lee Chalk stream
+GB40602G401200,North Mymms river,North Mymms river river
+GB40602G600600,Shrivenham Corallian,shrivenham river OR shrivenham stream
+GB40601G602600,Maidenhead Chalk,Maidenhead Chalk stream
+GB40601G501300,Basingstoke Chalk,Basingstoke Chalk stream
+GB40602G600500,Kemble Forest Marble,Kemble Forest Marble river
+GB40602G600200,Banbury river,Banbury river river
+GB40602G602300,Bromley river,Bromley river river
+GB40602G501900,West Kent river,West Kent river river
+GB40602G601500,Aldermaston Bagshot Beds,Aldermaston Bagshot Beds river
+GB40601G401100,South Essex Thurrock Chalk,South Essex Thurrock Chalk stream
+GB40602G600700,Headington Corallian,headington river
+GB40601G601200,Mid-Chilterns Chalk,Mid-Chilterns Chalk stream
+GB40602G602800,Radlett river,Radlett river
+GB40603G000300,Lower Thames Gravels,Lower Thames Gravels river
+GB40601G603100,Tackley river,tackley river
+GB40601G600900,Berkshire Downs Chalk,Berkshire Downs Chalk stream
+GB40602G601600,Thatcham river,thatcham river
+GB40601G500400,Kent Greensand Middle,Kent Greensand Middle river
+GB40601G500500,Kent Greensand Western,Kent Greensand Western river
+GB40602G604200,Byfield river,byfield river
+GB40601G602000,Reigate Lower Greensand,Reigate Lower Greensand river
+GB40602G600300,Chipping Norton river,Chipping Norton river
+GB40601G601000,Vale of White Horse Chalk,Vale of White Horse Chalk
+GB40601G601900,Godalming Lower Greensand,Godalming Lower Greensand
+GB40601G500300,North Kent Medway Chalk,North Kent Medway Chalk stream
+GB40602G602700,Twyford river,Twyford river river
+GB40601G602100,Dorking North Downs Chalk,Dorking North Downs Chalk stream
+GB40601G602200,Epsom North Downs Chalk,Epsom North Downs Chalk stream
+GB40603G000200,Upper Thames Gravels,Upper Thames Gravels river
+GB106039037290,Farthinghoe Stream (Source to Cherwell) and tributaries,farthinghoe stream
+GB106039037340,Hanwell Brook,Hanwell Brook
+GB106039037240,Bloxham Brook (Source to Sor Brook),bloxham brook
+GB106039042650,Cherwell (Source to Trafford Bridge),river cherwell OR trafford bridge river
+GB106039029780,Bayswater Brook,Bayswater Brook
+GB106039037320,Sor Brook (Source to Broughton),sor brook OR broughton river
+GB106039037190,Deddington Brook (Source to Cherwell),deddington brook
+GB106039037200,Upper Swere (Source to Wigginton),swere river
+GB106039037310,Cherwell (Cropredy to Nell Bridge),river cherwell OR river cropredy OR nell bridge river
+GB106039037260,Sor Brook  (Broughton to Cherwell),sor brook
+GB106039037360,Ashby Brook (Source to Cherwell),ashby brook
+GB106039037370,"Clayton and Wormleighton Brook, Source to Highfurlong Brook ",clayton brook OR wormleighton brook
+GB106039029800,Cherwell (Ray to Thames) and Woodeaton Brook,river cherwell OR woodeaton brook
+GB106039037270,Tadmarton Stream (Source to Sor Brook),tadmarton stream
+GB106039037220,Swere (Wigginton to Cherwell),river swere OR river wiggington
+GB106039042660,Highfurlong Brook (to Cherwell),highfurlongton brook
+GB106039037350,Cherwell (Ashby Brook to Cropredy),river cherwell OR river cropredy
+GB106039037210,Hook Norton Brook (Source to Swere),hook norton brook
+GB30639472,Grimsbury Reservoir,Grimsbury Reservoir
+GB106039037280,Chacombe Brook (Source to Cherwell),chacombe brook
+GB106039037230,Ockley Brook and Croughton Brook (Source to Cherwell),ockley brook OR croughton brook
+GB106039037431,Cherwell (Nell Bridge to Bletchingdon),river cherwell OR nell bridge river OR bletchingdon river
+GB106039037300,Shutford Stream (Source to Sor Brook),shutford stream
+GB106039037432,Cherwell (Bletchingdon to Ray),river cherwell OR river bletchingdon
+GB106039030070,"Tetchwick Brook, Source to Ray and tribs ",tetchwick brook
+GB106039030110,Gubbinshole and Broadmoor ditch to Ray (Oxon),gubbinshole ditch OR broadmoor ditch
+GB106039030150,Town Brook at Bicester,Town Brook OR bicester river
+GB106039030100,Ray and tributaries NorthEast of Grendon Underwood,Ray Brook OR grendon underwood river
+GB106039030090,Oxon Ray (upstream A41 to Cherwell) including Otmoor,river ray OR otmoor river
+GB106039030120,Summerstown Ditch and Launton and Cutters Brook,Summerstown Ditch OR Launton Brook OR Cutters Brook
+GB106039030130,Gallos Brook,Gallos Brook
+GB106039030140,Langford Brook (Bicester to Ray inc Gagle Brook),langford brook OR gagle brook OR bicester river
+GB106039030160,Langford Brook (source to downstream A41),langford brook
+GB106039030080,Bletchingdon Stream,Bletchingdon Stream
+GB106039030060,Ludgershall Brook and Muswellhill Brook,Ludgershall Brook OR Muswellhill Brook
+GB106039030180,Northfield Brook (Source to Thames) at Sandford,northfield brook OR sandford river
+GB106039023630,Moor Ditch and Ladygrove Ditch,Moor Ditch OR Ladygrove Ditch
+GB106039023350,Letcombe Brook,Letcombe Brook
+GB106039030334,Thames (Evenlode to Thame),thames oxford OR river oxford OR thames wolvercote OR thames port meadow
+GB106039023340,Stutfield Brook (source to Ock),stutfield brook
+GB106039023410,Sandford Brook (source to Ock),sandford brook
+GB106039023420,Frilford and Marcham Brook,Frilford OR Marcham Brook
+GB106039023660,Ginge Brook and Mill Brook,Ginge Brook OR Mill Brook
+GB106039023360,Cow Common Brook and Portobello Ditch,Cow Common Brook OR Portobello Ditch
+GB106039023380,Childrey Brook and Norbrook at Common Barn,Childrey Brook OR Norbrook
+GB106039023430,Ock and tributaries (Land Brook confluence to Thames),river ock
+GB106039023370,Childrey and Woodhill Brooks,Childrey Brook OR Woodhill Brook
+GB106039023400,Ock (to Cherbury Brook),river ock
+GB106039022860,"Liden Brook, Swindon",liden brook
+GB106039023110,Dudgrove Brook,Dudgrove Brook
+GB106039030300,Ampney and Poulton Brooks (Source to Thames),ampney brook OR poulton brook
+GB106039023730,Cole (Bower Bridge to Thames) including Coleshill,river cole OR bower bridge river
+GB106039023330,Ray (Wiltshire) (Lydiard Brook to Thames),river ray or Lydiard brook
+GB106039022950,Waterloo Ditch (East of Coleshill),waterloo ditch OR coleshil river
+GB106039022960,Thames (Waterhaybridge to Cricklade) and Chelworth Brook,tjames river waterhaybridge OR thames river Cricklade
+GB106039023650,Key (Source to Thames),river key
+GB106039023800,Cerney Wick Brook (source to Thames),cerney wick brook
+GB106039029750,Churn  (Baunton to Cricklade),river churn OR river baunton OR river cricklade
+GB106039023860,Marston Meysey Brook,Marston Meysey Brook
+GB30642155,Coate Water,Coate Water
+GB106039023320,Ray (Wiltshire) source to Lydiard Brook,river ray OR lydiard brook
+GB106039029810,Churn (source to Perrots Brook),river churn
+GB106039029992,Coln (from Coln Rogers) and Thames (Coln to Leach),river coln
+GB106039029760,Thornhill Ditch and tributaries at Cotswolds Water Park,Thornhill Ditch
+GB106039022920,Tuckmill Brook and tributaries,Tuckmill Brook
+GB106039022870,"Lenta Brook, East of Swindon",river lenta
+GB106039023680,Share ditch,Share ditch water
+GB106039023700,Swill Brook (source to Ashton Keynes),swill brook OR ashton keynes river
+GB106039029790,Elkstone Brook,elkstone brook
+GB106039029991,Coln (Source to Coln Rogers),river coln
+GB106039023810,Kemble Ditch at Kemble,Kemble Ditch
+GB30641559,Cotswold Water Park Lake 12,Cotswold Water Park Lake
+GB106039022890,Cole (source to Lenta Brook),river cole
+GB106039023620,Derry Brook,Derry Brook
+GB106039029770,Daglingworth Stream (Source to Churn),Daglingworth Stream
+GB106039023710,Bydemill Brook (Source to Thames),bydemill brook
+GB106039022930,Cole (Acorn Bridge to Bower Bridge),river cole OR acorn bridge river OR bower bridge river
+GB106039023331,Haydon Wick Brook,Haydon Wick Brook
+GB106039023760,Thames (Kemble to Waterhay Bridge),thames kemble river OR waterhay bridge river
+GB106039022990,Thames (Churn to Coln),thames river
+GB106039022910,South Marston Brook,South Marston Brook
+GB106039023310,Lydiard Brook,Lydiard Brook
+GB106039023711,Westrop Brook,Westrop Brook
+GB106039023090,Colne (Confluence with Chess to River Thames),river colne
+GB30642525,Staines Reservoir South,Staines Reservoir
+GB106039029920,Ver,river Ver
+GB106039023070,Pinn,river Pinn
+GB106039029830,Misbourne,river Misbourne
+GB106039023480,Surrey Ash,river Surry Ash
+GB106039029890,Bulbourne,river Bulbourne
+GB106039029850,Colne (upper east arm including Mimshall Brook),river colne
+GB30642639,Queen Mary Reservoir,Queen Mary Reservoir
+GB106039029860,Gade (from confluence with Bulbourne to Chess),river gade
+GB30642490,Staines Reservoir North,Staines Reservoir
+GB30642488,King George VI Reservoir,King George VI Reservoir
+GB106039029820,Upper Colne and Ellen Brook,Colne river OR Ellen Brook
+GB106039023100,Tykeswater,Tykeswater river
+GB106039023040,Horton Brook,Horton Brook
+GB30641907,Broadwater Lake,Broadwater Lake
+GB106039029840,Colne (from Confluence with Ver to Gade),river colne
+GB106039023080,Alderbourne,Alderbourne river
+GB30642538,Heron Lake,Heron Lake
+GB106039023010,Colne Brook,Colne Brook
+GB30642569,Queensmead,Queensmead river
+GB106039029900,Gade (Upper stretch Great Gaddesden to confluence with Bulbourne / GUC),river gade OR river great gaddesden
+GB106039029870,Chess,river Chess
+GB30642417,Wraysbury Reservoir,Wraysbury Reservoir
+GB30642334,The Queen Mother Reservoir,The Queen Mother Reservoir
+GB30642489,Wraysbury No 2,wraysbury river
+GB106039017622,Mole (Hersham to R. Thames conf at East Molesey),river mole OR river east molesey
+GB106039017650,Rythe,river Rythe
+GB106039017530,Deanoak Brook,Deanoak Brook
+GB106039017621,Mole (Horley to Hersham),river mole OR river horley OR river hersham
+GB30643054,Black Pond,black pond
+GB106039017550,Leigh Brook,Leigh Brook
+GB106039017580,Pipp Brook,Pipp Brook
+GB30642813,Queen Elizabeth 2 Storage Reservoir,Queen Elizabeth 2 Storage Reservoir
+GB106039017600,Downside Ditches and Bookham Brook,Downside Ditches OR Bookham Brook
+GB30642841,Island Barn Reservoir,Island Barn Reservoir
+GB106039017570,Tanners Brook (Holmewood to River Mole confluence at Brockham),tanners brook OR holmewood river OR brockham river
+GB106039017610,The Rye at Ashtead,river rye OR ashtead river
+GB106039017500,Tilgate Brook and Gatwick Stream at Crawley,Tilgate Brook OR Gatwick Stream
+GB106039017520,Burstow Stream,Burstow Stream
+GB106039017460,Ifield Brook,Ifield Brook
+GB106039017540,Salfords Stream (Salfords to River Mole confluence),salfords stream
+GB106039017450,Stanford Brook,Stanford Brook
+GB106039017470,Baldhorns Brook,Baldhorns Brook
+GB30644358,Douster Pond,Douster Pond
+GB106039017590,Redhill Brook,Redhill Brook
+GB106039017481,Mole upstream of Horley,river mole OR river horley
+GB106039017560,Salfords Stream (Redhill Brook confluence upstream),salfords stream
+GB530603911402,THAMES MIDDLE,Thames middle river
+GB530603911401,THAMES LOWER,Thames lower river
+GB560604017700,Cliffe Fort Lagoon,Cliffe Fort Lagoon
+GB530603911403,THAMES UPPER,upper Thames river
+GB560604017900,West Thurrock Lagoon,West Thurrock Lagoon
+GB640603690000,Thames Coastal North,coastal Thames river
+GB560604017600,Higham Marshes,Higham Marshes
+GB560504016800,Allhallows Marshes,Allhallows Marshes
+GB530604002300,MEDWAY,river Medway
+GB560604017400,Murston Lakes,murston lakes
+GB530604011500,SWALE,river Swale
+GB106039017360,Inkpen Stream (source to Kennet),inkpen stream
+GB106039017300,West End Brook (tributary of Foudry Brook),west end brook OR foudry brook
+GB106039017380,Foudry Brook (West End Brook to M4),foudry brook OR west end brook
+GB106039023120,Clayhill Brook,Clayhill Brook
+GB106039023173,Middle Kennet (Marlborough to Hungerford),river kennet 
+GB106039017410,Burghfield Brook,Burghfield Brook
+GB106039017370,Shalbourne  (source to Kennet at Hungerford),river shalbourne
+GB106039017280,Enborne (Source to downstream A34),river enborne
+GB106039017310,Enborne (downstream A34 to Burghclere Brook),river enborne
+GB30642611,Farnham Flint or Englefield Lagoon,Farnham Flint OR Englefield Lagoon
+GB106039017210,Penwood Stream,Penwood Stream
+GB106039017250,Ecchinswell Brook (source to Enborne),Ecchinswell Brook
+GB30642622,Ameys Lake or Theale Lakes,Ameys Lake OR Theale Lakes
+GB106039023200,Aldbourne,river aldbourne
+GB30643126,Milford Lake,Milford Lake
+GB106039017190,Silchester Brook,Silchester Brook
+GB106039023140,Kennet and Holy Brook,river kennet OR holy brook
+GB106039023180,Og,river Og
+GB106039017261,Enborne (Burghclere Brook to Kingsclere Brook),river enborne
+GB106039017390,Kennet and Avon Canal and Dun above Hungerford,river kennet OR avon canal OR river dun OR river hungerford
+GB106039023220,Lambourn (Source to Newbury),river lambourn OR river newbury
+GB106039023171,Upper Kennet to Marlborough,river Kennet
+GB106039017200,Baughurst Brook,Baughurst Brook
+GB106039017220,Kingsclere Brook (Source to Enborne),kingsclere brook OR river enborne
+GB106039023210,Winterbourne,river Winterbourne
+GB106039017340,Lower Enborne,river Enborne
+GB106039023174,Middle Kennet (Hungerford to Newbury),river kennet 
+GB106039017420,Kennet (Lambourn confluence to Enborne confluence),river kennet
+GB106039023141,Holy Brook,Holy Brook
+GB106039017350,Upper Dun,Upper Dun river
+GB106039017230,Earlstone Stream and  Burghclere Brook (source to Enborne),Earlstone Stream OR Burghclere Brook
+GB106039017430,Froxfield Stream,Froxfield Stream
+GB30643001,Wasing Wood Ponds,Wasing Wood Ponds
+GB106039023670,Berrick Stream and Lady Brook,Berrick Stream OR Lady Brook
+GB30642393,Sonning Eye gravel pit,Sonning Eye gravel pit water
+GB106039023610,Ewelme Stream (Source to Thames),ewelme stream
+GB106039023720,Hamble Brook,Hamble Brook
+GB106039023890,Wye (Source to High Wycombe fire station),river wye OR wye valley
+GB106039023880,Wye (High Wycombe fire station to Thames),river wye OR wye valley
+GB106039023300,Pang,river Pang
+GB106039023233,Thames (Reading to Cookham),river thames reading OR river thames cookham
+GB106039023280,Sulham Brook,Sulham Brook
+GB106039030331,Thames Wallingford to Caversham,Thames river wallingford OR thames river caversham
+GB106039023900,Hughenden Stream,Hughenden Stream
+GB106039023570,Cholsey Brook and tributaries,Cholsey Brook
+GB106039023600,"Mill Brook and Bradfords Brook system,  Wallingford ",river wallingford OR mill brook OR bradfords brook
+GB106039030400,"Dorton, Chearsley and Waddesdon Brooks",dorton brook OR chearsley brook OR waddesdon brook
+GB106039030410,Thame upstream of Aylesbury,river Thame aylesbury
+GB106039030270,Scotsgrove Brook (upstream Kingsey Cuttle Brook),scotsgrove brook
+GB106039030240,Thame (Scotsgrove Brook to Thames),river thame
+GB106039023820,Baldon Brook (South of Oxford),baldon brook
+GB106039023850,Chinor Brook and Sydenham Brook,Chinor Brook OR Sydenham Brook
+GB106039030290,Peppershill and Shabbington Brooks,Peppershill Brook OR Shabbington Brook
+GB106039030380,Bear Brook and Wendover Brook,Bear Brook OR Wendover Brook
+GB106039030340,Worminghall Brook and tributaries,Worminghall Brook
+GB106039023780,Haseley Brook,Haseley Brook
+GB106039030320,Stoke Brook Aylesbury,Stoke Brook
+GB106039030370,Thame (Aylesbury to Scotsgrove Brook),river thame aylesbury
+GB106039023830,Latchford Brook at Tetsworth,Latchford Brook OR tetsworth river
+GB106039030360,Holton Brook and tributaries,Holton Brook
+GB106039023840,Cuttle Brook,Cuttle Brook
+GB106039030430,Hardwick Brook (Source to Thame),hardwick brook
+GB106039023750,Lewknor Brook,Lewknor Brook
+GB106039030420,"Fleet Marston Brook, Denham Brook,  Pitchcott Brook west",Fleet Marston Brook OR Denham Brook OR Pitchcott Brook
+GB106039030200,Kingsey Cuttle Brook and tributaries at Thame,Kingslye Cuttle Brook
+GB106039023740,Chalgrove Brook,Chalgrove Brook
+GB106040024150,Lower Cray,lower river Cray
+GB106040024210,Shuttle,river Shuttle
+GB106040023990,Upper Cray,upper river Cray
+GB106040024222,Middle and Lower Darent,river Darent OR middle river darent OR lower river darent
+GB106040024221,Upper Darent,upper river Darent
+GB106039017640,Wandle (Carshalton Branch at Carshalton),river wandle OR river carshalton
+GB106039023460,Wandle (Croydon to Wandsworth) and the R. Gra,river wandle OR river croydon OR river wandsworth
+GB30642614,Kempton Park East Reservoir,Kempton Park East Reservoir
+GB106039023030,Crane,river Crane
+GB106039023051,Yeading Brook,Yeading Brook
+GB106039023451,Portlane Brook,Portlane Brook
+GB106039022850,Beverley Brook (Motspur Park to Thames) and Pyl Brook at West Barnes,beverley brook OR pyl brook
+GB106039023500,Marsh Dykes (Woolwich),marsh dykes river OR river woolwich
+GB106039023290,Quaggy,river quaggy
+GB106039023250,Pool River,Pool River
+GB106039023270,Ravensbourne (Catford to Deptford),river ravensbourne OR river deptford OR river catford
+GB106039023260,Ravensbourne (Keston to Catford),river ravensbourne OR river keston OR river catford
+GB106039022940,Wealdstone Brook,Wealdstone Brook
+GB106039022970,Silk Stream and Edgware Brook,Silk Stream OR burnt oak brook
+GB106039023590,Lower Brent,river Brent
+GB106039022980,Dollis Brook and Upper Brent,Dollis Brook
+GB30641796,Bentley Priory,bentley priory river
+GB30641690,Welsh Harp,welsh harp OR brent reservoir
+GB106038077852,Lee (Tottenham Locks to Bow Locks/Three Mills Locks),river lee OR tottenham locks OR bow locks OR three mills locks
+GB30641523,King Georges Reservoir,King Georges Reservoir
+GB30641198,North Metropolitan pit,North Metropolitan pit
+GB106038077851,Lea Navigation (Fieldes Weir to Enfield Lock),lea navigation OR fieldes weir
+GB106038027940,Pymmes Brook upstream Salmon Brook confluence,Pymmes Brook
+GB30641193,Seventy Acres,Seventy Acres
+GB106038027910,Pymmes and Salmon Brooks - Deephams STW to Tottenham Locks,deephams stw OR pymmes brook OR salmon brook OR tottenham locks
+GB30641313,Bowyers Water,Bowyers Water
+GB30641659,William Girling Reservoir,William Girling Reservoir
+GB30641975,Stoke Newington East Reservoir,Stoke Newington East Reservoir
+GB30647003,Banbury Reservoir,banbury reservoir
+GB106038027960,Salmon Brook upstream Deephams STW,Salmon Brook OR Salmons Brook
+GB30641939,Warwick Reservoir East,Warwick Reservoir East
+GB106038033210,Nazeing Brook,Nazeing Brook
+GB106038033190,Cobbins Brook,Cobbins Brook
+GB30641956,Warwick Reservoir West,Warwick Reservoir West
+GB30641274,Cheshunt Lake,Cheshunt Lake
+GB106038027920,Moselle Brook,Moselle Brook
+GB30641865,Lockwood Reservoir,Lockwood Reservoir
+GB106038033200,Small River Lee (and tributaries),small river lee
+GB106038027930,Ching Brook,Ching Brook
+GB106038027950,Lea Navigation Enfield Lock to Tottenham Locks,Lea Navigation OR tottenham locks OR stonebridge lock OR tottenham marshes
+GB106038033180,Turkey Brook and Cuffley Brook,Turkey Brook OR Cuffley Brook
+GB30641900,Low Maynard Reservoir,Low Maynard Reservoir
+GB30641922,Walthamstow Reservoir No 4,Walthamstow Reservoir
+GB30641884,High Maynard Reservoir,High Maynard Reservoir
+GB30641924,Walthamstow Reservoir No 1,Walthamstow Reservoir 
+GB106039017440,Hogsmill,river Hogsmill
+GB30643125,Epsom Stew Pond,Epsom Stew Pond
+GB106037033490,Higher Laver Brook,Higher Laver Brook
+GB106037028140,Gores Brook,Gores Brook
+GB106037028090,Southall Sewer and Runningwater Brook,Southall Sewer OR Runningwater Brook
+GB106037033481,Cripsey Brook,Cripsey Brook
+GB106037028130,Ingrebourne,river Ingrebourne
+GB106037028181,Lower Roding (Loughton to Thames),river roding OR river loughton
+GB106037028150,Brookhouse Brook,Brookhouse Brook
+GB106037028120,Rom (Bourne Brook to Ravensbourne),river rom
+GB106037028182,Lower Roding (Cripsey Bk to Loughton),river roding
+GB106037028100,Beam and Ravensbourne,river Beam OR river Ravensbourne
+GB106037033500,Upper Roding (to Cripsey Brook),river roding
+GB106037028170,Seven Kings Water,Seven Kings Water
+GB106037028171,Mayes Brook,Mayes Brook
+GB806100092,Brent Feeder Canal,Brent Feeder Canal
+GB70610078,"Grand Union Canal, Uxbridge to Hanwell Locks, Slough Arm, Paddington Arm",grand union canal OPR canal uxbridge OR hanwell locks OR canal slough OR canal paddington
+GB70610183,"Grand Union Canal, Wendover Arm (disused)",grand union canal OR canal wendover
+GB806100111,New River,new river
+GB70610510,"Regents Canal, lower section",regents canal
+GB70610197,"Oxford Canal, summit to Aynho",oxford canal OR aynho canal
+GB70610542,"Oxford Canal, Thrupp to Thames",oxford canal OR thrupp canal
+GB70610198,"Oxford Canal, Aynho to Thrupp",oxford canal OR aynho canal OR thrupp canal
+GB806100002,Boddington Feeder (Oxford Canal),boddington feeder OR oxford canal
+GB70610180,"Kennet and Avon Canal, Copse Lock to Reading",kennet canal OR avon canal OR copse lock OR reading canal
+GB70610181,"Kennet and Avon Canal, summit to Copse Lock",kennet canal OR avon canal OR copse lock
+GB806100108,Upper Duke of Northumberland's River, Duke of Northumberland's River
+GB806100095,Lower Duke of Northumberland's River, Duke of Northumberland's River
+GB806100109,Longford River,Longford River
+GB70610019,Basingstoke Canal,Basingstoke Canal
+GB806100325,Jubilee River,jubilee river
+GB806100096,King George VI Reservoir water transfer,King George Reservoir 
+GB70610185,"Grand Union Canal, Berkhamstead to Maple Lodge (RIvers Bulbourne, Gade and Colne)",grand union canal OR berkhamstead canal OR maple lodge canal
+GB70610252,"Grand Union Canal, Maple Lodge to Uxbridge (Rivers Colne and Chess plus canal)",grand union canal OR maple lodge canal OR uxbridge canal
+GB70610184,"Grand Union Canal, Tring summit to Berkhamstead",grand union canal OR tring summit canal OR berkhamstead canal
+GB70610182,"Grand Union Canal, Tring summit",grand union canal OR tring summit
+GB106037028070,Mardyke (East Tributary),river mardyke
+GB106037028200,Mardyke,river Mardyke
+GB106037028080,Mardyke (West Tributary),river mardyke
+GB106040018560,White Drain,river White Drain
+GB30642956,"Murston Lakes, angling lakes",murston lakes

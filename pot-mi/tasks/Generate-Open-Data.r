@@ -55,13 +55,18 @@ report = function(x) {
 ##                      Read Data                             ##
 #################################################################
 clean_senti = readRDS("data/river_queries/clean_senti.RDS")
-wb_query = as.data.frame(unique(clean$WBID))
+wb_query = as.data.frame(unique(clean_senti$WBID))
 colnames(wb_query) = "WBID"
 
 # read data for waterbodies
 wb = read_sf("../../../../Downloads/EA_WFDRiverWaterBodiesCycle1_SHP_Full/data/WFD_River_Water_Bodies_Cycle_1.shp") %>%
   rename(WBID = ea_wb_id) %>%
   select(WBID,name,geometry)
+wb1 = read_sf("../../../../Downloads/EA_WFDRiverCanalAndSWTWaterBodiesCycle2_SHP_Full/data/WFD_River_Canal_and_Surface_Water_Transfer_Water_Bodies_Cycle_2.shp") %>%
+  rename(WBID = wb_id) %>%
+  rename(name = wb_name) %>%
+  select(WBID,name,geometry)
+
 # read lakes
 lakes = read_sf("../../../../Downloads/EA_WFDLakeWaterBodiesCycle1_SHP_Full/data/WFD_Lake_Water_Bodies_Cycle_1.shp") %>%
   rename(WBID = ea_wb_id) %>%
@@ -75,7 +80,7 @@ surface = read_sf("../../../../Downloads/EA_WFDArtificialWaterBodiesSurfaceWater
   rename(WBID = ea_wb_id) %>%
   select(WBID,name,geometry)
 
-wb_all = rbind(wb,lakes,canals,surface)
+wb_all = rbind(wb,wb1,lakes,canals,surface)
 #clean environment
 rm(wb,lakes,canals,surface)
 
@@ -89,7 +94,7 @@ for (i in 1:nrow(wb_query)) {
   ####
   ####
   message("STEP 1: Filter sentiment data for waterbody & set up file path")
-  river = clean_senti_run %>% filter(WBID == wb_query[i,])
+  river = clean_senti %>% filter(WBID == wb_query[i,])
   path = paste0("Open-Data/",river$RBD[1],"/")
   setwd(path)
   if(file.exists(river$WBID[1])){
@@ -114,6 +119,18 @@ for (i in 1:nrow(wb_query)) {
   river_mean_senti = river %>% mutate(created_at = as.Date(ymd_hms(created_at))) %>%
     group_by(created_at) %>%
     summarise(mean_senti = mean(senti_score))
+  bb = ggplot(data = river_mean_senti, aes(x = created_at, y = mean_senti))+ geom_line(color = "#00AFBB", size = 1) + geom_smooth()
+
+  # %>%
+  #   drop_na() %>%
+  #   group_by(year = year(created_at), month = month(created_at)) %>%
+  #   summarise_if(is.numeric, mean) %>%
+  #   within(Date <- sprintf("%d-%02d", year, month)) %>%
+  #   select(-c(year,month)) %>%
+  #   mutate(Date = as.Date(paste(Date,"-01",sep="")))
+  # river_mean_senti = river_mean_senti[-1]
+
+  ggplot()
   write.csv(river_mean_senti,paste0(path,"/polarity-score.csv"))
   # 2.2 Emotional frequency in tweets
   corpus = corpus(river$clean_tweet)

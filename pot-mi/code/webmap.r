@@ -3,96 +3,33 @@
 #### AIM: Prepare twitter data for web map
 ####
 ####
-if (file.exists("data/web/oc.geojson")) {
 
-} else {
-  # From continous to categorical -------------------------------------------
-
-  clean_senti = readRDS("data/river_queries/clean_senti.RDS")
-  clean_senti_wbids = as.data.frame(unique(clean_senti$WBID))
-  colnames(clean_senti_wbids) = "WBID"
-  sf::sf_use_s2(FALSE)
-  thames_wb = read_sf("data/thames_river.geojson")
-  wbs = inner_join(clean_senti_wbids,thames_wb)
-  wbs = st_as_sf(wbs)
-  wb_cent = st_centroid(wbs) %>% select(name, WBID, geometry)
-  sf::write_sf(wb_cent, "data/web/water_centroids.geojson")
-
-  # read water bodies
-  thames_wb = read_sf("data/thames_river.geojson") %>%
-    st_drop_geometry() %>%
-    select(WBID, name, OC, OC_num, MC, MC_num, RBD, RBD_num)
-
-  # join with main data to get categorical variables
-  clean_senti = inner_join(clean_senti, thames_wb)
-
-  # aggregate data
-  # MC = as.data.frame(aggregate(senti_score  ~ MC_num, clean_senti, mean))
-  # OC = as.data.frame(aggregate(senti_score  ~ OC_num, clean_senti, mean))
-  # RBD = as.data.frame(aggregate(senti_score  ~ RBD_num, clean_senti, mean))
-   WB = as.data.frame(aggregate(senti_score  ~ WBID, clean_senti, mean))
-
-  make_that_data_categorial = function(data) {
-    data$group[data$senti_score >= -1.1 &
-                 data$senti_score <  0.26]  = 1
-    data$group[data$senti_score >= 0.26 &
-                 data$senti_score <  0.4]  = 2
-    data$group[data$senti_score >= 0.4 &
-                 data$senti_score <= 2.9] = 3
-    return(data)
-  }
-
-  # MC = make_that_data_categorial(data = MC)
-  # OC = make_that_data_categorial(data = OC)
-  # RBD = make_that_data_categorial(data = RBD)
-  WB = make_that_data_categorial(WB)
-  WB_all = inner_join(WB,thames_wb)
-
-  # Generate geojson files for various catchment geogrpahies ----------------
-
-  # generate mc geojson
-  mc_sf = read_sf("data/mc_test.geojson") %>%
-    select(-c(val)) %>%
-    rename(MC_num = notation) %>%
-    right_join(MC) %>%
-    rename(MC = label) %>%
-    select(MC, MC_num, senti_score, geometry)
-  mc_sf$MC = gsub("_", " ", mc_sf$MC)
-  write_sf(mc_sf, "data/web/mc_cat.geojson")
-
-  # generate oc geojson
-  oc_sf = read_sf("data.oc_test.geojson") %>%
-    select(-c(val)) %>%
-    rename(OC_num = notation) %>%
-    right_join(OC) %>%
-    mutate(group = as.numeric(group)) %>%
-    rename(OC = label) %>%
-    select(OC, OC_num, senti_score, group,geometry)
-
-  write_sf(oc_sf, "data/web/oc_cat.geojson")
-
-  # generate wbid geojson
-  wb_sf = read_sf("data/web/wb_class.geojson") %>%
-    select(-c(senticent_polarity))%>%
-    mutate(senti_score = 0) %>% right_join(WB)
-  write_sf(wb_sf, "data/web/wb_cat_class.geojson")
-
-
-
-  # Search centroid data -----------------------------------------------------------
-  mc_sf = read_sf("data/web/mc.geojson")
-  mc_cent = st_centroid(mc_sf) %>% rename(name = MC) %>% select(name, geometry)
-
-  oc_sf = read_sf("data/web/oc.geojson")
-  oc_cent = st_centroid(oc_sf) %>% rename(name = OC) %>% select(name, geometry)
-
-  wb_sf = read_sf("data/web/wb.geojson")
-  wb_cent = st_centroid(thames_water) %>% select(name, WBID, geometry)
-
-  wb_sf_class = inner_join(wb_sf, wb_class)
-  write_sf(wb_sf_class, "data/web/wb_class.geojson")
-
-  all_cent = rbind(wb_cent, oc_cent, mc_cent)
-  write_sf(all_cent, "data/web/search_centroids.geojson")
-
+# From continous to categorical -------------------------------------------
+make_that_data_categorial = function(data) {
+  data$group[data$senti_score >= -1.1 &
+               data$senti_score <  0.26]  = 1
+  data$group[data$senti_score >= 0.26 &
+               data$senti_score <  0.4]  = 2
+  data$group[data$senti_score >= 0.4 &
+               data$senti_score <= 2.9] = 3
+  return(data)
 }
+
+mine_query_sheet = read.csv("mine_query_sheet.csv")
+sf::sf_use_s2(FALSE)
+WBIDS = as.data.frame(unique(mine_query_sheet$WBID))
+colnames(WBIDS) = "WBID"
+
+wbs = inner_join(WBIDS, wb_all)
+wbs = wbs[!duplicated(wbs$name),]
+wbs = st_as_sf(wbs)
+
+WB = as.data.frame(aggregate(senti_score  ~ WBID, clean_senti, mean))
+WB = make_that_data_categorial(WB)
+WB_final = inner_join(wbs, WB)
+
+write_sf(WB_final, "data/web/wb_line_groups.geojson")
+
+# centroids
+wb_cent = st_centroid(WB_final) %>% select(name, WBID, geometry)
+sf::write_sf(wb_cent, "data/web/wb_line_centroids.geojson")
