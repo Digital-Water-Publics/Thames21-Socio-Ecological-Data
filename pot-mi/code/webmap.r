@@ -27,9 +27,11 @@ wbs = st_as_sf(wbs)
 WB = as.data.frame(aggregate(senti_score  ~ WBID, clean_senti, mean))
 WB = make_that_data_categorial(WB)
 WB_final = inner_join(wbs, WB)
+WB_final = st_transform(WB_final, crs = 4326)
+write_sf(WB_final, "data/web/wb_lines_groups.geojson")
 
-write_sf(WB_final, "data/web/wb_line_groups.geojson")
+no_wb_line = anti_join(WBIDS,WB_final)
 
 # centroids
 wb_cent = st_centroid(WB_final) %>% select(name, WBID, geometry)
-sf::write_sf(wb_cent, "data/web/wb_line_centroids.geojson")
+sf::write_sf(wb_cent, "data/web/wb_lines_centroids.geojson")
